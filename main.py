@@ -270,7 +270,7 @@ def mainapp(num):
 def testapp(num):
     generated = getvalidlist(num)
     asset_set = generated[1]
-    results = generated[0]    user_in = 0
+    results = generated[0]
 
     while user_in == 0 or user_in > total_pets:
         user_in = int(input(f'Nhap so pet muon tao (Tong so pet co the tao: {total_pets}): '))
