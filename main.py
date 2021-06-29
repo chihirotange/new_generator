@@ -22,18 +22,18 @@ for d in dirs_list:
 mouth_img_f = sorted(os.listdir(mouth_dir_f))
 mouth_img_b = sorted(os.listdir(mouth_dir_b))
 
+
 class Asset:
-    
     def __init__(self, name):
         files_path = []
         for root, dirs, files in os.walk(cwd):
             for f in files:
-                files_path.append(os.path.join(root,f))
+                files_path.append(os.path.join(root, f))
         for p in files_path:
             if name in p:
                 self.path = p
         self.set = os.path.splitext(name)[0][:-2]
-        
+
         name_split = name.split('_')
 
         if os.path.splitext(name)[0].split('_')[-1] in string.ascii_uppercase:
@@ -47,7 +47,7 @@ class Asset:
                 self.type = 'asset'
 
 
-def pickRandom():
+def pickrandom():
     picked_assets = []
     picked_set = set()
     for d in dirs_list:
@@ -61,25 +61,26 @@ def pickRandom():
                 picked_asset = f
                 picked_assets.append(picked_asset)
                 picked = True
-            
-        if picked == False:
+
+        if not picked:
             picked_asset = files_list[random.randint(0, len(files_list)) - 1]
             picked_assets.append(picked_asset)
             picked_set.add(Asset(picked_asset).set)
 
     return picked_assets
 
-def getValidList(num):
+
+def getvalidlist(num):
     valid_lists = []
     while len(valid_lists) < num:
 
         for _ in range(no_of_set):
             set_list = []
-            for dir in dirs_list:
-                if 'mouth' in dir:
+            for d in dirs_list:
+                if 'mouth' in d:
                     continue
-                assets_list = os.listdir(dir)
-                if 'body' in dir:
+                assets_list = os.listdir(d)
+                if 'body' in d:
                     for a in assets_list:
                         if 'normal' in a:
                             set_list.append(a)
@@ -87,19 +88,21 @@ def getValidList(num):
                     set_list.append(assets_list[_])
             valid_lists.append(set_list)
 
-        list_generated = pickRandom()
+        list_generated = pickrandom()
         if list_generated not in valid_lists:
             valid_lists.append(list_generated)
 
     return valid_lists
 
-def getBodyType(lst):
-    for l in lst:
-        if Asset(l).type in body_types:
-            return Asset(l).type
 
-def imgMerge(lst,name):
-    cur_body_type = getBodyType(lst)
+def getbodytype(lst):
+    for i in lst:
+        if Asset(i).type in body_types:
+            return Asset(i).type
+
+
+def imgmerge(lst, name):
+    cur_body_type = getbodytype(lst)
 
     cr_mouth_f = []
     cr_mouth_b = []
@@ -130,7 +133,7 @@ def imgMerge(lst,name):
 
         mouth_shape = Asset(cr_mouth_f[m]).mouth_shape
         file_name = f'shiba_{str(name).zfill(6)}_{mouth_shape}.png'
-        file_path = os.path.join(tdir,file_name)
+        file_path = os.path.join(tdir, file_name)
         bg.save(file_path)
 
         # add hash
@@ -145,11 +148,11 @@ def imgMerge(lst,name):
 
     return data
 
-def mainApp(num):
 
+def mainapp(num):
     num_of_pet = int(num)
     asset_set = []
-    results = getValidList(num_of_pet)
+    results = getvalidlist(num_of_pet)
 
     for i in results:
         i_set = set()
@@ -157,17 +160,15 @@ def mainApp(num):
             i_set.add(Asset(e).set)
         asset_set.append(i_set)
 
-    data = {}
-    data['tokens'] = []
-    data['profile'] = {'name': 'Token2021'}
+    data = {'tokens': [], 'profile': {'name': 'Token2021'}}
 
     for _ in range(int(num_of_pet)):
-        info = imgMerge(results[_], _ + 1)
+        info = imgmerge(results[_], _ + 1)
         data['tokens'].append({
-            'id': _+1,
-            'title': f'Sipherian #{_+1}',
+            'id': _ + 1,
+            'title': f'Sipherian #{_ + 1}',
             'description:': '',
-            'name': f'Sipherian #{_+1}',
+            'name': f'Sipherian #{_ + 1}',
             'attributes': list(asset_set[_]),
             'image': info['happy_img'],
             'imageHash': info['happy_hash'],
@@ -191,11 +192,12 @@ def mainApp(num):
                 "WORRIED": {
                     'image': info['worried_img'],
                     'imageHash': info['worried_hash']
-                    }
                 }
+            }
         })
 
     with open(os.path.join(tdir, 'data.json'), 'w') as f:
-        json.dump(data,f, indent = 2)
+        json.dump(data, f, indent=2)
 
-mainApp(3)
+
+mainapp(3)
