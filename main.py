@@ -272,22 +272,6 @@ def testapp(num):
     asset_set = generated[1]
     results = generated[0]
 
-    while user_in == 0 or user_in > total_pets:
-        user_in = int(input(f'Nhap so pet muon tao (Tong so pet co the tao: {total_pets}): '))
-
-    type_of_generator = input(f'1 cam xuc (1)? Nhieu cam xuc (2)? ')
-
-    while type_of_generator not in ['1', '2']:
-        print('Nhap 1 hoac 2')
-        type_of_generator = input(f'1 cam xuc (1)? Nhieu cam xuc (2)? ')
-
-    if type_of_generator == '1':
-        print(f'Dang generate {user_in} pet co 1 cam xuc...')
-        testapp(user_in)
-    else:
-        print(f'Dang generate {user_in} pet co 5 cam xuc...')
-        mainapp(user_in)
-
     data = {'tokens': [], 'profile': {'name': 'Token2021'}}
 
     for _ in range(int(num)):
