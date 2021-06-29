@@ -6,9 +6,9 @@ import string
 import json
 
 no_of_set = 2
-cwd = r'E:\chiichan\backups\assets\fixed_assets'
-tdir = r'E:\junks'
-bg_url = r'E:\chiichan\backups\assets\bg\bg.png'
+cwd = r'/home/chii/Downloads/Drive/assets/fixed_assets'
+tdir = r'/home/chii/junks'
+bg_url = r'/home/chii/Downloads/Drive/assets/bg/bg.png'
 body_types = ['normal', 'cyborg', 'anatomy']
 assets_for_count = ['hand_F','hat_F','clothing_F','body_F']
 
@@ -87,29 +87,45 @@ def getset(lst):
 def getvalidlist(num):
     valid_lists = []
     to_compare = []
-    while len(valid_lists) < num:
-
-        for _ in range(no_of_set):
-            set_list = []
+    if no_of_set >= num:
+        for n in range(num):
+            new_list = []
             for d in dirs_list:
+                files_list = sorted(os.listdir(d))
                 if 'mouth' in d:
                     continue
-                assets_list = os.listdir(d)
                 if 'body' in d:
-                    for a in assets_list:
+                    for a in files_list:
                         if 'normal' in a:
-                            set_list.append(a)
+                            new_list.append(a)
                 else:
-                    set_list.append(assets_list[_])
-            valid_lists.append(set_list)
-            to_compare.append(getset(set_list))
-        print('end')
+                    new_list.append(files_list[n])
+            valid_lists.append(new_list)
+            to_compare.append(getset(new_list))
 
-        list_generated = pickrandom()
-        set_generated = getset(list_generated)
-        if set_generated not in to_compare:
-            valid_lists.append(list_generated)
-            to_compare.append(set_generated)
+    else:
+        for n in range(no_of_set):
+            new_list = []
+            for d in dirs_list:
+                files_list = sorted(os.listdir(d))
+                if 'mouth' in d:
+                    continue
+                if 'body' in d:
+                    for a in files_list:
+                        if 'normal' in a:
+                            new_list.append(a)
+                else:
+                    new_list.append(files_list[n])
+            valid_lists.append(new_list)
+            to_compare.append(getset(new_list))
+        
+        while len(valid_lists) < num:
+            generated = pickrandom()
+            generated_set = getset(generated)
+
+            if generated_set not in to_compare:
+                valid_lists.append(generated)
+                to_compare.append(generated_set)
 
     return valid_lists, to_compare
 
@@ -167,6 +183,44 @@ def imgmerge(lst, name):
 
     return data
 
+def imgmergenoemo(lst, name):
+    cur_body_type = getbodytype(lst)
+    
+    mouth_f = Asset(f'{cur_body_type}_mouth_happy_F.png').path
+    mouth_b = Asset(f'{cur_body_type}_mouth_happy_B.png').path
+    bg = Image.open(bg_url)
+    new_list = lst[:]
+    new_list.reverse()
+
+    data = {}
+
+    for i in new_list:
+        img = Image.open(Asset(i).path)
+
+        bg = Image.alpha_composite(bg, img)
+
+        if 'body_F' in i:
+            img_b = Image.open(mouth_b)
+            bg = Image.alpha_composite(bg, img_b)
+            img_f = Image.open(mouth_f)
+            bg = Image.alpha_composite(bg, img_f)
+
+        file_name = f'shiba_{str(name).zfill(6)}.png'
+        file_path = os.path.join(tdir, file_name)
+        bg.save(file_path)
+
+        # add hash
+        sha256_hash = hashlib.sha256()
+        with open(file_path, "rb") as f:
+            # Read and update hash string value in blocks of 4K
+            for byte_block in iter(lambda: f.read(4096), b""):
+                sha256_hash.update(byte_block)
+
+        data[f'hash'] = sha256_hash.hexdigest()
+        data[f'img'] = file_name
+
+    return data
+
 
 def mainapp(num):
     generated = getvalidlist(num)
@@ -213,9 +267,62 @@ def mainapp(num):
         json.dump(data, f, indent=2)
 
 
-# mainapp(int(input(f'Nhap so pet muon tao (Tong so pet co the tao: {total_pets}): ')))
+def testapp(num):
+    generated = getvalidlist(num)
+    asset_set = generated[1]
+    results = generated[0]    user_in = 0
 
-lala = getvalidlist(26)[1]
+    while user_in == 0 or user_in > total_pets:
+        user_in = int(input(f'Nhap so pet muon tao (Tong so pet co the tao: {total_pets}): '))
 
-for _ in lala:
-    print(_)
+    type_of_generator = input(f'1 cam xuc (1)? Nhieu cam xuc (2)? ')
+
+    while type_of_generator not in ['1', '2']:
+        print('Nhap 1 hoac 2')
+        type_of_generator = input(f'1 cam xuc (1)? Nhieu cam xuc (2)? ')
+
+    if type_of_generator == '1':
+        print(f'Dang generate {user_in} pet co 1 cam xuc...')
+        testapp(user_in)
+    else:
+        print(f'Dang generate {user_in} pet co 5 cam xuc...')
+        mainapp(user_in)
+
+    data = {'tokens': [], 'profile': {'name': 'Token2021'}}
+
+    for _ in range(int(num)):
+        info = imgmergenoemo(results[_], _ + 1)
+        data['tokens'].append({
+            'id': _ + 1,
+            'title': f'Sipherian #{_ + 1}',
+            'description:': '',
+            'name': f'Sipherian #{_ + 1}',
+            'attributes': list(asset_set[_]),
+            'image': info['img'],
+            'imageHash': info['hash'],
+        })
+
+    with open(os.path.join(tdir, 'data.json'), 'w') as f:
+        json.dump(data, f, indent=2)
+
+def initapp():
+
+    user_in = 0
+
+    while user_in == 0 or user_in > total_pets:
+        user_in = int(input(f'Nhap so pet muon tao (Tong so pet co the tao: {total_pets}): '))
+
+    type_of_generator = input(f'1 cam xuc (1)? Nhieu cam xuc (2)? ')
+
+    while type_of_generator not in ['1', '2']:
+        print('Nhap 1 hoac 2')
+        type_of_generator = input(f'1 cam xuc (1)? Nhieu cam xuc (2)? ')
+
+    if type_of_generator == '1':
+        print(f'Dang generate {user_in} pet co 1 cam xuc...')
+        testapp(user_in)
+    else:
+        print(f'Dang generate {user_in} pet co 5 cam xuc...')
+        mainapp(user_in)
+
+initapp()
