@@ -32,15 +32,14 @@ class Asset:
         for p in files_path:
             if name in p:
                 self.path = p
-        self.set = os.path.splitext(name)[0][:-2]
 
         name_split = name.split('_')
 
         if os.path.splitext(name)[0].split('_')[-1] in string.ascii_uppercase:
+            self.set = os.path.splitext(name)[0][:-2]
             self.name = os.path.splitext(name)[0]
-            if name_split[-3] == 'mouth':
+            if 'mouth' in name:
                 self.mouth_shape = name_split[-2]
-
             if name_split[0] in body_types:
                 self.type = name_split[0]
             else:
