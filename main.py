@@ -5,13 +5,20 @@ import hashlib
 import string
 import json
 
-no_of_set = 9
+no_of_set = 2
 cwd = r'E:\chiichan\backups\assets\fixed_assets'
 tdir = r'E:\junks'
 bg_url = r'E:\chiichan\backups\assets\bg\bg.png'
 body_types = ['normal', 'cyborg', 'anatomy']
+assets_for_count = ['hand_F','hat_F','clothing_F','body_F']
 
 dirs_list = sorted([d[0] for d in os.walk(cwd)][1:])
+
+dirs_for_count = [s for s in dirs_list if any(xs in s for xs in assets_for_count)]
+
+total_pets = 1
+for d in dirs_for_count:
+    total_pets *= len(os.listdir(d))
 
 for d in dirs_list:
     if 'mouth_F' in d:
@@ -69,8 +76,17 @@ def pickrandom():
     return picked_assets
 
 
+def getset(lst):
+    result = set()
+    for i in lst:
+        result.add(Asset(i).set)
+
+    return result
+
+
 def getvalidlist(num):
     valid_lists = []
+    to_compare = []
     while len(valid_lists) < num:
 
         for _ in range(no_of_set):
@@ -86,12 +102,16 @@ def getvalidlist(num):
                 else:
                     set_list.append(assets_list[_])
             valid_lists.append(set_list)
+            to_compare.append(getset(set_list))
+        print('end')
 
         list_generated = pickrandom()
-        if list_generated not in valid_lists:
+        set_generated = getset(list_generated)
+        if set_generated not in to_compare:
             valid_lists.append(list_generated)
+            to_compare.append(set_generated)
 
-    return valid_lists
+    return valid_lists, to_compare
 
 
 def getbodytype(lst):
@@ -149,19 +169,13 @@ def imgmerge(lst, name):
 
 
 def mainapp(num):
-    num_of_pet = int(num)
-    asset_set = []
-    results = getvalidlist(num_of_pet)
-
-    for i in results:
-        i_set = set()
-        for e in i:
-            i_set.add(Asset(e).set)
-        asset_set.append(i_set)
+    generated = getvalidlist(num)
+    asset_set = generated[1]
+    results = generated[0]
 
     data = {'tokens': [], 'profile': {'name': 'Token2021'}}
 
-    for _ in range(int(num_of_pet)):
+    for _ in range(int(num)):
         info = imgmerge(results[_], _ + 1)
         data['tokens'].append({
             'id': _ + 1,
@@ -199,4 +213,9 @@ def mainapp(num):
         json.dump(data, f, indent=2)
 
 
-mainapp(3)
+# mainapp(int(input(f'Nhap so pet muon tao (Tong so pet co the tao: {total_pets}): ')))
+
+lala = getvalidlist(26)[1]
+
+for _ in lala:
+    print(_)
