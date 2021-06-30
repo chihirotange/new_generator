@@ -6,8 +6,8 @@ from shutil import move
 
 def pngWatchDog():
     workingDir = r"E:\chiichan\monitor" # dan toi folder lam viec
-    targetDir = r"E:\chiichan\backups\assets\fixed_assets" # dan toi folder assets
-    bodyTypes = ["normal", "cyborg", "anatomy"]
+    targetDir = r"E:\chiichan\my drive\shibe NFT\assets\fixed_assets" # dan toi folder assets
+    bodyTypes = ["normal", "android", "anatomicanis"]
     assetsDir = os.listdir(targetDir)
 
     def doMystuff(dapath):

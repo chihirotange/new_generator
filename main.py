@@ -5,13 +5,15 @@ import hashlib
 import string
 import json
 
-no_of_set = 2
-cwd = r'/home/chii/Downloads/Drive/assets/fixed_assets'
-tdir = r'/home/chii/junks'
-bg_url = r'/home/chii/Downloads/Drive/assets/bg/bg.png'
-body_types = ['normal', 'cyborg', 'anatomy']
-assets_for_count = ['hand_F','hat_F','clothing_F','body_F']
+full_set = ['brainiac','brawler', 'nativeAmerican', 'neonDJ', 'samurai', 'sheriff', 'shipherionTrainer', 'streetstyle', 'subnautica']
+cwd = r'E:\chiichan\my drive\shibe NFT\assets\fixed_assets'
+tdir = r'E:\junks'
+bg_url = r'E:\chiichan\my drive\shibe NFT\assets\bg\bg.png'
+img_size = (2000,2200)
+body_types = ['normal', 'android', 'anatomicanis']
+assets_for_count = ['hand_F', 'hat_F', 'clothing_F', 'body_F']
 
+no_of_set = len(full_set)
 dirs_list = sorted([d[0] for d in os.walk(cwd)][1:])
 
 dirs_for_count = [s for s in dirs_list if any(xs in s for xs in assets_for_count)]
@@ -88,7 +90,7 @@ def getvalidlist(num):
     valid_lists = []
     to_compare = []
     if no_of_set >= num:
-        for n in range(num):
+        for n in full_set:
             new_list = []
             for d in dirs_list:
                 files_list = sorted(os.listdir(d))
@@ -99,7 +101,9 @@ def getvalidlist(num):
                         if 'normal' in a:
                             new_list.append(a)
                 else:
-                    new_list.append(files_list[n])
+                    for f in files_list:
+                        if n in f:
+                            new_list.append(files_list[f])
             valid_lists.append(new_list)
             to_compare.append(getset(new_list))
 
@@ -169,7 +173,10 @@ def imgmerge(lst, name):
         mouth_shape = Asset(cr_mouth_f[m]).mouth_shape
         file_name = f'shiba_{str(name).zfill(6)}_{mouth_shape}.png'
         file_path = os.path.join(tdir, file_name)
-        bg.save(file_path)
+
+        # resize to img_size
+        bg1 = bg.resize(img_size)
+        bg1.save(file_path)
 
         # add hash
         sha256_hash = hashlib.sha256()
@@ -182,6 +189,7 @@ def imgmerge(lst, name):
         data[f'{mouth_shape}_img'] = file_name
 
     return data
+
 
 def imgmergenoemo(lst, name):
     cur_body_type = getbodytype(lst)
@@ -207,7 +215,10 @@ def imgmergenoemo(lst, name):
 
         file_name = f'shiba_{str(name).zfill(6)}.png'
         file_path = os.path.join(tdir, file_name)
-        bg.save(file_path)
+
+        # resize to img_size
+        bg1 = bg.resize(img_size)
+        bg1.save(file_path)
 
         # add hash
         sha256_hash = hashlib.sha256()
@@ -289,6 +300,7 @@ def testapp(num):
     with open(os.path.join(tdir, 'data.json'), 'w') as f:
         json.dump(data, f, indent=2)
 
+
 def initapp():
 
     user_in = 0
@@ -308,5 +320,6 @@ def initapp():
     else:
         print(f'Dang generate {user_in} pet co 5 cam xuc...')
         mainapp(user_in)
+
 
 initapp()
