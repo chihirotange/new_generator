@@ -4,6 +4,8 @@ from PIL import Image
 import hashlib
 import string
 import json
+import concurrent.futures
+
 
 full_set = ['brainiac','brawler', 'nativeAmerican', 'neonDJ', 'samurai', 'sheriff', 'shipherionTrainer', 'streetstyle', 'subnautica']
 cwd = r'E:\chiichan\my drive\shibe NFT\assets\fixed_assets'
@@ -240,14 +242,14 @@ def mainapp(num):
 
     data = {'tokens': [], 'profile': {'name': 'Token2021'}}
 
-    for _ in range(int(num)):
-        info = imgmerge(results[_], _ + 1)
-        data['tokens'].append({
-            'id': _ + 1,
-            'title': f'Sipherian #{_ + 1}',
+    def printimg(i):
+        info = imgmerge(results[i], i + 1)
+        return {
+            'id': i + 1,
+            'title': f'Sipherian #{i + 1}',
             'description:': '',
-            'name': f'Sipherian #{_ + 1}',
-            'attributes': list(asset_set[_]),
+            'name': f'Sipherian #{i + 1}',
+            'attributes': list(asset_set[i]),
             'image': info['happy_img'],
             'imageHash': info['happy_hash'],
             'emotions': {
@@ -272,7 +274,13 @@ def mainapp(num):
                     'imageHash': info['worried_hash']
                 }
             }
-        })
+        }
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+        result_data = executor.map(printimg, [_ for _ in range(len(results))])
+
+    for _ in result_data:
+        data['tokens'].append(_)
 
     with open(os.path.join(tdir, 'data.json'), 'w') as f:
         json.dump(data, f, indent=2)
@@ -285,17 +293,23 @@ def testapp(num):
 
     data = {'tokens': [], 'profile': {'name': 'Token2021'}}
 
-    for _ in range(int(num)):
-        info = imgmergenoemo(results[_], _ + 1)
-        data['tokens'].append({
-            'id': _ + 1,
-            'title': f'Sipherian #{_ + 1}',
+    def printimg(i):
+        info = imgmergenoemo(results[i], i + 1)
+        return {
+            'id': i + 1,
+            'title': f'Sipherian #{i + 1}',
             'description:': '',
-            'name': f'Sipherian #{_ + 1}',
-            'attributes': list(asset_set[_]),
+            'name': f'Sipherian #{i + 1}',
+            'attributes': list(asset_set[i]),
             'image': info['img'],
             'imageHash': info['hash'],
-        })
+        }
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+        result_data = executor.map(printimg, [_ for _ in range(len(results))])
+
+    for _ in result_data:
+        data['tokens'].append(_)
 
     with open(os.path.join(tdir, 'data.json'), 'w') as f:
         json.dump(data, f, indent=2)
