@@ -7,7 +7,7 @@ import json
 import concurrent.futures
 
 
-full_set = ['brainiac','brawler', 'nativeAmerican', 'neonDJ', 'samurai', 'sheriff', 'shipherionTrainer', 'streetstyle', 'subnautica']
+full_set = ['brainiac','brawler', 'nativeAmerican', 'neonDJ', 'samurai', 'sheriff', 'sipherionTrainer', 'streetstyle', 'subnautica']
 cwd = r'E:\chiichan\my drive\shibe NFT\assets\fixed_assets'
 tdir = r'E:\junks'
 bg_url = r'E:\chiichan\my drive\shibe NFT\assets\bg\bg.png'
@@ -92,6 +92,24 @@ def getvalidlist(num):
     valid_lists = []
     to_compare = []
     if no_of_set >= num:
+        for n in full_set[:num]:
+            new_list = []
+            for d in dirs_list:
+                files_list = sorted(os.listdir(d))
+                if 'mouth' in d:
+                    continue
+                if 'body' in d:
+                    for a in files_list:
+                        if 'normal' in a:
+                            new_list.append(a)
+                else:
+                    for f in files_list:
+                        if n in f:
+                            new_list.append(f)
+            valid_lists.append(new_list)
+            to_compare.append(getset(new_list))
+
+    else:
         for n in full_set:
             new_list = []
             for d in dirs_list:
@@ -105,23 +123,7 @@ def getvalidlist(num):
                 else:
                     for f in files_list:
                         if n in f:
-                            new_list.append(files_list[f])
-            valid_lists.append(new_list)
-            to_compare.append(getset(new_list))
-
-    else:
-        for n in range(no_of_set):
-            new_list = []
-            for d in dirs_list:
-                files_list = sorted(os.listdir(d))
-                if 'mouth' in d:
-                    continue
-                if 'body' in d:
-                    for a in files_list:
-                        if 'normal' in a:
-                            new_list.append(a)
-                else:
-                    new_list.append(files_list[n])
+                            new_list.append(f)
             valid_lists.append(new_list)
             to_compare.append(getset(new_list))
         
