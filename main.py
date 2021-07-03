@@ -6,15 +6,22 @@ import string
 import json
 import concurrent.futures
 
+set_percentage = {
+    # assets
+    'samurai': 2,
 
-full_set = ['brainiac','brawler', 'nativeAmerican', 'neonDJ', 'samurai', 'sheriff', 'sipherionTrainer', 'streetstyle', 'subnautica']
+    # bodies
+    'anatomicanis': 0,
+    'android': 0
+}
+percentage_keys = list(set_percentage.keys())
+body_types = ['normal', 'android', 'anatomicanis']
 cwd = r'E:\chiichan\my drive\shibe NFT\assets\fixed_assets'
 tdir = r'E:\junks'
 bg_url = r'E:\chiichan\my drive\shibe NFT\assets\bg\bg.png'
 img_size = (2000,2200)
-body_types = ['normal', 'android', 'anatomicanis']
 assets_for_count = ['hand_F', 'hat_F', 'clothing_F', 'body_F']
-
+full_set = [i for i in set_percentage.keys() if i not in body_types]
 no_of_set = len(full_set)
 dirs_list = sorted([d[0] for d in os.walk(cwd)][1:])
 
@@ -32,7 +39,6 @@ for d in dirs_list:
 
 mouth_img_f = sorted(os.listdir(mouth_dir_f))
 mouth_img_b = sorted(os.listdir(mouth_dir_b))
-
 
 class Asset:
     def __init__(self, name):
@@ -55,7 +61,11 @@ class Asset:
                 self.type = name_split[0]
             else:
                 self.type = 'asset'
-
+def getpercentage(n):
+    for _ in percentage_keys:
+        if _ in n:
+            return set_percentage[_]
+    return 100
 
 def pickrandom():
     picked_assets = []
@@ -72,10 +82,14 @@ def pickrandom():
                 picked_assets.append(picked_asset)
                 picked = True
 
-        if not picked:
+        while picked == False:
             picked_asset = files_list[random.randint(0, len(files_list)) - 1]
-            picked_assets.append(picked_asset)
-            picked_set.add(Asset(picked_asset).set)
+            if random.randint(1,100) <= getpercentage(picked_asset):
+                picked_assets.append(picked_asset)
+                picked_set.add(Asset(picked_asset).set)
+                picked = True
+            else:
+                picked = False
 
     return picked_assets
 
