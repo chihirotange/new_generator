@@ -5,6 +5,7 @@ import hashlib
 import string
 import json
 import concurrent.futures
+import itertools
 
 set_percentage = {
     # assets
@@ -16,10 +17,10 @@ set_percentage = {
 }
 percentage_keys = list(set_percentage.keys())
 body_types = ['normal', 'android', 'anatomicanis']
-cwd = r'E:\chiichan\my drive\shibe NFT\assets\fixed_assets'
-tdir = r'E:\junks'
-bg_url = r'E:\chiichan\my drive\shibe NFT\assets\bg\bg.png'
-img_size = (2000,2200)
+cwd = r'/home/chii/Downloads/assets/fixed_assets'
+tdir = r'/home/chii/junks'
+bg_url = r'/home/chii/Downloads/assets/bg/bg.png'
+img_size = (600,660)
 assets_for_count = ['hand_F', 'hat_F', 'clothing_F', 'body_F']
 full_set = [i for i in set_percentage.keys() if i not in body_types]
 no_of_set = len(full_set)
@@ -61,6 +62,43 @@ class Asset:
                 self.type = name_split[0]
             else:
                 self.type = 'asset'
+
+def getvalidlist(num):
+    converted_list = []
+    all_sets = {}
+    for d in dirs_for_count:
+        set_name = os.path.basename(d).split('_')[1]
+        all_sets[set_name] = [Asset(i).set for i in os.listdir(d)]
+
+    for key in all_sets:
+        converted_list.append(all_sets[key])
+
+    total = list(itertools.product(*converted_list))
+    picked = []
+    print(len(total))
+
+    while len(picked) < num:
+        randomized = total.pop(random.randint(0, len(total) - 1))
+        picked.append(randomized)
+        print(len(total))
+
+    def get_file_from_set(st):
+        picked_files = []
+        for d in dirs_list:
+            if 'mouth' in d:
+                continue
+            files_list = os.listdir(d)
+            for f in files_list:
+                if Asset(f).set in st:
+                    picked_files.append(f)
+        return picked_files
+    
+    hahaha = list(map(get_file_from_set, picked))
+    print('done')
+    
+        
+    return hahaha, picked
+
 def getpercentage(n):
     for _ in percentage_keys:
         if _ in n:
@@ -102,54 +140,54 @@ def getset(lst):
     return result
 
 
-def getvalidlist(num):
-    valid_lists = []
-    to_compare = []
-    if no_of_set >= num:
-        for n in full_set[:num]:
-            new_list = []
-            for d in dirs_list:
-                files_list = sorted(os.listdir(d))
-                if 'mouth' in d:
-                    continue
-                if 'body' in d:
-                    for a in files_list:
-                        if 'normal' in a:
-                            new_list.append(a)
-                else:
-                    for f in files_list:
-                        if n in f:
-                            new_list.append(f)
-            valid_lists.append(new_list)
-            to_compare.append(getset(new_list))
+# def getvalidlist(num):
+#     valid_lists = []
+#     to_compare = []
+#     if no_of_set >= num:
+#         for n in full_set[:num]:
+#             new_list = []
+#             for d in dirs_list:
+#                 files_list = sorted(os.listdir(d))
+#                 if 'mouth' in d:
+#                     continue
+#                 if 'body' in d:
+#                     for a in files_list:
+#                         if 'normal' in a:
+#                             new_list.append(a)
+#                 else:
+#                     for f in files_list:
+#                         if n in f:
+#                             new_list.append(f)
+#             valid_lists.append(new_list)
+#             to_compare.append(getset(new_list))
 
-    else:
-        for n in full_set:
-            new_list = []
-            for d in dirs_list:
-                files_list = sorted(os.listdir(d))
-                if 'mouth' in d:
-                    continue
-                if 'body' in d:
-                    for a in files_list:
-                        if 'normal' in a:
-                            new_list.append(a)
-                else:
-                    for f in files_list:
-                        if n in f:
-                            new_list.append(f)
-            valid_lists.append(new_list)
-            to_compare.append(getset(new_list))
+#     else:
+#         for n in full_set:
+#             new_list = []
+#             for d in dirs_list:
+#                 files_list = sorted(os.listdir(d))
+#                 if 'mouth' in d:
+#                     continue
+#                 if 'body' in d:
+#                     for a in files_list:
+#                         if 'normal' in a:
+#                             new_list.append(a)
+#                 else:
+#                     for f in files_list:
+#                         if n in f:
+#                             new_list.append(f)
+#             valid_lists.append(new_list)
+#             to_compare.append(getset(new_list))
         
-        while len(valid_lists) < num:
-            generated = pickrandom()
-            generated_set = getset(generated)
+#         while len(valid_lists) < num:
+#             generated = pickrandom()
+#             generated_set = getset(generated)
 
-            if generated_set not in to_compare:
-                valid_lists.append(generated)
-                to_compare.append(generated_set)
+#             if generated_set not in to_compare:
+#                 valid_lists.append(generated)
+#                 to_compare.append(generated_set)
 
-    return valid_lists, to_compare
+#     return valid_lists, to_compare
 
 
 def getbodytype(lst):
