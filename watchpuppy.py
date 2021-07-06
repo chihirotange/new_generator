@@ -3,10 +3,13 @@ import watchdog.observers
 import time
 import os
 from shutil import move
+from PIL import Image
+
+img_size = (2000,2257)
 
 def pngWatchDog():
     workingDir = r"E:\chiichan\monitor" # dan toi folder lam viec
-    targetDir = r"E:\chiichan\my drive\shibe NFT\assets\fixed_assets" # dan toi folder assets
+    targetDir = r"E:\chiichan\my drive\shibe NFT\hires_assets\fixed_assets" # dan toi folder assets
     bodyTypes = ["normal", "android", "anatomicanis"]
     assetsDir = os.listdir(targetDir)
 
@@ -23,6 +26,9 @@ def pngWatchDog():
         for _ in range(len(assetsDir)):
             if correctCue in assetsDir[_]:
                 path_moved = os.path.join(targetDir, assetsDir[_], fileName)
+                img = Image.open(dapath)
+                img_rz = img.resize(img_size)
+                img_rz.save(dapath)
                 move(dapath, path_moved)
 
         return path_moved

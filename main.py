@@ -17,10 +17,10 @@ set_percentage = {
 }
 percentage_keys = list(set_percentage.keys())
 body_types = ['normal', 'android', 'anatomicanis']
-cwd = r'/home/chii/Downloads/assets/fixed_assets'
-tdir = r'/home/chii/junks'
-bg_url = r'/home/chii/Downloads/assets/bg/bg.png'
-img_size = (600,660)
+cwd = r'E:\chiichan\my drive\shibe NFT\hires_assets\fixed_assets'
+tdir = r'E:\junks'
+bg_url = r'E:\chiichan\my drive\shibe NFT\hires_assets\bg\bg.png'
+# img_size = (2000,2257)
 assets_for_count = ['hand_F', 'hat_F', 'clothing_F', 'body_F']
 full_set = [i for i in set_percentage.keys() if i not in body_types]
 no_of_set = len(full_set)
@@ -231,8 +231,8 @@ def imgmerge(lst, name):
         file_path = os.path.join(tdir, file_name)
 
         # resize to img_size
-        bg1 = bg.resize(img_size)
-        bg1.save(file_path)
+        # bg1 = bg.resize(img_size)
+        bg.save(file_path)
 
         # add hash
         sha256_hash = hashlib.sha256()
@@ -273,8 +273,8 @@ def imgmergenoemo(lst, name):
         file_path = os.path.join(tdir, file_name)
 
         # resize to img_size
-        bg1 = bg.resize(img_size)
-        bg1.save(file_path)
+        # bg1 = bg.resize(img_size)
+        bg.save(file_path)
 
         # add hash
         sha256_hash = hashlib.sha256()
