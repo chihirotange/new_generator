@@ -41,6 +41,14 @@ def pngWatchDog():
         def on_created(self, event):
             print("Created " + event.src_path)
             # print("Watchdog received created event - % s." % event.src_path)
+            init_size = -1
+            while True:
+                current_size = os.path.getsize(event.src_path)
+                if current_size == init_size:
+                    break
+                else:
+                    init_size = os.path.getsize(event.src_path)
+                    time.sleep(0.5)
             print(f'Moved {doMystuff(event.src_path)}')
 
         # def on_modified(self, event):
