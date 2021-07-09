@@ -94,42 +94,43 @@ def getvalidlist(num):
         return picked_files
     
     hahaha = list(map(get_file_from_set, picked))
+    print(hahaha)
     print('done')
     
         
     return hahaha, picked
 
-def getpercentage(n):
-    for _ in percentage_keys:
-        if _ in n:
-            return set_percentage[_]
-    return 100
+# def getpercentage(n):
+#     for _ in percentage_keys:
+#         if _ in n:
+#             return set_percentage[_]
+#     return 100
 
-def pickrandom():
-    picked_assets = []
-    picked_set = set()
-    for d in dirs_list:
-        if 'mouth' in d:
-            continue
-        picked = False
-        files_list = os.listdir(d)
-
-        for f in files_list:
-            if Asset(f).set in picked_set:
-                picked_asset = f
-                picked_assets.append(picked_asset)
-                picked = True
-
-        while picked == False:
-            picked_asset = files_list[random.randint(0, len(files_list)) - 1]
-            if random.randint(1,100) <= getpercentage(picked_asset):
-                picked_assets.append(picked_asset)
-                picked_set.add(Asset(picked_asset).set)
-                picked = True
-            else:
-                picked = False
-
-    return picked_assets
+# def pickrandom():
+#     picked_assets = []
+#     picked_set = set()
+#     for d in dirs_list:
+#         if 'mouth' in d:
+#             continue
+#         picked = False
+#         files_list = os.listdir(d)
+#
+#         for f in files_list:
+#             if Asset(f).set in picked_set:
+#                 picked_asset = f
+#                 picked_assets.append(picked_asset)
+#                 picked = True
+#
+#         while picked == False:
+#             picked_asset = files_list[random.randint(0, len(files_list)) - 1]
+#             if random.randint(1,100) <= getpercentage(picked_asset):
+#                 picked_assets.append(picked_asset)
+#                 picked_set.add(Asset(picked_asset).set)
+#                 picked = True
+#             else:
+#                 picked = False
+#
+#     return picked_assets
 
 
 def getset(lst):
@@ -250,8 +251,8 @@ def imgmerge(lst, name):
 def imgmergenoemo(lst, name):
     cur_body_type = getbodytype(lst)
     
-    mouth_f = Asset(f'{cur_body_type}_mouth_happy_F.png').path
-    mouth_b = Asset(f'{cur_body_type}_mouth_happy_B.png').path
+    mouth_f = Asset(f'{cur_body_type}_mouth_default_F.png').path
+    mouth_b = Asset(f'{cur_body_type}_mouth_default_B.png').path
     bg = Image.open(bg_url)
     new_list = lst[:]
     new_list.reverse()
@@ -304,12 +305,12 @@ def mainapp(num):
             'description:': '',
             'name': f'Sipherian #{i + 1}',
             'attributes': list(asset_set[i]),
-            'image': info['happy_img'],
-            'imageHash': info['happy_hash'],
+            'image': info['default_img'],
+            'imageHash': info['default_hash'],
             'emotions': {
-                "HAPPY": {
-                    'image': info['happy_img'],
-                    'imageHash': info['happy_hash']
+                "DEFAULT": {
+                    'image': info['default_img'],
+                    'imageHash': info['default_hash']
                 },
                 "SAD": {
                     'image': info['sad_img'],
@@ -323,9 +324,9 @@ def mainapp(num):
                     'image': info['angry_img'],
                     'imageHash': info['angry_hash']
                 },
-                "WORRIED": {
-                    'image': info['worried_img'],
-                    'imageHash': info['worried_hash']
+                "EVIL": {
+                    'image': info['evil_img'],
+                    'imageHash': info['evil_hash']
                 }
             }
         }
