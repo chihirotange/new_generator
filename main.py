@@ -2,29 +2,30 @@ import os
 import random
 from PIL import Image
 import hashlib
-import string
 import json
 import concurrent.futures
 import itertools
 
-set_percentage = {
-    # assets
-    'samurai': 2,
-
-    # bodies
-    'anatomicanis': 0,
-    'android': 0
-}
-percentage_keys = list(set_percentage.keys())
 body_types = ['normal', 'android', 'anatomicanis']
-cwd = r'E:\chiichan\my drive\shibe NFT\hires_assets\fixed_assets'
-tdir = r'E:\junks'
-bg_url = r'E:\chiichan\my drive\shibe NFT\hires_assets\bg\bg.png'
-# img_size = (2000,2257)
+cwd = r'D:\Chii chan drive\shibe NFT\hires_assets\fixed_assets'
+tdir = r'D:\junks'
+bg_url = r'D:\Chii chan drive\shibe NFT\hires_assets\bg'
+bg_f = os.path.join(bg_url, 'bg')
+bg_b = os.path.join(bg_url, 'solid')
+
+bg_f_files = os.listdir(bg_f)
+bg_b_files = os.listdir(bg_b)
+
+img_size = (500,556)
 assets_for_count = ['hand_F', 'hat_F', 'clothing_F', 'body_F']
-full_set = [i for i in set_percentage.keys() if i not in body_types]
-no_of_set = len(full_set)
 dirs_list = sorted([d[0] for d in os.walk(cwd)][1:])
+full_files_list = []
+masks_list = ('hat_neonKitty', 'hat_mecha', 'hat_cloneTrooper', 'hat_radiohead', 'hat_metro')
+
+for d in dirs_list:
+    if 'eye' in d:
+        continue
+    full_files_list.append(os.listdir(d))
 
 dirs_for_count = [s for s in dirs_list if any(xs in s for xs in assets_for_count)]
 
@@ -33,37 +34,53 @@ for d in dirs_for_count:
     total_pets *= len(os.listdir(d))
 
 for d in dirs_list:
-    if 'mouth_F' in d:
-        mouth_dir_f = d
-    elif 'mouth_B' in d:
-        mouth_dir_b = d
+    if 'eye' in d:
+        eye_dir = d
 
-mouth_img_f = sorted(os.listdir(mouth_dir_f))
-mouth_img_b = sorted(os.listdir(mouth_dir_b))
+eye_img = sorted(os.listdir(eye_dir))
 
 class Asset:
     def __init__(self, name):
-        files_path = []
-        for root, dirs, files in os.walk(cwd):
-            for f in files:
-                files_path.append(os.path.join(root, f))
-        for p in files_path:
-            if name in p:
-                self.path = p
 
-        name_split = name.split('_')
+        if 'bg_' in name or 'solid_' in name:
+            files_path = []
+            for root, dirs, files in os.walk(bg_url):
+                for f in files:
+                    files_path.append(os.path.join(root,f))
+            for p in files_path:
+                if name in p:
+                    self.path = p
+        else:
 
-        if os.path.splitext(name)[0].split('_')[-1] in string.ascii_uppercase:
+            files_path = []
+            for root, dirs, files in os.walk(cwd):
+                for f in files:
+                    files_path.append(os.path.join(root, f))
+            for p in files_path:
+                if name in p:
+                    self.path = p
+
+            name_split = name.split('_')
+            name_wo_ext = os.path.splitext(name)[0]
+            name_split_wo_ext = name_wo_ext.split('_')
+
+            # if os.path.splitext(name)[0].split('_')[-1] in string.ascii_uppercase:
             self.set = os.path.splitext(name)[0][:-2]
             self.name = os.path.splitext(name)[0]
-            if 'mouth' in name:
+            if 'clothing' in name_split:
+                self.type = 'clothing'
+                self.pos = f'clothing_{name_split_wo_ext[-1]}'
+            elif len(name_split) == 5 and name_split[1] == 'eye':
+                self.type = 'eye'
                 self.mouth_shape = name_split[-2]
-            if name_split[0] in body_types:
+            elif name_split[0] in body_types and len(name_split) == 3:
                 self.type = name_split[0]
             else:
                 self.type = 'asset'
+                self.setName = name_split[1]
 
 def getvalidlist(num):
+    eye_list = ['eye_red', 'eye_amber', 'eye_grey', 'eye_heterochromia', 'eye_blue', 'eye_green', 'eye_purple', 'eye_brown']
     converted_list = []
     all_sets = {}
     for d in dirs_for_count:
@@ -73,122 +90,42 @@ def getvalidlist(num):
     for key in all_sets:
         converted_list.append(all_sets[key])
 
+    converted_list.append(eye_list)
     total = list(itertools.product(*converted_list))
     picked = []
-    print(len(total))
+    hahaha = []
 
     while len(picked) < num:
-        randomized = total.pop(random.randint(0, len(total) - 1))
+        randomNum = random.randint(0, len(total) - 1)
+        randomized = total[randomNum]
+        del total[randomNum]
         picked.append(randomized)
-        print(len(total))
+    print(picked)
+    eye_colors = []
+    for i in picked:
+        for j in i:
+            if 'eye' in j:
+                eye_colors.append(j)
 
+    print(eye_colors)
     def get_file_from_set(st):
+
         picked_files = []
-        for d in dirs_list:
-            if 'mouth' in d:
-                continue
-            files_list = os.listdir(d)
-            for f in files_list:
+        for i in full_files_list:
+            for f in i:
+                if 'eye' in f:
+                    break
                 if Asset(f).set in st:
                     picked_files.append(f)
         return picked_files
     
-    hahaha = list(map(get_file_from_set, picked))
+    for i in range(len(picked)):
+
+        hahaha.append(get_file_from_set(picked[i]))
+
     print(hahaha)
-    print('done')
-    
         
-    return hahaha, picked
-
-# def getpercentage(n):
-#     for _ in percentage_keys:
-#         if _ in n:
-#             return set_percentage[_]
-#     return 100
-
-# def pickrandom():
-#     picked_assets = []
-#     picked_set = set()
-#     for d in dirs_list:
-#         if 'mouth' in d:
-#             continue
-#         picked = False
-#         files_list = os.listdir(d)
-#
-#         for f in files_list:
-#             if Asset(f).set in picked_set:
-#                 picked_asset = f
-#                 picked_assets.append(picked_asset)
-#                 picked = True
-#
-#         while picked == False:
-#             picked_asset = files_list[random.randint(0, len(files_list)) - 1]
-#             if random.randint(1,100) <= getpercentage(picked_asset):
-#                 picked_assets.append(picked_asset)
-#                 picked_set.add(Asset(picked_asset).set)
-#                 picked = True
-#             else:
-#                 picked = False
-#
-#     return picked_assets
-
-
-def getset(lst):
-    result = set()
-    for i in lst:
-        result.add(Asset(i).set)
-
-    return result
-
-
-# def getvalidlist(num):
-#     valid_lists = []
-#     to_compare = []
-#     if no_of_set >= num:
-#         for n in full_set[:num]:
-#             new_list = []
-#             for d in dirs_list:
-#                 files_list = sorted(os.listdir(d))
-#                 if 'mouth' in d:
-#                     continue
-#                 if 'body' in d:
-#                     for a in files_list:
-#                         if 'normal' in a:
-#                             new_list.append(a)
-#                 else:
-#                     for f in files_list:
-#                         if n in f:
-#                             new_list.append(f)
-#             valid_lists.append(new_list)
-#             to_compare.append(getset(new_list))
-
-#     else:
-#         for n in full_set:
-#             new_list = []
-#             for d in dirs_list:
-#                 files_list = sorted(os.listdir(d))
-#                 if 'mouth' in d:
-#                     continue
-#                 if 'body' in d:
-#                     for a in files_list:
-#                         if 'normal' in a:
-#                             new_list.append(a)
-#                 else:
-#                     for f in files_list:
-#                         if n in f:
-#                             new_list.append(f)
-#             valid_lists.append(new_list)
-#             to_compare.append(getset(new_list))
-        
-#         while len(valid_lists) < num:
-#             generated = pickrandom()
-#             generated_set = getset(generated)
-
-#             if generated_set not in to_compare:
-#                 valid_lists.append(generated)
-#                 to_compare.append(generated_set)
-
-#     return valid_lists, to_compare
+    return hahaha, picked, eye_colors
 
 
 def getbodytype(lst):
@@ -197,43 +134,56 @@ def getbodytype(lst):
             return Asset(i).type
 
 
-def imgmerge(lst, name):
+def imgmerge(lst, name, eye):
+
     cur_body_type = getbodytype(lst)
+    mask_name = None
+    cr_eye = []
 
-    cr_mouth_f = []
-    cr_mouth_b = []
+    for img in eye_img:
+        if cur_body_type in img and eye in img:
+            cr_eye.append(img)
+    
+    for e in cr_eye:
+        if 'default' in e:
+            default_eye = e
 
-    for img in mouth_img_f:
-        if cur_body_type in img:
-            cr_mouth_f.append(img)
-    for img in mouth_img_b:
-        if cur_body_type in img:
-            cr_mouth_b.append(img)
+    file_1 = Asset(bg_f_files[random.randint(0,len(bg_f_files) - 1)]).path
+    file_2 = Asset(bg_b_files[random.randint(0,len(bg_b_files) - 1)]).path
+    
+    print(file_1, file_2)
 
-    bg = Image.open(bg_url)
-    new_list = lst[:]
+    img_1 = Image.open(file_1).convert('RGBA')
+    img_2 = Image.open(file_2).convert('RGBA')
+    bg = Image.alpha_composite(img_2, img_1)
+
+    new_list = []
+    for i in lst:
+        if Asset(i).set in masks_list:
+            mask_name = i
+            continue
+        new_list.append(i)
     new_list.reverse()
 
     data = {}
-    for m in range(len(cr_mouth_f)):
-        for i in new_list:
-            img = Image.open(Asset(i).path)
+    for m in range(len(cr_eye)):
+        for k, i in enumerate(new_list):
+            img = Image.open(Asset(i).path).convert('RGBA')
 
             bg = Image.alpha_composite(bg, img)
 
-            if 'body_F' in i:
-                img_b = Image.open(Asset(cr_mouth_b[m]).path)
-                bg = Image.alpha_composite(bg, img_b)
-                img_f = Image.open(Asset(cr_mouth_f[m]).path)
-                bg = Image.alpha_composite(bg, img_f)
+            if Asset(i).type == 'clothing':
+                if Asset(i).pos == 'clothing_M':
+                    img_f = Image.open(Asset(cr_eye[m]).path)
+                    bg = Image.alpha_composite(bg, img_f)
 
-        mouth_shape = Asset(cr_mouth_f[m]).mouth_shape
+        mouth_shape = Asset(cr_eye[m]).mouth_shape
         file_name = f'shiba_{str(name).zfill(6)}_{mouth_shape}.png'
         file_path = os.path.join(tdir, file_name)
 
         # resize to img_size
-        # bg1 = bg.resize(img_size)
-        bg.save(file_path)
+        bg1 = bg.resize(img_size)
+        bg1.save(file_path)
 
         # add hash
         sha256_hash = hashlib.sha256()
@@ -244,61 +194,80 @@ def imgmerge(lst, name):
 
         data[f'{mouth_shape}_hash'] = sha256_hash.hexdigest()
         data[f'{mouth_shape}_img'] = file_name
+        data[f'mask_hash'] = None
+        data[f'mask_img'] = None
 
-    return data
-
-
-def imgmergenoemo(lst, name):
-    cur_body_type = getbodytype(lst)
-    
-    mouth_f = Asset(f'{cur_body_type}_mouth_default_F.png').path
-    mouth_b = Asset(f'{cur_body_type}_mouth_default_B.png').path
-    bg = Image.open(bg_url)
-    new_list = lst[:]
-    new_list.reverse()
-
-    data = {}
-
-    for i in new_list:
-        img = Image.open(Asset(i).path)
-
-        bg = Image.alpha_composite(bg, img)
-
-        if 'body_F' in i:
-            img_b = Image.open(mouth_b)
-            bg = Image.alpha_composite(bg, img_b)
-            img_f = Image.open(mouth_f)
-            bg = Image.alpha_composite(bg, img_f)
-
-        file_name = f'shiba_{str(name).zfill(6)}.png'
+    list_w_mask = lst[:]
+    list_w_mask.reverse()
+    if mask_name != None:
+        for i in list_w_mask:
+            img = Image.open(Asset(i).path)
+            bg = Image.alpha_composite(bg, img)
+        
+        file_name = f'shiba_{str(name).zfill(6)}_mask.png'
         file_path = os.path.join(tdir, file_name)
 
-        # resize to img_size
-        # bg1 = bg.resize(img_size)
-        bg.save(file_path)
+        bg1 = bg.resize(img_size)
+        bg1.save(file_path)
 
-        # add hash
-        sha256_hash = hashlib.sha256()
-        with open(file_path, "rb") as f:
-            # Read and update hash string value in blocks of 4K
-            for byte_block in iter(lambda: f.read(4096), b""):
-                sha256_hash.update(byte_block)
-
-        data[f'hash'] = sha256_hash.hexdigest()
-        data[f'img'] = file_name
+        data[f'mask_hash'] = sha256_hash.hexdigest()
+        data[f'mask_img'] = file_name
 
     return data
+
+
+# def imgmergenoemo(lst, name):
+#     cur_body_type = getbodytype(lst)
+#     mouth_f = Asset(f'{cur_body_type}_mouth_default_F.png').path
+#     mouth_b = Asset(f'{cur_body_type}_mouth_default_B.png').path
+#     bg = Image.open(bg_url)
+#     new_list = lst[:]
+#     new_list.reverse()
+
+#     data = {}
+
+#     for i in new_list:
+#         img = Image.open(Asset(i).path)
+
+#         bg = Image.alpha_composite(bg, img)
+
+#         if cur_body_type in i:
+#             img_b = Image.open(mouth_b)
+#             bg = Image.alpha_composite(bg, img_b)
+#             img_f = Image.open(mouth_f)
+#             bg = Image.alpha_composite(bg, img_f)
+
+#         file_name = f'shiba_{str(name).zfill(6)}.png'
+#         file_path = os.path.join(tdir, file_name)
+
+#         # resize to img_size
+#         bg1 = bg.resize(img_size)
+#         bg1.save(file_path)
+
+#         # add hash
+#         sha256_hash = hashlib.sha256()
+#         with open(file_path, "rb") as f:
+#             # Read and update hash string value in blocks of 4K
+#             for byte_block in iter(lambda: f.read(4096), b""):
+#                 sha256_hash.update(byte_block)
+
+#         data[f'hash'] = sha256_hash.hexdigest()
+#         data[f'img'] = file_name
+
+#     return data
 
 
 def mainapp(num):
     generated = getvalidlist(num)
     asset_set = generated[1]
     results = generated[0]
+    eyes_list = generated[2]
 
     data = {'tokens': [], 'profile': {'name': 'Token2021'}}
 
     def printimg(i):
-        info = imgmerge(results[i], i + 1)
+        info = imgmerge(results[i], i + 1, eyes_list[i])
+        print(info)
         return {
             'id': i + 1,
             'title': f'Sipherian #{i + 1}',
@@ -327,6 +296,10 @@ def mainapp(num):
                 "EVIL": {
                     'image': info['evil_img'],
                     'imageHash': info['evil_hash']
+                },
+                "MASK": {
+                    'image': info['mask_img'],
+                    'imageHash': info['mask_hash']
                 }
             }
         }

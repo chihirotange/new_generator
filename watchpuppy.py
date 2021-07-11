@@ -8,8 +8,9 @@ from PIL import Image
 img_size = (2000,2257)
 
 def pngWatchDog():
-    workingDir = r"E:\chiichan\monitor" # dan toi folder lam viec
-    targetDir = r"E:\chiichan\my drive\shibe NFT\hires_assets\fixed_assets" # dan toi folder assets
+    workingDir = r"D:\monitor" # dan toi folder lam viec
+    # targetDir = r"D:\Chii chan drive\shibe NFT\hires_assets\bg" # dan toi folder assets
+    targetDir = r"D:\Chii chan drive\shibe NFT\hires_assets\fixed_assets" # dan toi folder assets
     bodyTypes = ["normal", "android", "anatomicanis"]
     assetsDir = os.listdir(targetDir)
 
@@ -18,20 +19,26 @@ def pngWatchDog():
         fileName = os.path.basename(dapath)
         fileNameWoExt = os.path.splitext(fileName)[0]
         nameCues = fileNameWoExt.split("_")
-        if nameCues[0] in bodyTypes:
-            correctCue = "_".join([nameCues[1], nameCues[-1]])
+        if nameCues[0] == 'bg':
+            correctCue = 'bg'
+        elif nameCues[0] == 'solid':
+            correctCue = 'solid'
+        elif len(nameCues) == 5 and nameCues[1] == 'eye':
+            correctCue = 'eye'
+        elif nameCues[0] in bodyTypes and len(nameCues) == 3:
+            correctCue = "_".join(['body', nameCues[-1]])
         else:
             correctCue = "_".join([nameCues[0], nameCues[-1]])
 
         for _ in range(len(assetsDir)):
             if correctCue in assetsDir[_]:
                 path_moved = os.path.join(targetDir, assetsDir[_], fileName)
+                print(path_moved)
                 img = Image.open(dapath)
                 img_rz = img.resize(img_size)
                 img_rz.save(dapath)
                 move(dapath, path_moved)
 
-        return path_moved
     class Handler(watchdog.events.PatternMatchingEventHandler):
 
         def __init__(self):
