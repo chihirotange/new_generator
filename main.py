@@ -16,7 +16,8 @@ bg_b = os.path.join(bg_url, 'solid')
 bg_f_files = os.listdir(bg_f)
 bg_b_files = os.listdir(bg_b)
 
-img_size = (500,564)
+img_size = (400,451)
+# img_size = (500,564)
 # img_size = (1000,1129)
 assets_for_count = ['hand_F', 'hat_F', 'clothing_F', 'body_F']
 dirs_list = sorted([d[0] for d in os.walk(cwd)][1:])
@@ -118,10 +119,11 @@ def getvalidlist(num):
                     break
                 if Asset(f).set in st:
                     picked_files.append(f)
+                    break
         return picked_files
     
     for i in range(len(picked)):
-
+        print(i + 1)
         hahaha.append(get_file_from_set(picked[i]))
 
     print(hahaha)
