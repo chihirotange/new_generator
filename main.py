@@ -7,20 +7,22 @@ import concurrent.futures
 import itertools
 
 body_types = ['normal', 'android', 'anatomicanis', 'alien']
-cwd = r'E:\chiichan\my drive\shibe NFT\hires_assets\fixed_assets'
-tdir = r'E:\junks'
-bg_url = r'E:\chiichan\my drive\shibe NFT\hires_assets\bg'
+cwd = r'D:\Chii chan drive\shibe NFT\hires_assets\fixed_assets'
+tdir = r'D:\junks'
+bg_url = r'D:\Chii chan drive\shibe NFT\hires_assets\bg'
 bg_f = os.path.join(bg_url, 'bg')
 bg_b = os.path.join(bg_url, 'solid')
 
 bg_f_files = os.listdir(bg_f)
 bg_b_files = os.listdir(bg_b)
 
-img_size = (400,451)
-# img_size = (500,564)
+# img_size = (400,451)
+img_size = (500,564)
 # img_size = (1000,1129)
 assets_for_count = ['hand_F', 'hat_F', 'clothing_F', 'body_F']
 dirs_list = sorted([d[0] for d in os.walk(cwd)][1:])
+full_files = [f for root,dirs,files in os.walk(cwd) for f in files if 'eye' not in f]
+
 full_files_list = []
 masks_list = ('hat_neonKitty', 'hat_mecha', 'hat_cloneTrooper', 'hat_radiohead', 'hat_metro')
 
@@ -102,32 +104,32 @@ def getvalidlist(num):
         randomized = total[randomNum]
         del total[randomNum]
         picked.append(randomized)
-    print(picked)
     eye_colors = []
     for i in picked:
         for j in i:
             if 'eye' in j:
                 eye_colors.append(j)
 
-    print(eye_colors)
     def get_file_from_set(st):
 
         picked_files = []
-        for i in full_files_list:
-            for f in i:
-                if 'eye' in f:
-                    break
-                if Asset(f).set in st:
-                    picked_files.append(f)
-                    break
+        # for i in full_files_list:
+        #     for f in i:
+        #         if 'eye' in f:
+        #             break
+        #         if Asset(f).set in st:
+        #             picked_files.append(f)
+        #             break
+        # print(picked_files)
+        for path in full_files:
+            if any(item in path for item in st):
+                picked_files.append(path)
         return picked_files
     
     for i in range(len(picked)):
         print(i + 1)
         hahaha.append(get_file_from_set(picked[i]))
 
-    print(hahaha)
-        
     return hahaha, picked, eye_colors
 
 
@@ -151,13 +153,11 @@ def imgmerge(lst, name, eye):
         if 'default' in e:
             default_eye = e
 
-    file_1 = Asset(bg_f_files[random.randint(0,len(bg_f_files) - 1)]).path
-    file_2 = Asset(bg_b_files[random.randint(0,len(bg_b_files) - 1)]).path
+    file_1 = bg_f_files[random.randint(0,len(bg_f_files) - 1)]
+    file_2 = bg_b_files[random.randint(0,len(bg_b_files) - 1)]
     
-    print(file_1, file_2)
-
-    img_1 = Image.open(file_1).convert('RGBA')
-    img_2 = Image.open(file_2).convert('RGBA')
+    img_1 = Image.open(Asset(file_1).path).convert('RGBA')
+    img_2 = Image.open(Asset(file_2).path).convert('RGBA')
     bg = Image.alpha_composite(img_2, img_1)
 
     new_list = []
@@ -183,11 +183,11 @@ def imgmerge(lst, name, eye):
                     bg_each = Image.alpha_composite(bg_each, img_f)
 
         mouth_shape = Asset(cr_eye[m]).mouth_shape
-        file_name = f'shiba_{str(name).zfill(6)}_{mouth_shape}.png'
+        file_name = f'shiba_{str(name).zfill(6)}_{mouth_shape}.jpg'
         file_path = os.path.join(tdir, file_name)
 
         # resize to img_size
-        bg_each.resize(img_size).save(file_path)
+        bg_each.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 50)
 
         # add hash
         sha256_hash = hashlib.sha256()
@@ -208,13 +208,15 @@ def imgmerge(lst, name, eye):
             img = Image.open(Asset(i).path)
             bg = Image.alpha_composite(bg, img)
         
-        file_name = f'shiba_{str(name).zfill(6)}_mask.png'
+        file_name = f'shiba_{str(name).zfill(6)}_mask.jpg'
         file_path = os.path.join(tdir, file_name)
 
-        bg.resize(img_size).save(file_path)
+        bg.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 50)
 
         data[f'mask_hash'] = sha256_hash.hexdigest()
         data[f'mask_img'] = file_name
+
+    data[f'background'] = [os.path.splitext(file_1)[0], os.path.splitext(file_2)[0]]
 
     return data
 
@@ -303,7 +305,8 @@ def mainapp(num):
                     'image': info['mask_img'],
                     'imageHash': info['mask_hash']
                 }
-            }
+            },
+            'background': info['background']
         }
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
