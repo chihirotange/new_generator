@@ -6,10 +6,10 @@ import json
 import concurrent.futures
 import itertools
 
-body_types = ['normal', 'android', 'anatomicanis']
-cwd = r'D:\Chii chan drive\shibe NFT\hires_assets\fixed_assets'
-tdir = r'D:\junks'
-bg_url = r'D:\Chii chan drive\shibe NFT\hires_assets\bg'
+body_types = ['normal', 'android', 'anatomicanis', 'alien']
+cwd = r'E:\chiichan\my drive\shibe NFT\hires_assets\fixed_assets'
+tdir = r'E:\junks'
+bg_url = r'E:\chiichan\my drive\shibe NFT\hires_assets\bg'
 bg_f = os.path.join(bg_url, 'bg')
 bg_b = os.path.join(bg_url, 'solid')
 
@@ -17,7 +17,7 @@ bg_f_files = os.listdir(bg_f)
 bg_b_files = os.listdir(bg_b)
 
 img_size = (500,564)
-img_size = (1000,1129)
+# img_size = (1000,1129)
 assets_for_count = ['hand_F', 'hat_F', 'clothing_F', 'body_F']
 dirs_list = sorted([d[0] for d in os.walk(cwd)][1:])
 full_files_list = []
@@ -168,23 +168,24 @@ def imgmerge(lst, name, eye):
 
     data = {}
     for m in range(len(cr_eye)):
+        bg_each = bg
         for k, i in enumerate(new_list):
+            # in lan luot
             img = Image.open(Asset(i).path).convert('RGBA')
+            bg_each = Image.alpha_composite(bg_each, img)
 
-            bg = Image.alpha_composite(bg, img)
-
+            # in mat
             if Asset(i).type == 'clothing':
                 if Asset(i).pos == 'clothing_M':
                     img_f = Image.open(Asset(cr_eye[m]).path)
-                    bg = Image.alpha_composite(bg, img_f)
+                    bg_each = Image.alpha_composite(bg_each, img_f)
 
         mouth_shape = Asset(cr_eye[m]).mouth_shape
         file_name = f'shiba_{str(name).zfill(6)}_{mouth_shape}.png'
         file_path = os.path.join(tdir, file_name)
 
         # resize to img_size
-        bg1 = bg.resize(img_size)
-        bg1.save(file_path)
+        bg_each.resize(img_size).save(file_path)
 
         # add hash
         sha256_hash = hashlib.sha256()
@@ -208,8 +209,7 @@ def imgmerge(lst, name, eye):
         file_name = f'shiba_{str(name).zfill(6)}_mask.png'
         file_path = os.path.join(tdir, file_name)
 
-        bg1 = bg.resize(img_size)
-        bg1.save(file_path)
+        bg.resize(img_size).save(file_path)
 
         data[f'mask_hash'] = sha256_hash.hexdigest()
         data[f'mask_img'] = file_name
@@ -268,7 +268,6 @@ def mainapp(num):
 
     def printimg(i):
         info = imgmerge(results[i], i + 1, eyes_list[i])
-        print(info)
         return {
             'id': i + 1,
             'title': f'Sipherian #{i + 1}',
@@ -315,33 +314,33 @@ def mainapp(num):
         json.dump(data, f, indent=2)
 
 
-def testapp(num):
-    generated = getvalidlist(num)
-    asset_set = generated[1]
-    results = generated[0]
-
-    data = {'tokens': [], 'profile': {'name': 'Token2021'}}
-
-    def printimg(i):
-        info = imgmergenoemo(results[i], i + 1)
-        return {
-            'id': i + 1,
-            'title': f'Sipherian #{i + 1}',
-            'description:': '',
-            'name': f'Sipherian #{i + 1}',
-            'attributes': list(asset_set[i]),
-            'image': info['img'],
-            'imageHash': info['hash'],
-        }
-
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
-        result_data = executor.map(printimg, [_ for _ in range(len(results))])
-
-    for _ in result_data:
-        data['tokens'].append(_)
-
-    with open(os.path.join(tdir, 'data.json'), 'w') as f:
-        json.dump(data, f, indent=2)
+# def testapp(num):
+#     generated = getvalidlist(num)
+#     asset_set = generated[1]
+#     results = generated[0]
+#
+#     data = {'tokens': [], 'profile': {'name': 'Token2021'}}
+#
+#     def printimg(i):
+#         info = imgmergenoemo(results[i], i + 1)
+#         return {
+#             'id': i + 1,
+#             'title': f'Sipherian #{i + 1}',
+#             'description:': '',
+#             'name': f'Sipherian #{i + 1}',
+#             'attributes': list(asset_set[i]),
+#             'image': info['img'],
+#             'imageHash': info['hash'],
+#         }
+#
+#     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+#         result_data = executor.map(printimg, [_ for _ in range(len(results))])
+#
+#     for _ in result_data:
+#         data['tokens'].append(_)
+#
+#     with open(os.path.join(tdir, 'data.json'), 'w') as f:
+#         json.dump(data, f, indent=2)
 
 
 def initapp():
@@ -359,7 +358,7 @@ def initapp():
 
     if type_of_generator == '1':
         print(f'Dang generate {user_in} pet co 1 cam xuc...')
-        testapp(user_in)
+        # testapp(user_in)
     else:
         print(f'Dang generate {user_in} pet co 5 cam xuc...')
         mainapp(user_in)

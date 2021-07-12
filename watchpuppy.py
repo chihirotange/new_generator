@@ -8,10 +8,10 @@ from PIL import Image
 img_size = (2000,2257)
 
 def pngWatchDog():
-    workingDir = r"D:\monitor" # dan toi folder lam viec
+    workingDir = r"E:\chiichan\monitor" # dan toi folder lam viec
     # targetDir = r"D:\Chii chan drive\shibe NFT\hires_assets\bg" # dan toi folder assets
-    targetDir = r"D:\Chii chan drive\shibe NFT\hires_assets\fixed_assets" # dan toi folder assets
-    bodyTypes = ["normal", "android", "anatomicanis"]
+    targetDir = r"E:\chiichan\my drive\shibe NFT\hires_assets\fixed_assets" # dan toi folder assets
+    bodyTypes = ["normal", "android", "anatomicanis", 'alien']
     assetsDir = os.listdir(targetDir)
 
     def doMystuff(dapath):
@@ -19,12 +19,14 @@ def pngWatchDog():
         fileName = os.path.basename(dapath)
         fileNameWoExt = os.path.splitext(fileName)[0]
         nameCues = fileNameWoExt.split("_")
-        if nameCues[0] == 'bg':
-            correctCue = 'bg'
-        elif nameCues[0] == 'solid':
-            correctCue = 'solid'
-        elif len(nameCues) == 5 and nameCues[1] == 'eye':
+        # if nameCues[0] == 'bg':
+        #     correctCue = 'bg'
+        # elif nameCues[0] == 'solid':
+        #     correctCue = 'solid'
+        if len(nameCues) == 5 and nameCues[1] == 'eye':
             correctCue = 'eye'
+        # elif len(nameCues) == 5 and nameCues[1] == 'eye':
+        #     correctCue = 'eye'
         elif nameCues[0] in bodyTypes and len(nameCues) == 3:
             correctCue = "_".join(['body', nameCues[-1]])
         else:
