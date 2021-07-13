@@ -10,6 +10,9 @@ body_types = ['normal', 'android', 'anatomicanis', 'alien']
 cwd = r'D:\Chii chan drive\shibe NFT\hires_assets\fixed_assets'
 tdir = r'D:\junks'
 bg_url = r'D:\Chii chan drive\shibe NFT\hires_assets\bg'
+troublesomeAssets = ["clothing_pharoah","clothing_omyogi","hand_astronautRed","hand_astronautWhite","hand_patissier","hat_pharoah",'hat_fireFighter', 'clothing_astronautWhite','clothing_astronautRed','clothing_techSupport','hat_mecha', 'hand_wastelander', 'hand_plumberOrange', 'hand_plumberBlue']
+
+
 bg_f = os.path.join(bg_url, 'bg')
 bg_b = os.path.join(bg_url, 'solid')
 
@@ -17,14 +20,16 @@ bg_f_files = os.listdir(bg_f)
 bg_b_files = os.listdir(bg_b)
 
 # img_size = (400,451)
-img_size = (500,564)
+# img_size = (500,564)
 # img_size = (1000,1129)
 assets_for_count = ['hand_F', 'hat_F', 'clothing_F', 'body_F']
 dirs_list = sorted([d[0] for d in os.walk(cwd)][1:])
 full_files = [f for root,dirs,files in os.walk(cwd) for f in files if 'eye' not in f]
 
+
+
 full_files_list = []
-masks_list = ('hat_neonKitty', 'hat_mecha', 'hat_cloneTrooper', 'hat_radiohead', 'hat_metro')
+masks_list = ('hat_neonKitty', 'hat_mecha', 'hat_cloneTrooper', 'hat_radiohead', 'hat_metroPink', 'hat_metroLightblue','hat_metroYellow' )
 
 for d in dirs_list:
     if 'eye' in d:
@@ -81,7 +86,7 @@ class Asset:
                 self.type = name_split[0]
             else:
                 self.type = 'asset'
-                self.setName = name_split[1]
+                # self.setName = name_split[1]
 
 def getvalidlist(num):
     eye_list = ['eye_red', 'eye_amber', 'eye_grey', 'eye_heterochromia', 'eye_blue', 'eye_green', 'eye_purple', 'eye_brown']
@@ -103,6 +108,10 @@ def getvalidlist(num):
         randomNum = random.randint(0, len(total) - 1)
         randomized = total[randomNum]
         del total[randomNum]
+
+        #xu ly dong asset troublesome
+        if any(asset in randomized for asset in troublesomeAssets):
+            continue
         picked.append(randomized)
     eye_colors = []
     for i in picked:
@@ -130,6 +139,9 @@ def getvalidlist(num):
         print(i + 1)
         hahaha.append(get_file_from_set(picked[i]))
 
+
+    print(picked)
+    print(hahaha)
     return hahaha, picked, eye_colors
 
 
@@ -221,45 +233,47 @@ def imgmerge(lst, name, eye):
     return data
 
 
-# def imgmergenoemo(lst, name):
-#     cur_body_type = getbodytype(lst)
-#     mouth_f = Asset(f'{cur_body_type}_mouth_default_F.png').path
-#     mouth_b = Asset(f'{cur_body_type}_mouth_default_B.png').path
-#     bg = Image.open(bg_url)
-#     new_list = lst[:]
-#     new_list.reverse()
+def imgmergenoemo(lst, name, eye):
 
-#     data = {}
+    cur_body_type = getbodytype(lst)
+    cr_eyes = [e for e in eye_img if cur_body_type in e and eye in e]
 
-#     for i in new_list:
-#         img = Image.open(Asset(i).path)
+    cr_eye = cr_eyes[random.randint(0,len(cr_eyes)-1)]
 
-#         bg = Image.alpha_composite(bg, img)
 
-#         if cur_body_type in i:
-#             img_b = Image.open(mouth_b)
-#             bg = Image.alpha_composite(bg, img_b)
-#             img_f = Image.open(mouth_f)
-#             bg = Image.alpha_composite(bg, img_f)
+    file_1 = bg_f_files[random.randint(0,len(bg_f_files) - 1)]
+    file_2 = bg_b_files[random.randint(0,len(bg_b_files) - 1)]
+    
+    img_1 = Image.open(Asset(file_1).path).convert('RGBA')
+    img_2 = Image.open(Asset(file_2).path).convert('RGBA')
+    bg = Image.alpha_composite(img_2, img_1)
 
-#         file_name = f'shiba_{str(name).zfill(6)}.png'
-#         file_path = os.path.join(tdir, file_name)
+    #dao nguoc list de in
+    new_list = lst[::-1]
+   
+    data = {}
+    for i in new_list:
+        # in lan luot
+        img = Image.open(Asset(i).path).convert('RGBA')
+        bg = Image.alpha_composite(bg, img)
 
-#         # resize to img_size
-#         bg1 = bg.resize(img_size)
-#         bg1.save(file_path)
+        # in mat
+        if Asset(i).type == 'clothing':
+            if Asset(i).pos == 'clothing_M':
+                img_f = Image.open(Asset(cr_eye).path)
+                bg = Image.alpha_composite(bg, img_f)
 
-#         # add hash
-#         sha256_hash = hashlib.sha256()
-#         with open(file_path, "rb") as f:
-#             # Read and update hash string value in blocks of 4K
-#             for byte_block in iter(lambda: f.read(4096), b""):
-#                 sha256_hash.update(byte_block)
+    # file_name = f'shiba_{str(name).zfill(6)}.jpg'
+    file_name = f'shiba_{str(name).zfill(6)}.png'
+    file_path = os.path.join(tdir, file_name)
 
-#         data[f'hash'] = sha256_hash.hexdigest()
-#         data[f'img'] = file_name
+    # resize to img_size
+    # bg.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 50)
 
-#     return data
+    bg.save(file_path)
+    data['img'] = file_name
+
+    return(data)
 
 
 def mainapp(num):
@@ -319,33 +333,30 @@ def mainapp(num):
         json.dump(data, f, indent=2)
 
 
-# def testapp(num):
-#     generated = getvalidlist(num)
-#     asset_set = generated[1]
-#     results = generated[0]
-#
-#     data = {'tokens': [], 'profile': {'name': 'Token2021'}}
-#
-#     def printimg(i):
-#         info = imgmergenoemo(results[i], i + 1)
-#         return {
-#             'id': i + 1,
-#             'title': f'Sipherian #{i + 1}',
-#             'description:': '',
-#             'name': f'Sipherian #{i + 1}',
-#             'attributes': list(asset_set[i]),
-#             'image': info['img'],
-#             'imageHash': info['hash'],
-#         }
-#
-#     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
-#         result_data = executor.map(printimg, [_ for _ in range(len(results))])
-#
-#     for _ in result_data:
-#         data['tokens'].append(_)
-#
-#     with open(os.path.join(tdir, 'data.json'), 'w') as f:
-#         json.dump(data, f, indent=2)
+def testapp(num):
+    generated = getvalidlist(num)
+    asset_set = generated[1]
+    results = generated[0]
+    eyes_list = generated[2]
+
+    data = {'tokens': [], 'profile': {'name': 'Token2021'}}
+
+    def printimg(i):
+        info = imgmergenoemo(results[i], i + 1, eyes_list[i])
+        return {
+            'id': i + 1,
+            'attributes': list(asset_set[i]),
+            'image': info['img'],
+        }
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
+        result_data = executor.map(printimg, [_ for _ in range(len(results))])
+
+    for _ in result_data:
+        data['tokens'].append(_)
+
+    with open(os.path.join(tdir, 'data.json'), 'w') as f:
+        json.dump(data, f, indent=2)
 
 
 def initapp():
@@ -363,7 +374,7 @@ def initapp():
 
     if type_of_generator == '1':
         print(f'Dang generate {user_in} pet co 1 cam xuc...')
-        # testapp(user_in)
+        testapp(user_in)
     else:
         print(f'Dang generate {user_in} pet co 5 cam xuc...')
         mainapp(user_in)
