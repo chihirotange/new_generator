@@ -270,12 +270,12 @@ def imgmergenoemo(lst, name, eye):
                 img_f = Image.open(Asset(cr_eye).path)
                 bg = Image.alpha_composite(bg, img_f)
 
-    file_name = f'shiba_{str(name).zfill(6)}.jpg'
-    # file_name = f'shiba_{str(name).zfill(6)}.png'
+    # file_name = f'shiba_{str(name).zfill(6)}.jpg'
+    file_name = f'shiba_{str(name).zfill(6)}.png'
     file_path = os.path.join(tdir, file_name)
 
     # resize to img_size
-    bg.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 50)
+    # bg.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 50)
 
     bg.save(file_path)
     data['img'] = file_name
@@ -387,4 +387,4 @@ def initapp():
         mainapp(user_in)
 
 
-initapp()
+# initapp()
