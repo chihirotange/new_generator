@@ -5,21 +5,22 @@ import hashlib
 import json
 import concurrent.futures
 import itertools
+import getGeneratedData as data
 
 body_types = ['normal', 'android', 'anatomicanis', 'alien']
-cwd = r'D:\Chii chan drive\shibe NFT\hires_assets\fixed_assets'
-tdir = r'D:\junks'
-bg_url = r'D:\Chii chan drive\shibe NFT\hires_assets\bg'
-troublesomeAssets = ["clothing_pharoah","clothing_omyogi","hand_astronautRed","hand_astronautWhite","hand_patissier","hat_pharoah",'hat_fireFighter', 'clothing_astronautWhite','clothing_astronautRed','clothing_techSupport','hat_mecha', 'hand_wastelander', 'hand_plumberOrange', 'hand_plumberBlue']
+cwd = r'E:\chiichan\my drive\shibe NFT\hires_assets\fixed_assets'
+tdir = r'E:\junks'
+bg_url = r'E:\chiichan\my drive\shibe NFT\hires_assets\bg'
+# troublesomeAssets = ["clothing_pharoah","clothing_omyogi","hand_astronautRed","hand_astronautWhite","hand_patissier","hat_pharoah",'hat_fireFighter', 'clothing_astronautWhite','clothing_astronautRed','clothing_techSupport','hat_mecha', 'hand_wastelander', 'hand_plumberOrange', 'hand_plumberBlue']
 
-
+to_compare = data.getGeneratedSet()
 bg_f = os.path.join(bg_url, 'bg')
 bg_b = os.path.join(bg_url, 'solid')
 
 bg_f_files = os.listdir(bg_f)
 bg_b_files = os.listdir(bg_b)
 
-# img_size = (400,451)
+img_size = (400,451)
 # img_size = (500,564)
 # img_size = (1000,1129)
 assets_for_count = ['hand_F', 'hat_F', 'clothing_F', 'body_F']
@@ -106,12 +107,18 @@ def getvalidlist(num):
 
     while len(picked) < num:
         randomNum = random.randint(0, len(total) - 1)
-        randomized = total[randomNum]
+        randomized = set(total[randomNum])
         del total[randomNum]
 
-        #xu ly dong asset troublesome
-        if any(asset in randomized for asset in troublesomeAssets):
+        if randomized in to_compare:
+            print('duplicated!')
             continue
+        
+        #xu ly dong asset troublesome
+        # if any(asset in randomized for asset in troublesomeAssets):
+        #     continue
+
+        randomized = list(randomized)
         picked.append(randomized)
     eye_colors = []
     for i in picked:
@@ -263,12 +270,12 @@ def imgmergenoemo(lst, name, eye):
                 img_f = Image.open(Asset(cr_eye).path)
                 bg = Image.alpha_composite(bg, img_f)
 
-    # file_name = f'shiba_{str(name).zfill(6)}.jpg'
-    file_name = f'shiba_{str(name).zfill(6)}.png'
+    file_name = f'shiba_{str(name).zfill(6)}.jpg'
+    # file_name = f'shiba_{str(name).zfill(6)}.png'
     file_path = os.path.join(tdir, file_name)
 
     # resize to img_size
-    # bg.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 50)
+    bg.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 50)
 
     bg.save(file_path)
     data['img'] = file_name
