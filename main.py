@@ -388,3 +388,21 @@ def initapp():
 
 
 # initapp()
+
+# =======================================================
+# in rieng
+def get_file_from_set(st):
+
+    picked_files = []
+    for path in full_files:
+        if any(item in path for item in st):
+            picked_files.append(path)
+    return picked_files
+
+anh_tin = ['eye_red','normal_black', 'hand_AIDogboneWhite', 'clothing_AIDogboneWhite', 'hat_AIDogboneWhite']
+
+anh_tin_path = get_file_from_set(anh_tin)
+
+imgmergenoemo(anh_tin_path,'anhDuc', 'eye_red')
+
+# =================================================================
