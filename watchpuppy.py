@@ -8,9 +8,9 @@ from PIL import Image
 img_size = (2000,2257)
 
 def pngWatchDog():
-    workingDir = r"E:\chiichan\monitor" # dan toi folder lam viec
+    workingDir = r"d:\monitor" # dan toi folder lam viec
     # targetDir = r"D:\Chii chan drive\shibe NFT\hires_assets\bg" # dan toi folder assets
-    targetDir = r"E:\chiichan\my drive\shibe NFT\hires_assets\fixed_assets" # dan toi folder assets
+    targetDir = r"D:\Chii chan drive\shibe NFT\hires_assets\fixed_assets" # dan toi folder assets
     bodyTypes = ["normal", "android", "anatomicanis", 'alien']
     assetsDir = os.listdir(targetDir)
 

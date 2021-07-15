@@ -5,22 +5,24 @@ import hashlib
 import json
 import concurrent.futures
 import itertools
-import getGeneratedData as data
+# import getGeneratedData as data
 
 body_types = ['normal', 'android', 'anatomicanis', 'alien']
-cwd = r'E:\chiichan\my drive\shibe NFT\hires_assets\fixed_assets'
-tdir = r'E:\junks'
-bg_url = r'E:\chiichan\my drive\shibe NFT\hires_assets\bg'
+cwd = r'D:\Chii chan drive\shibe NFT\hires_assets\fixed_assets'
+tdir = r'D:\junks'
+bg_url = r'D:\Chii chan drive\shibe NFT\hires_assets\bg'
 # troublesomeAssets = ["clothing_pharoah","clothing_omyogi","hand_astronautRed","hand_astronautWhite","hand_patissier","hat_pharoah",'hat_fireFighter', 'clothing_astronautWhite','clothing_astronautRed','clothing_techSupport','hat_mecha', 'hand_wastelander', 'hand_plumberOrange', 'hand_plumberBlue']
 
-to_compare = data.getGeneratedSet()
+
+
+# to_compare = data.getGeneratedSet()
 bg_f = os.path.join(bg_url, 'bg')
 bg_b = os.path.join(bg_url, 'solid')
 
 bg_f_files = os.listdir(bg_f)
 bg_b_files = os.listdir(bg_b)
 
-img_size = (400,451)
+# img_size = (400,451)
 # img_size = (500,564)
 # img_size = (1000,1129)
 assets_for_count = ['hand_F', 'hat_F', 'clothing_F', 'body_F']
@@ -110,15 +112,20 @@ def getvalidlist(num):
         randomized = set(total[randomNum])
         del total[randomNum]
 
-        if randomized in to_compare:
-            print('duplicated!')
-            continue
+        # chi in 1 loai asset (testing purpose)
+        # if 'alien_test' not in randomized:
+        #     continue
+
+        # if randomized in to_compare:
+        #     print('duplicated!')
+        #     continue
         
         #xu ly dong asset troublesome
         # if any(asset in randomized for asset in troublesomeAssets):
         #     continue
 
         randomized = list(randomized)
+        print(len(picked))
         picked.append(randomized)
     eye_colors = []
     for i in picked:
@@ -202,11 +209,13 @@ def imgmerge(lst, name, eye):
                     bg_each = Image.alpha_composite(bg_each, img_f)
 
         mouth_shape = Asset(cr_eye[m]).mouth_shape
-        file_name = f'shiba_{str(name).zfill(6)}_{mouth_shape}.jpg'
+        file_name = f'shiba_{str(name).zfill(6)}_{mouth_shape}.png'
         file_path = os.path.join(tdir, file_name)
 
         # resize to img_size
-        bg_each.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 50)
+        # bg_each.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 50)
+
+        bg_each.save(file_path)
 
         # add hash
         sha256_hash = hashlib.sha256()
@@ -227,10 +236,10 @@ def imgmerge(lst, name, eye):
             img = Image.open(Asset(i).path)
             bg = Image.alpha_composite(bg, img)
         
-        file_name = f'shiba_{str(name).zfill(6)}_mask.jpg'
+        file_name = f'shiba_{str(name).zfill(6)}_mask.png'
         file_path = os.path.join(tdir, file_name)
 
-        bg.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 50)
+        bg.save(file_path)
 
         data[f'mask_hash'] = sha256_hash.hexdigest()
         data[f'mask_img'] = file_name
@@ -241,7 +250,7 @@ def imgmerge(lst, name, eye):
 
 
 def imgmergenoemo(lst, name, eye):
-
+    img_size = (700,790)
     cur_body_type = getbodytype(lst)
     cr_eyes = [e for e in eye_img if cur_body_type in e and eye in e]
 
@@ -264,20 +273,20 @@ def imgmergenoemo(lst, name, eye):
         img = Image.open(Asset(i).path).convert('RGBA')
         bg = Image.alpha_composite(bg, img)
 
-        # in mat
+        # in mat (eye)
         if Asset(i).type == 'clothing':
             if Asset(i).pos == 'clothing_M':
                 img_f = Image.open(Asset(cr_eye).path)
                 bg = Image.alpha_composite(bg, img_f)
 
-    # file_name = f'shiba_{str(name).zfill(6)}.jpg'
-    file_name = f'shiba_{str(name).zfill(6)}.png'
+    file_name = f'shiba_{str(name).zfill(6)}.jpg'
+    # file_name = f'shiba_{str(name).zfill(6)}.png'
     file_path = os.path.join(tdir, file_name)
 
     # resize to img_size
-    # bg.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 50)
+    bg.resize(img_size).convert('RGB').save(file_path,optimize=True, quality = 70)
 
-    bg.save(file_path)
+    # bg.save(file_path)
     data['img'] = file_name
 
     return(data)
@@ -330,7 +339,7 @@ def mainapp(num):
             'background': info['background']
         }
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
         result_data = executor.map(printimg, [_ for _ in range(len(results))])
 
     for _ in result_data:
@@ -356,7 +365,7 @@ def testapp(num):
             'image': info['img'],
         }
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
         result_data = executor.map(printimg, [_ for _ in range(len(results))])
 
     for _ in result_data:
@@ -387,22 +396,21 @@ def initapp():
         mainapp(user_in)
 
 
-# initapp()
-
+initapp()
 # =======================================================
 # in rieng
-def get_file_from_set(st):
+# def get_file_from_set(st):
 
-    picked_files = []
-    for path in full_files:
-        if any(item in path for item in st):
-            picked_files.append(path)
-    return picked_files
+#     picked_files = []
+#     for path in full_files:
+#         if any(item in path for item in st):
+#             picked_files.append(path)
+#     return picked_files
 
-anh_tin = ['eye_red','normal_black', 'hand_AIDogboneWhite', 'clothing_AIDogboneWhite', 'hat_AIDogboneWhite']
+# anh_tin = ['eye_red','normal_black', 'hand_AIDogboneWhite', 'clothing_AIDogboneWhite', 'hat_AIDogboneWhite']
 
-anh_tin_path = get_file_from_set(anh_tin)
+# anh_tin_path = get_file_from_set(anh_tin)
 
-imgmergenoemo(anh_tin_path,'anhDuc', 'eye_red')
+# imgmergenoemo(anh_tin_path,'anhDuc', 'eye_red')
 
 # =================================================================
