@@ -3,15 +3,17 @@ as_types = ['clothing', 'hand', 'hat']
 
 # ti le rot
 raw_ratios = {
-    'anatomicanis': 10,
-    'android': 10,
-    'alien': 1,
+    'anatomicanis': 0,
+    'android': 0,
+    'alien': 100,
 }
 
 # ti le normal con lai just kindergarten math
 raw_ratios['normal'] = 100 - raw_ratios['anatomicanis'] - raw_ratios['android'] - raw_ratios['alien']
 
 as_sets = [
+
+
     'AIDogbone',
     'airForceOne',
     'brawler',
@@ -64,8 +66,6 @@ race_ratios = {
     'alien' : raw_ratios['alien'] if raw_ratios['normal'] == 0 else int(raw_ratios['alien']/raw_ratios['normal']*100)
 }
 
-print(race_ratios)
-
 # cac thong tin bg
 bg_data = {
 
@@ -114,6 +114,7 @@ bg_data = {
 # cac emotions
 emo = ['happy', 'default', 'sad', 'nervous', 'evil']
 
+# cac mask thao dc
 masks_list = ('hat_neonKitty', 'hat_mecha', 'hat_cloneTrooper', 'hat_radiohead', 'hat_metro')
 
 # variations cua cac asset thiet lap o day (khi them asset moi can bo sung)
@@ -125,10 +126,15 @@ as_variations = {
     'hat_AIDogbone': ['White','Black'],
     'clothing_AIDogbone': ['White','Black'],
     'hand_AIDogbone': ['White','Black'],
-    'hat_brawler': ['Brown', 'Grey', 'Gold'],
-    'hat_daredevil': ['Red','Purple'],
+
     'hat_pirateCaptain': ['GreenRed','BlueOrange'],
     'clothing_pirateCaptain': ['GreenRed','BlueOrange'],
+
+    'hat_astronaut': ['White', 'Red'],
+    'clothing_astronaut': ['White', 'Red'],
+    'hand_astronaut': ['White', 'Red'],
+
+
     'hand_jiangshi': ['Blue','Yellow','Red','Purple'],
     'hat_neonPunkPistoleer': ['Yellow','Pink','Lightblue'],
     'hand_mecha': ['Sword','LightSword'],
@@ -137,9 +143,8 @@ as_variations = {
     'hat_brainiac': ['Yellow', 'Red', 'Purple'],
     'hat_metro': ['Pink','Lightblue','Yellow'],
     'hat_sheriff': ['Brown', 'Grey'],
-    'hat_astronaut': ['White', 'Red'],
-    'clothing_astronaut': ['White', 'Red'],
-    'hand_astronaut': ['White', 'Red'],
+    'hat_brawler': ['Brown', 'Grey', 'Gold'],
+    'hat_daredevil': ['Red','Purple'],
     'hat_streetNeonPunk': ['Yellow', 'Lightblue']
 }
 

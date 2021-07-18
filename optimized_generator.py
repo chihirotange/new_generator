@@ -74,6 +74,8 @@ def shiba_dna(lst = 'random'):
             elif any(m in l for m in masks_list):
                 data['mask'] = l
         return data
+
+
 # kiem tra xem shiba vua tao co bi trung voi list da generate hay ko
 def is_duplicated(sb,lst):
     if sb in lst:
@@ -82,11 +84,13 @@ def is_duplicated(sb,lst):
     else:
         return False
 
+
 # tao bg random
 def random_bg():
     efx = random.choice(bg_data['bg'])
     solid = random.choice(bg_data['solid'])
     return [efx,solid]
+
 
 # lay list file tu folder
 def get_paths(lst,d_path):
@@ -98,7 +102,7 @@ def get_paths(lst,d_path):
 def shiba_printer(dna,bg,name):
     
     # ugly codee===========================================================
-    lowres = True
+    lowres = False
     one_emo = True
 
     # lay path eye dung theo race va mau mat
@@ -156,6 +160,8 @@ def shiba_printer(dna,bg,name):
             sb_bg.save(os.path.join(t_dir,f'shiba_{name}_{emo_name}.png'))
         if one_emo == True:
             break
+
+    print(f'in xong con {name}')
   
 
 def mainapp():
@@ -167,8 +173,11 @@ def mainapp():
         'normal': 0,
         'alien': 0
     }
-    generated_shibas = []
+
+    # import data dna json vao cho nay
     generated_dnas = []
+
+    generated_shibas = []
     generated_bgs = []
     ids = [n for n in range(1, shiba_num+1)]
 
@@ -185,12 +194,35 @@ def mainapp():
             races_counter[race] += 1
             print(len(generated_shibas))
     print(races_counter)
-    # with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
-    #     executor.map(shiba_printer, generated_shibas,generated_bgs,ids)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+        executor.map(shiba_printer, generated_shibas,generated_bgs,ids)
 
 
-mainapp()
+# mainapp()
+
+# IN ORIGINALS
+# as_set = assets_data.as_sets
 
 
+# hats = ['hat_' + i for i in as_set]
+# clothings = ['clothing_' + i for i in as_set]
+# hands = ['hand_' + i for i in as_set]
 
-# shiba_printer(shiba_dna(),random_bg(),'test')
+# original_pets = []
+# generated_bgs = []
+# generated_names = []
+# for i in range(len(as_set)):
+#     generated_name = as_set[i]
+#     pet_dna = [hats[i],clothings[i],hands[i], 'normal_brown', 'eye_brown']
+#     pet = shiba_dna(pet_dna)
+#     original_pets.append(pet)
+#     generated_bgs.append(random_bg())
+#     generated_names.append(generated_name)
+#     print(i+1)
+
+# with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+#         executor.map(shiba_printer, original_pets,generated_bgs,generated_names)
+
+shiba = ['hat_brainiacPurple','hand_brainiac','clothing_brainiac','eye_brown', 'normal_brown']
+
+shiba_printer(shiba_dna(shiba),random_bg(),'brainiacPurple')
