@@ -3,9 +3,9 @@ as_types = ['clothing', 'hand', 'hat']
 
 # ti le rot
 raw_ratios = {
-    'anatomicanis': 0,
-    'android': 0,
-    'alien': 100,
+    'anatomicanis': 15,
+    'android': 10,
+    'alien': 5,
 }
 
 # ti le normal con lai just kindergarten math

@@ -1,0 +1,9247 @@
+{
+ "dnas": [
+  {
+   "dna": [
+    "hand_subnautica",
+    "hat_plumber",
+    "clothing_omyogi",
+    "eye_red",
+    "alien"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_daredevilPurple",
+    "alien",
+    "eye_grey",
+    "hand_bombardier",
+    "clothing_gakusei"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_streetNeonPunk",
+    "eye_green",
+    "hat_maya",
+    "clothing_graffitiArtist",
+    "alien"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_neonDJ",
+    "clothing_astronautRed",
+    "eye_amber",
+    "hand_commando",
+    "alien"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hat_brawlerGold",
+    "clothing_oniForHire",
+    "hand_dragonDancer",
+    "alien"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_streetNeonPunk",
+    "clothing_cloneTrooper",
+    "eye_blue",
+    "hat_airForceOne",
+    "alien"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "hand_techSupport",
+    "clothing_nativeAmerican",
+    "hat_techSupport",
+    "alien"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hand_patissier",
+    "hat_neonDJ",
+    "eye_blue",
+    "alien",
+    "clothing_brawler"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_astronautWhite",
+    "eye_grey",
+    "hand_catstronaut",
+    "hat_commando",
+    "alien"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_shikigami",
+    "eye_heterochromia",
+    "hand_drip",
+    "hat_patissier",
+    "alien"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_plumberBlue",
+    "eye_heterochromia",
+    "clothing_dragonDancer",
+    "hat_airForceOne",
+    "alien"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_plumber",
+    "hand_mechaLightSword",
+    "eye_grey",
+    "hat_radiohead",
+    "alien"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_samurai",
+    "clothing_astronautWhite",
+    "hand_fireFighter",
+    "eye_brown",
+    "alien"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "clothing_pirateCaptainBlueOrange",
+    "hat_streetNeonPunkLightblue",
+    "hand_sipherionTrainer",
+    "normal_purple"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_pharoah",
+    "normal_grey",
+    "eye_purple",
+    "hand_brainiac",
+    "hat_sheriffGrey"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_neonDJ",
+    "hat_neonKitty",
+    "normal_red",
+    "eye_red",
+    "hand_pharoah"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_samurai",
+    "alien",
+    "eye_heterochromia",
+    "clothing_neonPunkPistoleer",
+    "hand_pharoah"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_sheriffBrown",
+    "clothing_patissier",
+    "eye_amber",
+    "normal_red",
+    "hand_brainiac"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "normal_red",
+    "hat_cloneTrooper",
+    "eye_red",
+    "clothing_daredevil"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_subnautica",
+    "hat_pirateCaptainBlueOrange",
+    "normal_brown",
+    "eye_green",
+    "hand_patissier"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_brawlerGrey",
+    "normal_green",
+    "hand_samurai",
+    "clothing_jiangshi",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_neonDJ",
+    "normal_green",
+    "hat_astronautWhite",
+    "hand_raver",
+    "eye_brown"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "eye_heterochromia",
+    "hat_neonKitty",
+    "clothing_shikigami",
+    "normal_lightblue"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_daredevilRed",
+    "eye_blue",
+    "hand_oniForHire",
+    "normal_grey",
+    "clothing_radiohead"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_neonKitty",
+    "normal_brown",
+    "hat_plumber",
+    "hand_metro",
+    "eye_brown"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_blue",
+    "hat_fireFighter",
+    "normal_black",
+    "clothing_catstronaut",
+    "hand_airForceOne"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_mecha",
+    "eye_blue",
+    "normal_grey",
+    "hand_wastelander",
+    "clothing_jiangshi"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_nativeAmerican",
+    "normal_brown",
+    "hat_maya",
+    "hand_miniMe",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hand_streetNeonPunk",
+    "hat_miniMe",
+    "clothing_techSupport",
+    "android_red"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hand_subnautica",
+    "eye_grey",
+    "clothing_techSupport",
+    "hat_jiangshi",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_gakuseiYellow",
+    "hand_neonPunkPistoleer",
+    "clothing_neonKitty",
+    "anatomicanis_black",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hat_astronautRed",
+    "normal_grey",
+    "clothing_plumber",
+    "hand_patissier",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_samurai",
+    "eye_amber",
+    "hand_graffitiArtist",
+    "clothing_fireFighter",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_daredevilRed",
+    "clothing_astronautWhite",
+    "eye_blue",
+    "hand_sheriff",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "normal_grey",
+    "clothing_metro",
+    "hat_raver",
+    "hand_mechaLightSword"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_samurai",
+    "normal_lightblue",
+    "eye_red",
+    "hand_nativeAmerican",
+    "clothing_cloneTrooper"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_shikigami",
+    "clothing_nativeAmerican",
+    "hat_maya",
+    "normal_red",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "clothing_miniMe",
+    "normal_brown",
+    "hand_maya",
+    "hat_santaClaus"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "eye_red",
+    "hat_techSupport",
+    "clothing_maya",
+    "hand_bombardier"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_neonPunkPistoleer",
+    "anatomicanis_black",
+    "eye_amber",
+    "clothing_astronautRed",
+    "hat_neonDJ"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_shikigami",
+    "clothing_miniMe",
+    "hand_graffitiArtist",
+    "anatomicanis_brown",
+    "eye_brown"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hand_oniForHire",
+    "hat_techSupport",
+    "eye_green",
+    "clothing_santaClaus",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_blue",
+    "normal_grey",
+    "hat_astronautWhite",
+    "hand_neonKitty",
+    "clothing_oniForHire"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "eye_amber",
+    "hand_nativeAmerican",
+    "clothing_radiohead",
+    "hat_nekoSpace"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_radiohead",
+    "eye_blue",
+    "clothing_plumber",
+    "hand_airForceOne",
+    "normal_purple"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_subnautica",
+    "eye_amber",
+    "hand_nativeAmerican",
+    "anatomicanis_lightblue",
+    "clothing_neonDJ"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "clothing_bombardier",
+    "hand_omyogi",
+    "normal_purple",
+    "hat_airForceOne"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_radiohead",
+    "eye_red",
+    "clothing_streetNeonPunk",
+    "hand_gakusei",
+    "anatomicanis_purple"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_daredevilRed",
+    "android_purple",
+    "eye_heterochromia",
+    "clothing_cloneTrooper",
+    "hand_drip"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_pirateCaptainGreenRed",
+    "hand_fireFighter",
+    "hat_nekoSpace",
+    "normal_red",
+    "eye_brown"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "normal_lightblue",
+    "eye_red",
+    "hat_maya",
+    "clothing_commando",
+    "hand_dragonDancer"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "hat_shikigami",
+    "clothing_bombardier",
+    "android_red",
+    "hand_techSupport"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "android_purple",
+    "clothing_streetNeonPunk",
+    "hand_metro",
+    "hat_santaClaus",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_blue",
+    "anatomicanis_red",
+    "hand_AIDogboneBlack",
+    "clothing_neonDJ",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_blue",
+    "hat_shikigami",
+    "android_black",
+    "clothing_airForceOne",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_subnautica",
+    "eye_grey",
+    "clothing_pirateCaptainGreenRed",
+    "android_grey",
+    "hat_neonKitty"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_grey",
+    "normal_black",
+    "clothing_catstronaut",
+    "hand_bombardier",
+    "hat_neonDJ"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "anatomicanis_grey",
+    "clothing_neonDJ",
+    "hat_santaClaus",
+    "hand_sipherionTrainer"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_sipherionTrainer",
+    "eye_amber",
+    "hand_daredevil",
+    "hat_dragonDancer",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_subnautica",
+    "eye_red",
+    "clothing_techSupport",
+    "hat_plumber",
+    "normal_purple"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "hat_neonPunkPistoleerLightblue",
+    "clothing_streetNeonPunk",
+    "normal_brown",
+    "hand_brainiac"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_nativeAmerican",
+    "normal_grey",
+    "clothing_maya",
+    "hat_maya",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "normal_green",
+    "hand_streetNeonPunk",
+    "clothing_nekoSpace",
+    "eye_purple",
+    "hat_airForceOne"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_brainiac",
+    "eye_heterochromia",
+    "hat_jiangshi",
+    "normal_brown",
+    "hand_omyogi"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_dragonDancer",
+    "hat_subnautica",
+    "eye_red",
+    "hand_maya",
+    "normal_purple"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_blue",
+    "clothing_nativeAmerican",
+    "normal_brown",
+    "hand_santaClaus",
+    "hat_airForceOne"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "clothing_shikigami",
+    "hand_streetNeonPunk",
+    "hat_dragonDancer",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_samurai",
+    "clothing_brainiac",
+    "anatomicanis_red",
+    "hat_pharoah",
+    "eye_brown"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_plumberBlue",
+    "eye_red",
+    "clothing_bombardier",
+    "hat_sheriffGrey",
+    "normal_purple"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "clothing_santaClaus",
+    "hat_streetNeonPunkYellow",
+    "hand_catstronaut",
+    "normal_purple"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_blue",
+    "hat_pirateCaptainBlueOrange",
+    "clothing_metro",
+    "normal_brown",
+    "hand_airForceOne"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_gakuseiYellow",
+    "eye_heterochromia",
+    "clothing_miniMe",
+    "alien",
+    "hand_omyogi"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_shikigami",
+    "hand_streetNeonPunk",
+    "clothing_plumber",
+    "eye_green",
+    "anatomicanis_purple"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_grey",
+    "normal_red",
+    "hat_pirateCaptainGreenRed",
+    "clothing_graffitiArtist",
+    "hand_drip"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_techSupport",
+    "clothing_santaClaus",
+    "eye_purple",
+    "hat_astronautWhite",
+    "normal_lightblue"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_wastelander",
+    "clothing_maya",
+    "hand_airForceOne",
+    "eye_blue",
+    "normal_grey"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "normal_brown",
+    "eye_blue",
+    "hat_neonKitty",
+    "clothing_daredevil",
+    "hand_nekoSpace"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_shikigami",
+    "normal_black",
+    "hat_plumber",
+    "eye_blue",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_jiangshi",
+    "hand_miniMe",
+    "eye_purple",
+    "hat_shikigami",
+    "android_black"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_purple",
+    "normal_green",
+    "hat_techSupport",
+    "clothing_raver",
+    "hand_bombardier"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_santaClaus",
+    "alien",
+    "hat_metroYellow",
+    "eye_blue",
+    "hand_astronautRed"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_techSupport",
+    "normal_red",
+    "clothing_neonKitty",
+    "eye_grey",
+    "hat_streetNeonPunkYellow"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_shikigami",
+    "hat_bombardier",
+    "normal_lightblue",
+    "hand_techSupport",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "normal_lightblue",
+    "clothing_nekoSpace",
+    "hat_commando",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "eye_brown",
+    "normal_grey",
+    "hat_pirateCaptainGreenRed",
+    "hand_neonDJ"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "eye_brown",
+    "clothing_airForceOne",
+    "android_purple",
+    "hand_neonDJ"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_metroLightblue",
+    "normal_brown",
+    "clothing_cloneTrooper",
+    "hand_omyogi",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hat_airForceOne",
+    "normal_purple",
+    "clothing_AIDogboneBlack",
+    "hand_daredevil"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_wastelander",
+    "normal_brown",
+    "hat_neonPunkPistoleerPink",
+    "eye_heterochromia",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "clothing_streetNeonPunk",
+    "normal_red",
+    "hand_pharoah",
+    "hat_subnautica"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "normal_black",
+    "hat_maya",
+    "hand_radiohead",
+    "clothing_santaClaus"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_blue",
+    "hand_pirateCaptain",
+    "clothing_radiohead",
+    "alien",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_cloneTrooper",
+    "normal_red",
+    "hand_radiohead",
+    "eye_grey",
+    "hat_pharoah"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "clothing_dragonDancer",
+    "hat_techSupport",
+    "normal_lightblue",
+    "hand_AIDogboneBlack"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "anatomicanis_grey",
+    "hat_streetNeonPunkLightblue",
+    "hand_brawler",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_streetNeonPunkYellow",
+    "clothing_cloneTrooper",
+    "eye_blue",
+    "normal_green",
+    "hand_neonDJ"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hand_gakusei",
+    "hat_omyogi",
+    "clothing_pirateCaptainGreenRed",
+    "eye_grey",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_miniMe",
+    "eye_purple",
+    "normal_green",
+    "clothing_astronautRed",
+    "hat_catstronaut"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "eye_purple",
+    "normal_red",
+    "clothing_santaClaus",
+    "hand_pirateCaptain"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_metroLightblue",
+    "hand_sipherionTrainer",
+    "normal_red",
+    "clothing_brainiac",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_brawlerGrey",
+    "normal_black",
+    "eye_purple",
+    "hand_astronautWhite",
+    "clothing_miniMe"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "eye_brown",
+    "normal_black",
+    "clothing_AIDogboneBlack",
+    "hand_neonDJ"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "clothing_mecha",
+    "hat_bombardier",
+    "alien",
+    "hand_subnautica"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "eye_green",
+    "hand_maya",
+    "normal_lightblue",
+    "hat_cloneTrooper"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "hat_techSupport",
+    "hand_shikigami",
+    "eye_blue",
+    "clothing_santaClaus"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "anatomicanis_purple",
+    "clothing_bombardier",
+    "hand_omyogi",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_daredevil",
+    "eye_red",
+    "normal_lightblue",
+    "hat_sipherionTrainer",
+    "hand_subnautica"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_wastelander",
+    "eye_red",
+    "hand_sipherionTrainer",
+    "hat_brawlerGrey",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "hat_neonPunkPistoleerYellow",
+    "hand_samurai",
+    "eye_grey",
+    "clothing_drip"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_shikigami",
+    "hand_gakusei",
+    "hat_omyogi",
+    "android_lightblue",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_neonKitty",
+    "normal_lightblue",
+    "clothing_astronautRed",
+    "hat_patissier",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "hand_jiangshiRed",
+    "clothing_metro",
+    "anatomicanis_purple",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "eye_red",
+    "clothing_patissier",
+    "hand_patissier",
+    "android_red"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_dragonDancer",
+    "clothing_neonDJ",
+    "anatomicanis_purple",
+    "eye_heterochromia",
+    "hat_santaClaus"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "normal_brown",
+    "clothing_maya",
+    "hat_neonKitty",
+    "hand_omyogi",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_streetNeonPunk",
+    "normal_red",
+    "clothing_pirateCaptainGreenRed",
+    "hat_sipherionTrainer",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "eye_purple",
+    "hand_shikigami",
+    "clothing_neonKitty",
+    "android_purple"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_brainiacYellow",
+    "normal_purple",
+    "clothing_sipherionTrainer",
+    "hand_sheriff",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_cloneTrooper",
+    "eye_brown",
+    "clothing_neonDJ",
+    "normal_black",
+    "hat_neonDJ"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_patissier",
+    "normal_lightblue",
+    "hat_cloneTrooper",
+    "eye_grey",
+    "hand_plumberBlue"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "clothing_pirateCaptainBlueOrange",
+    "hand_graffitiArtist",
+    "hat_neonKitty",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "hat_techSupport",
+    "eye_blue",
+    "android_brown",
+    "hand_raver"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "normal_purple",
+    "clothing_gakusei",
+    "hat_subnautica",
+    "hand_omyogi"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_metroPink",
+    "clothing_neonKitty",
+    "normal_green",
+    "eye_heterochromia",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "eye_purple",
+    "hand_techSupport",
+    "hat_catstronaut",
+    "clothing_plumber",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_red",
+    "hand_neonPunkPistoleer",
+    "clothing_pharoah",
+    "eye_blue",
+    "hat_sheriffBrown"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_neonPunkPistoleerYellow",
+    "hand_sheriff",
+    "clothing_techSupport",
+    "eye_grey",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "hand_oniForHire",
+    "eye_purple",
+    "clothing_bombardier",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_grey",
+    "hat_raver",
+    "hand_catstronaut",
+    "clothing_plumber"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "normal_purple",
+    "clothing_pharoah",
+    "eye_blue",
+    "hand_wastelander",
+    "hat_catstronaut"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "eye_green",
+    "hat_commando",
+    "normal_green",
+    "hand_pirateCaptain"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "normal_lightblue",
+    "clothing_bombardier",
+    "hand_shikigami",
+    "eye_blue",
+    "hat_fireFighter"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_streetNeonPunk",
+    "hand_shikigami",
+    "hat_shikigami",
+    "eye_blue",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "normal_grey",
+    "clothing_shikigami",
+    "hat_mecha",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_brainiacYellow",
+    "hand_nativeAmerican",
+    "normal_red",
+    "eye_blue",
+    "clothing_maya"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_grey",
+    "clothing_dragonDancer",
+    "hand_sheriff",
+    "hat_santaClaus"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "normal_grey",
+    "clothing_drip",
+    "hat_cloneTrooper",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_wastelander",
+    "clothing_gakusei",
+    "hand_neonDJ",
+    "normal_green",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "eye_purple",
+    "android_black",
+    "hat_neonKitty",
+    "hand_subnautica"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "clothing_pirateCaptainBlueOrange",
+    "hand_neonPunkPistoleer",
+    "hat_omyogi",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "eye_red",
+    "clothing_dragonDancer",
+    "hat_commando",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_plumberBlue",
+    "hat_nekoSpace",
+    "normal_red",
+    "eye_blue",
+    "clothing_subnautica"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_AIDogboneWhite",
+    "clothing_raver",
+    "normal_grey",
+    "eye_heterochromia",
+    "hat_fireFighter"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "normal_purple",
+    "clothing_techSupport",
+    "hat_gakuseiYellow",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "hand_oniForHire",
+    "eye_brown",
+    "normal_purple",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "normal_brown",
+    "clothing_AIDogboneBlack",
+    "hand_metro",
+    "hat_graffitiArtist",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "eye_red",
+    "clothing_patissier",
+    "normal_red",
+    "hand_fireFighter"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "eye_red",
+    "hand_neonKitty",
+    "hat_samurai",
+    "anatomicanis_green"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_plumber",
+    "hat_airForceOne",
+    "normal_lightblue",
+    "hand_nekoSpace",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "hand_neonKitty",
+    "eye_purple",
+    "hat_miniMe",
+    "clothing_plumber"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "anatomicanis_lightblue",
+    "clothing_astronautRed",
+    "hand_nekoSpace",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hand_patissier",
+    "android_brown",
+    "hat_patissier",
+    "clothing_santaClaus"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_cloneTrooper",
+    "eye_red",
+    "clothing_brainiac",
+    "hat_neonKitty",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_nativeAmerican",
+    "clothing_wastelander",
+    "hat_brainiacRed",
+    "eye_heterochromia",
+    "anatomicanis_green"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "eye_purple",
+    "clothing_neonKitty",
+    "hat_patissier",
+    "anatomicanis_green"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_pirateCaptainBlueOrange",
+    "eye_purple",
+    "hand_gakusei",
+    "android_red",
+    "hat_neonKitty"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_wastelander",
+    "anatomicanis_lightblue",
+    "eye_purple",
+    "hand_pharoah",
+    "clothing_graffitiArtist"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "hand_sipherionTrainer",
+    "clothing_metro",
+    "android_purple",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_airForceOne",
+    "normal_purple",
+    "hand_catstronaut",
+    "clothing_neonPunkPistoleer"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hand_brawler",
+    "hat_maya",
+    "anatomicanis_purple",
+    "clothing_radiohead"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_red",
+    "hat_brainiacRed",
+    "hand_gakusei",
+    "eye_purple",
+    "clothing_techSupport"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_miniMe",
+    "eye_purple",
+    "hand_astronautRed",
+    "clothing_santaClaus",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_streetNeonPunkLightblue",
+    "anatomicanis_grey",
+    "hand_shikigami",
+    "clothing_graffitiArtist"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_red",
+    "hand_commando",
+    "clothing_raver",
+    "eye_heterochromia",
+    "hat_samurai"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "android_grey",
+    "clothing_neonDJ",
+    "hand_streetNeonPunk",
+    "eye_purple",
+    "hat_nekoSpace"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_wastelander",
+    "hand_wastelander",
+    "hat_neonKitty",
+    "eye_grey",
+    "anatomicanis_black"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "eye_green",
+    "hand_plumberOrange",
+    "android_grey",
+    "clothing_neonDJ"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "normal_black",
+    "hand_brainiac",
+    "hat_cloneTrooper",
+    "clothing_omyogi"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_jiangshi",
+    "eye_grey",
+    "android_red",
+    "hand_omyogi",
+    "clothing_omyogi"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "hand_shikigami",
+    "clothing_nekoSpace",
+    "eye_blue",
+    "hat_samurai"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_maya",
+    "clothing_catstronaut",
+    "normal_purple",
+    "eye_grey",
+    "hat_pharoah"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_techSupport",
+    "hand_metro",
+    "normal_red",
+    "clothing_miniMe",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_lightblue",
+    "hand_brawler",
+    "clothing_plumber",
+    "eye_heterochromia",
+    "hat_fireFighter"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_bombardier",
+    "normal_purple",
+    "clothing_oniForHire",
+    "hand_patissier",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_jiangshiBlue",
+    "hat_omyogi",
+    "clothing_pharoah",
+    "normal_green",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "eye_brown",
+    "hand_sipherionTrainer",
+    "hat_cloneTrooper",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_black",
+    "clothing_neonKitty",
+    "hand_nekoSpace",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_techSupport",
+    "hand_AIDogboneBlack",
+    "normal_red",
+    "eye_blue",
+    "clothing_maya"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_jiangshi",
+    "hand_bombardier",
+    "eye_blue",
+    "clothing_omyogi",
+    "anatomicanis_green"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "normal_lightblue",
+    "clothing_maya",
+    "hat_patissier",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "eye_brown",
+    "hand_astronautWhite",
+    "hat_neonKitty",
+    "alien"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "clothing_pirateCaptainBlueOrange",
+    "hand_neonPunkPistoleer",
+    "normal_green",
+    "hat_subnautica"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "android_grey",
+    "hand_neonKitty",
+    "hat_omyogi",
+    "eye_blue",
+    "clothing_jiangshi"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_neonKitty",
+    "clothing_bombardier",
+    "normal_green",
+    "eye_grey",
+    "hat_santaClaus"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hat_brawlerGrey",
+    "normal_black",
+    "clothing_sipherionTrainer",
+    "hand_shikigami"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_pirateCaptainBlueOrange",
+    "normal_black",
+    "clothing_cloneTrooper",
+    "eye_blue",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_nativeAmerican",
+    "eye_green",
+    "clothing_samurai",
+    "android_black",
+    "hat_streetNeonPunkYellow"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "hand_neonKitty",
+    "clothing_pharoah",
+    "hat_catstronaut",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_oniForHire",
+    "normal_grey",
+    "hat_commando",
+    "eye_blue",
+    "clothing_maya"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_gakuseiBlack",
+    "hand_cloneTrooper",
+    "normal_brown",
+    "clothing_astronautRed",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_nativeAmerican",
+    "hat_techSupport",
+    "hand_graffitiArtist",
+    "normal_red",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "hat_airForceOne",
+    "eye_purple",
+    "clothing_metro",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_brown",
+    "eye_red",
+    "hand_catstronaut",
+    "clothing_sipherionTrainer",
+    "hat_nekoSpace"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "eye_green",
+    "hat_pirateCaptainBlueOrange",
+    "clothing_nativeAmerican",
+    "alien"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_mecha",
+    "hat_brawlerGold",
+    "normal_red",
+    "hand_plumberBlue",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "normal_grey",
+    "clothing_neonPunkPistoleer",
+    "hand_techSupport",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_sipherionTrainer",
+    "normal_green",
+    "hand_fireFighter",
+    "clothing_subnautica",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hand_dragonDancer",
+    "normal_lightblue",
+    "hat_sheriffGrey",
+    "clothing_astronautWhite",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_AIDogboneWhite",
+    "normal_purple",
+    "hand_wastelander",
+    "clothing_subnautica",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hand_oniForHire",
+    "android_grey",
+    "hat_radiohead",
+    "clothing_maya"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "anatomicanis_red",
+    "hand_neonKitty",
+    "hat_omyogi",
+    "clothing_plumber"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_neonPunkPistoleerYellow",
+    "hand_daredevil",
+    "clothing_graffitiArtist",
+    "alien",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_grey",
+    "hand_neonPunkPistoleer",
+    "clothing_oniForHire",
+    "hat_neonKitty"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "eye_brown",
+    "anatomicanis_brown",
+    "hand_samurai",
+    "clothing_nekoSpace"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_brawler",
+    "normal_black",
+    "hat_techSupport",
+    "hand_airForceOne",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_daredevilRed",
+    "clothing_pharoah",
+    "android_brown",
+    "hand_fireFighter"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "eye_red",
+    "clothing_gakusei",
+    "hat_pirateCaptainGreenRed",
+    "android_purple"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "hand_brainiac",
+    "hat_shikigami",
+    "normal_brown",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hand_dragonDancer",
+    "hat_pirateCaptainGreenRed",
+    "clothing_brainiac",
+    "anatomicanis_black"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "hand_brainiac",
+    "clothing_techSupport",
+    "hat_graffitiArtist",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "hat_dragonDancer",
+    "eye_purple",
+    "normal_red",
+    "hand_subnautica"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "normal_lightblue",
+    "clothing_cloneTrooper",
+    "hat_daredevilPurple",
+    "hand_fireFighter"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "android_grey",
+    "hand_AIDogboneBlack",
+    "clothing_brainiac",
+    "eye_heterochromia",
+    "hat_samurai"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_grey",
+    "hat_bombardier",
+    "eye_purple",
+    "hand_airForceOne",
+    "clothing_jiangshi"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_purple",
+    "clothing_bombardier",
+    "hat_astronautWhite",
+    "hand_techSupport",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_miniMe",
+    "normal_grey",
+    "clothing_neonDJ",
+    "eye_heterochromia",
+    "hat_streetNeonPunkYellow"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_shikigami",
+    "hat_pirateCaptainBlueOrange",
+    "normal_lightblue",
+    "hand_radiohead",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "eye_brown",
+    "anatomicanis_grey",
+    "hand_shikigami",
+    "hat_streetNeonPunkYellow"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_fireFighter",
+    "clothing_catstronaut",
+    "hand_sheriff",
+    "android_purple",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "anatomicanis_grey",
+    "hat_raver",
+    "clothing_santaClaus",
+    "hand_neonDJ"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_neonPunkPistoleerLightblue",
+    "clothing_raver",
+    "normal_black",
+    "hand_drip",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_bombardier",
+    "hand_shikigami",
+    "normal_red",
+    "eye_blue",
+    "hat_santaClaus"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "hat_santaClaus",
+    "eye_purple",
+    "hand_radiohead",
+    "clothing_graffitiArtist"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_samurai",
+    "eye_brown",
+    "hat_plumber",
+    "hand_daredevil",
+    "alien"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "clothing_sheriff",
+    "hand_drip",
+    "normal_green",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "eye_red",
+    "hat_neonPunkPistoleerYellow",
+    "hand_metro",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_raver",
+    "clothing_neonDJ",
+    "hand_radiohead",
+    "eye_blue",
+    "anatomicanis_green"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_lightblue",
+    "eye_purple",
+    "hat_neonPunkPistoleerPink",
+    "hand_raver",
+    "clothing_jiangshi"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_mecha",
+    "hat_samurai",
+    "normal_lightblue",
+    "hand_pirateCaptain",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "hat_dragonDancer",
+    "anatomicanis_brown",
+    "hand_fireFighter",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_miniMe",
+    "clothing_brawler",
+    "normal_purple",
+    "eye_purple",
+    "hat_sipherionTrainer"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "clothing_samurai",
+    "normal_grey",
+    "hand_dragonDancer",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_brawlerBrown",
+    "clothing_brainiac",
+    "hand_wastelander",
+    "normal_brown",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_cloneTrooper",
+    "clothing_daredevil",
+    "eye_red",
+    "hat_pirateCaptainGreenRed",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "eye_brown",
+    "clothing_daredevil",
+    "hand_sipherionTrainer",
+    "normal_purple"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_drip",
+    "anatomicanis_purple",
+    "hand_graffitiArtist",
+    "hat_subnautica",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "normal_purple",
+    "hat_nekoSpace",
+    "clothing_radiohead",
+    "hand_plumberBlue"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_sipherionTrainer",
+    "normal_lightblue",
+    "hand_graffitiArtist",
+    "hat_cloneTrooper",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_wastelander",
+    "clothing_wastelander",
+    "eye_purple",
+    "hand_shikigami",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "hat_pirateCaptainBlueOrange",
+    "normal_lightblue",
+    "hand_shikigami",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hand_AIDogboneWhite",
+    "normal_grey",
+    "hat_astronautWhite",
+    "clothing_miniMe"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "hat_omyogi",
+    "clothing_airForceOne",
+    "eye_heterochromia",
+    "alien"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_red",
+    "hat_nekoSpace",
+    "hand_samurai",
+    "eye_heterochromia",
+    "clothing_drip"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "eye_brown",
+    "normal_lightblue",
+    "clothing_astronautWhite",
+    "hand_fireFighter"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_oniForHire",
+    "clothing_wastelander",
+    "hat_omyogi",
+    "normal_green",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "android_red",
+    "hand_samurai",
+    "clothing_pharoah",
+    "eye_blue",
+    "hat_patissier"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hand_commando",
+    "anatomicanis_red",
+    "hat_neonPunkPistoleerPink",
+    "clothing_miniMe"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_metroLightblue",
+    "hand_AIDogboneBlack",
+    "clothing_plumber",
+    "eye_heterochromia",
+    "alien"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_dragonDancer",
+    "clothing_patissier",
+    "eye_purple",
+    "hat_omyogi",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "hat_mecha",
+    "normal_green",
+    "eye_heterochromia",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hand_neonKitty",
+    "hat_omyogi",
+    "clothing_nekoSpace",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "normal_grey",
+    "eye_red",
+    "hat_neonPunkPistoleerPink",
+    "clothing_graffitiArtist"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_grey",
+    "hand_sipherionTrainer",
+    "hat_maya",
+    "clothing_graffitiArtist",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_miniMe",
+    "anatomicanis_red",
+    "hat_pirateCaptainBlueOrange",
+    "clothing_dragonDancer",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_brainiac",
+    "clothing_airForceOne",
+    "hat_commando",
+    "normal_green",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "eye_purple",
+    "hat_daredevilRed",
+    "clothing_astronautRed",
+    "hand_plumberBlue"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "eye_brown",
+    "clothing_shikigami",
+    "hand_metro",
+    "anatomicanis_black"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hand_neonKitty",
+    "normal_lightblue",
+    "clothing_bombardier",
+    "hat_gakuseiYellow"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "clothing_santaClaus",
+    "hat_sipherionTrainer",
+    "eye_grey",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_techSupport",
+    "hand_catstronaut",
+    "normal_red",
+    "clothing_maya",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hand_airForceOne",
+    "clothing_pharoah",
+    "hat_pharoah",
+    "alien"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "eye_purple",
+    "clothing_metro",
+    "hand_techSupport",
+    "hat_pirateCaptainGreenRed",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "anatomicanis_grey",
+    "clothing_plumber",
+    "hand_fireFighter",
+    "hat_streetNeonPunkYellow"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "clothing_fireFighter",
+    "hand_commando",
+    "normal_purple",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_omyogi",
+    "hand_patissier",
+    "clothing_AIDogboneBlack",
+    "normal_red",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_plumber",
+    "eye_purple",
+    "hand_airForceOne",
+    "hat_sipherionTrainer",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hand_samurai",
+    "clothing_brainiac",
+    "normal_green",
+    "hat_samurai"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_brown",
+    "hand_sipherionTrainer",
+    "hat_miniMe",
+    "eye_grey",
+    "clothing_omyogi"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "clothing_oniForHire",
+    "hand_daredevil",
+    "eye_grey",
+    "alien"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "android_green",
+    "hat_bombardier",
+    "hand_patissier",
+    "clothing_jiangshi",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_daredevil",
+    "eye_red",
+    "hand_maya",
+    "hat_plumber",
+    "normal_lightblue"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_bombardier",
+    "normal_purple",
+    "hand_neonKitty",
+    "clothing_astronautWhite"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_brainiacYellow",
+    "eye_brown",
+    "clothing_brawler",
+    "normal_lightblue",
+    "hand_wastelander"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_samurai",
+    "eye_brown",
+    "hand_drip",
+    "normal_lightblue",
+    "hat_catstronaut"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_black",
+    "clothing_catstronaut",
+    "hat_maya",
+    "hand_astronautWhite"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_nativeAmerican",
+    "eye_brown",
+    "hat_AIDogboneWhite",
+    "normal_purple",
+    "clothing_metro"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "hat_omyogi",
+    "clothing_AIDogboneBlack",
+    "eye_blue",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "android_green",
+    "hand_plumberOrange",
+    "clothing_nekoSpace",
+    "hat_catstronaut",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "clothing_oniForHire",
+    "hand_patissier",
+    "hat_metroYellow",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_sipherionTrainer",
+    "hat_nativeAmerican",
+    "normal_red",
+    "clothing_nekoSpace",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_purple",
+    "clothing_techSupport",
+    "hand_metro",
+    "normal_brown",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_purple",
+    "hat_radiohead",
+    "clothing_sipherionTrainer",
+    "normal_red",
+    "hand_pharoah"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_nativeAmerican",
+    "eye_brown",
+    "clothing_daredevil",
+    "hat_nekoSpace",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_brainiac",
+    "normal_lightblue",
+    "eye_heterochromia",
+    "hat_pharoah",
+    "clothing_omyogi"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_lightblue",
+    "hand_radiohead",
+    "clothing_nekoSpace",
+    "hat_neonDJ"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "eye_purple",
+    "clothing_plumber",
+    "hand_fireFighter",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_neonPunkPistoleerLightblue",
+    "eye_red",
+    "hand_brainiac",
+    "clothing_astronautWhite",
+    "android_purple"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "clothing_pirateCaptainBlueOrange",
+    "hat_neonKitty",
+    "hand_omyogi",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_miniMe",
+    "eye_green",
+    "clothing_maya",
+    "hat_graffitiArtist",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "anatomicanis_red",
+    "hand_mechaSword",
+    "hat_cloneTrooper",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_brown",
+    "clothing_dragonDancer",
+    "eye_purple",
+    "hat_catstronaut",
+    "hand_neonDJ"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_samurai",
+    "eye_green",
+    "hand_gakusei",
+    "hat_miniMe",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_dragonDancer",
+    "eye_purple",
+    "hat_omyogi",
+    "android_black",
+    "hand_nekoSpace"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "normal_grey",
+    "clothing_bombardier",
+    "hand_astronautRed",
+    "hat_astronautRed"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "eye_brown",
+    "hand_graffitiArtist",
+    "normal_brown",
+    "hat_fireFighter"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "normal_grey",
+    "eye_purple",
+    "hat_samurai",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hand_plumberOrange",
+    "clothing_shikigami",
+    "android_red",
+    "hat_gakuseiYellow",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_techSupport",
+    "normal_purple",
+    "clothing_sipherionTrainer",
+    "hand_subnautica"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "hand_pharoah",
+    "clothing_oniForHire",
+    "hat_graffitiArtist",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hand_dragonDancer",
+    "normal_lightblue",
+    "hat_nativeAmerican",
+    "eye_blue",
+    "clothing_drip"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "eye_red",
+    "hat_raver",
+    "android_black",
+    "hand_astronautRed"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_sipherionTrainer",
+    "hand_metro",
+    "normal_red",
+    "hat_gakuseiYellow",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_plumber",
+    "hand_plumberOrange",
+    "eye_purple",
+    "normal_green",
+    "hat_astronautRed"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hand_sipherionTrainer",
+    "hat_pirateCaptainBlueOrange",
+    "normal_black",
+    "clothing_astronautWhite"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_neonDJ",
+    "eye_heterochromia",
+    "hand_neonPunkPistoleer",
+    "hat_neonDJ",
+    "alien"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_grey",
+    "clothing_sipherionTrainer",
+    "hand_astronautWhite",
+    "hat_metroYellow"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "clothing_wastelander",
+    "eye_brown",
+    "hand_AIDogboneBlack",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_lightblue",
+    "clothing_dragonDancer",
+    "hat_AIDogboneBlack",
+    "hand_brainiac",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_gakusei",
+    "eye_purple",
+    "hand_AIDogboneBlack",
+    "hat_neonKitty",
+    "anatomicanis_green"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_grey",
+    "hand_jiangshiBlue",
+    "clothing_cloneTrooper",
+    "hat_cloneTrooper"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "hand_metro",
+    "hat_shikigami",
+    "clothing_maya",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "hat_astronautWhite",
+    "clothing_neonKitty",
+    "eye_grey",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "clothing_AIDogboneWhite",
+    "normal_black",
+    "eye_blue",
+    "hat_cloneTrooper"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_brainiacRed",
+    "clothing_sipherionTrainer",
+    "anatomicanis_purple",
+    "hand_pirateCaptain"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "clothing_AIDogboneWhite",
+    "hand_drip",
+    "hat_subnautica",
+    "alien"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "normal_purple",
+    "clothing_cloneTrooper",
+    "hand_raver",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "eye_grey",
+    "clothing_neonPunkPistoleer",
+    "hand_techSupport",
+    "hat_subnautica"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_nativeAmerican",
+    "normal_purple",
+    "eye_purple",
+    "hat_catstronaut",
+    "clothing_plumber"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "eye_brown",
+    "hand_techSupport",
+    "hat_shikigami",
+    "alien"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_red",
+    "hand_maya",
+    "eye_grey",
+    "clothing_subnautica",
+    "hat_santaClaus"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "normal_purple",
+    "hand_brawler",
+    "hat_omyogi",
+    "clothing_maya",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_AIDogboneBlack",
+    "normal_lightblue",
+    "hand_techSupport",
+    "clothing_astronautRed"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_purple",
+    "clothing_bombardier",
+    "hat_nekoSpace",
+    "hand_fireFighter",
+    "alien"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hat_maya",
+    "hand_samurai",
+    "clothing_astronautWhite",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_streetNeonPunkLightblue",
+    "hand_graffitiArtist",
+    "normal_green",
+    "clothing_jiangshi"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_bombardier",
+    "hand_drip",
+    "eye_purple",
+    "normal_brown",
+    "clothing_drip"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_brawler",
+    "hand_sheriff",
+    "hat_nekoSpace",
+    "android_brown",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_gakuseiBlack",
+    "clothing_samurai",
+    "eye_brown",
+    "hand_brainiac",
+    "anatomicanis_green"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "normal_grey",
+    "hand_dragonDancer",
+    "hat_nekoSpace",
+    "clothing_subnautica"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_purple",
+    "clothing_bombardier",
+    "normal_red",
+    "hat_cloneTrooper",
+    "hand_omyogi"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_plumberOrange",
+    "normal_purple",
+    "eye_blue",
+    "hat_streetNeonPunkYellow",
+    "clothing_drip"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_brainiacRed",
+    "normal_lightblue",
+    "hand_airForceOne",
+    "clothing_miniMe",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_wastelander",
+    "clothing_daredevil",
+    "eye_red",
+    "hand_maya",
+    "normal_lightblue"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "normal_black",
+    "clothing_nativeAmerican",
+    "eye_blue",
+    "hand_pharoah"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_nativeAmerican",
+    "eye_brown",
+    "android_grey",
+    "clothing_miniMe",
+    "hat_fireFighter"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "clothing_pirateCaptainBlueOrange",
+    "hat_radiohead",
+    "hand_metro",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "eye_brown",
+    "normal_purple",
+    "hand_catstronaut",
+    "clothing_miniMe"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "eye_green",
+    "clothing_streetNeonPunk",
+    "hat_mecha",
+    "alien"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "hat_AIDogboneBlack",
+    "hand_techSupport",
+    "clothing_techSupport",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "hand_nativeAmerican",
+    "eye_red",
+    "clothing_graffitiArtist",
+    "anatomicanis_green"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_jiangshi",
+    "clothing_wastelander",
+    "eye_red",
+    "hand_patissier",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "normal_lightblue",
+    "hand_pharoah",
+    "eye_grey",
+    "hat_neonDJ",
+    "clothing_omyogi"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_streetNeonPunk",
+    "eye_red",
+    "hat_airForceOne",
+    "hand_neonKitty",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "clothing_nekoSpace",
+    "hat_shikigami",
+    "normal_red",
+    "hand_wastelander"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_neonDJ",
+    "normal_purple",
+    "hat_maya",
+    "hand_daredevil",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hand_commando",
+    "clothing_wastelander",
+    "normal_brown",
+    "hat_pharoah"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "normal_purple",
+    "clothing_cloneTrooper",
+    "hat_shikigami",
+    "hand_pharoah",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "clothing_pirateCaptainBlueOrange",
+    "hand_catstronaut",
+    "eye_purple",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_brown",
+    "hat_airForceOne",
+    "hand_streetNeonPunk",
+    "eye_blue",
+    "clothing_radiohead"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_miniMe",
+    "clothing_neonDJ",
+    "normal_green",
+    "hat_patissier",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "eye_brown",
+    "hat_pirateCaptainBlueOrange",
+    "hand_mechaSword",
+    "android_lightblue"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_metroPink",
+    "normal_purple",
+    "hand_graffitiArtist",
+    "clothing_astronautRed",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "normal_purple",
+    "hat_miniMe",
+    "hand_daredevil",
+    "clothing_astronautRed",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hat_mecha",
+    "clothing_metro",
+    "alien",
+    "hand_neonDJ"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "normal_black",
+    "hat_techSupport",
+    "clothing_oniForHire",
+    "hand_graffitiArtist"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hand_neonKitty",
+    "clothing_neonKitty",
+    "hat_graffitiArtist",
+    "alien"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_grey",
+    "hat_maya",
+    "clothing_AIDogboneBlack",
+    "hand_airForceOne"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hand_miniMe",
+    "normal_grey",
+    "clothing_metro",
+    "hat_cloneTrooper",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_miniMe",
+    "eye_purple",
+    "hat_radiohead",
+    "clothing_brainiac",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "anatomicanis_red",
+    "clothing_metro",
+    "eye_blue",
+    "hand_nekoSpace"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "eye_brown",
+    "hand_brawler",
+    "normal_green",
+    "clothing_plumber"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hand_sheriff",
+    "clothing_cloneTrooper",
+    "hat_cloneTrooper",
+    "normal_green",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "anatomicanis_brown",
+    "hand_patissier",
+    "hat_nekoSpace",
+    "clothing_subnautica"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_mecha",
+    "eye_red",
+    "normal_purple",
+    "hat_neonKitty",
+    "hand_pharoah"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "hat_samurai",
+    "normal_purple",
+    "hand_plumberBlue",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_sheriffBrown",
+    "normal_brown",
+    "clothing_oniForHire",
+    "hand_omyogi",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_streetNeonPunk",
+    "normal_purple",
+    "hand_nekoSpace",
+    "eye_heterochromia",
+    "hat_fireFighter"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "hat_mecha",
+    "hand_neonKitty",
+    "eye_purple",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "hand_maya",
+    "hat_AIDogboneWhite",
+    "normal_purple",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_mecha",
+    "eye_brown",
+    "hat_airForceOne",
+    "hand_radiohead",
+    "alien"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "normal_purple",
+    "hat_nativeAmerican",
+    "clothing_pharoah",
+    "hand_raver",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_neonDJ",
+    "normal_red",
+    "eye_blue",
+    "hat_gakuseiYellow",
+    "clothing_graffitiArtist"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_brainiacYellow",
+    "eye_purple",
+    "clothing_metro",
+    "hand_airForceOne",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_raver",
+    "clothing_neonDJ",
+    "normal_black",
+    "hand_techSupport",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "android_green",
+    "hand_plumberOrange",
+    "eye_blue",
+    "hat_neonKitty"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "normal_brown",
+    "hand_AIDogboneBlack",
+    "clothing_techSupport",
+    "hat_subnautica",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_dragonDancer",
+    "clothing_dragonDancer",
+    "eye_purple",
+    "hat_sipherionTrainer",
+    "android_purple"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hand_subnautica",
+    "normal_lightblue",
+    "hat_nativeAmerican",
+    "clothing_miniMe",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "clothing_daredevil",
+    "hat_miniMe",
+    "hand_radiohead",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "clothing_streetNeonPunk",
+    "hand_maya",
+    "eye_purple",
+    "hat_catstronaut"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "eye_red",
+    "normal_purple",
+    "hand_brawler",
+    "clothing_airForceOne"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_sheriff",
+    "normal_black",
+    "hat_radiohead",
+    "hand_radiohead",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_red",
+    "clothing_brawler",
+    "hand_streetNeonPunk",
+    "eye_purple",
+    "hat_graffitiArtist"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_grey",
+    "hand_mechaSword",
+    "eye_purple",
+    "clothing_cloneTrooper",
+    "hat_santaClaus"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_wastelander",
+    "eye_red",
+    "hat_techSupport",
+    "normal_purple",
+    "hand_sheriff"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "hand_cloneTrooper",
+    "eye_red",
+    "anatomicanis_purple",
+    "clothing_astronautWhite"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hat_patissier",
+    "normal_green",
+    "hand_nekoSpace",
+    "eye_heterochromia",
+    "clothing_jiangshi"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_cloneTrooper",
+    "eye_purple",
+    "normal_lightblue",
+    "hat_graffitiArtist",
+    "clothing_miniMe"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_oniForHire",
+    "normal_purple",
+    "eye_purple",
+    "clothing_techSupport",
+    "hat_sheriffBrown"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "clothing_patissier",
+    "hat_maya",
+    "hand_daredevil",
+    "android_purple"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "normal_purple",
+    "hat_plumber",
+    "clothing_airForceOne",
+    "eye_grey",
+    "hand_pirateCaptain"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "clothing_sheriff",
+    "hat_plumber",
+    "hand_sheriff",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_nativeAmerican",
+    "normal_lightblue",
+    "hand_metro",
+    "eye_blue",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hat_wastelander",
+    "clothing_streetNeonPunk",
+    "hand_AIDogboneWhite",
+    "normal_black",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_jiangshiRed",
+    "clothing_mecha",
+    "normal_grey",
+    "hat_AIDogboneBlack",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "hand_cloneTrooper",
+    "eye_red",
+    "normal_black",
+    "clothing_neonKitty"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_bombardier",
+    "normal_purple",
+    "clothing_AIDogboneBlack",
+    "hand_pirateCaptain",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hand_miniMe",
+    "clothing_mecha",
+    "hat_bombardier",
+    "normal_purple",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "hat_maya",
+    "normal_lightblue",
+    "eye_blue",
+    "hand_wastelander"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_gakusei",
+    "eye_purple",
+    "hat_commando",
+    "hand_raver",
+    "alien"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_santaClaus",
+    "clothing_techSupport",
+    "hand_pharoah",
+    "normal_brown",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "hat_airForceOne",
+    "normal_purple",
+    "eye_blue",
+    "hand_nekoSpace"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_wastelander",
+    "hand_airForceOne",
+    "hat_commando",
+    "normal_brown",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_airForceOne",
+    "normal_purple",
+    "hand_raver",
+    "eye_heterochromia",
+    "clothing_graffitiArtist"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_mecha",
+    "normal_black",
+    "hand_graffitiArtist",
+    "clothing_maya",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "hand_patissier",
+    "clothing_astronautRed",
+    "hat_sipherionTrainer",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hand_commando",
+    "hat_streetNeonPunkYellow",
+    "normal_brown",
+    "clothing_graffitiArtist"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_shikigami",
+    "normal_black",
+    "eye_grey",
+    "hand_pirateCaptain",
+    "hat_santaClaus"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_red",
+    "hand_drip",
+    "hat_graffitiArtist",
+    "clothing_plumber",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hand_neonPunkPistoleer",
+    "anatomicanis_purple",
+    "clothing_neonKitty",
+    "hat_samurai"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_streetNeonPunk",
+    "normal_brown",
+    "clothing_maya",
+    "hat_patissier",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "clothing_catstronaut",
+    "normal_lightblue",
+    "eye_heterochromia",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "android_green",
+    "clothing_streetNeonPunk",
+    "hand_sipherionTrainer",
+    "hat_gakuseiYellow",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_sheriff",
+    "normal_purple",
+    "hat_plumber",
+    "hand_patissier",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_jiangshi",
+    "hand_AIDogboneWhite",
+    "normal_green",
+    "clothing_plumber",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "clothing_daredevil",
+    "hat_graffitiArtist",
+    "alien",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_maya",
+    "eye_purple",
+    "hat_miniMe",
+    "clothing_maya",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_brown",
+    "hat_raver",
+    "clothing_airForceOne",
+    "hand_techSupport",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hand_cloneTrooper",
+    "eye_brown",
+    "hat_sipherionTrainer",
+    "clothing_radiohead",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "eye_red",
+    "clothing_nativeAmerican",
+    "hand_gakusei",
+    "normal_lightblue"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "eye_red",
+    "hand_catstronaut",
+    "hat_sheriffGrey",
+    "clothing_cloneTrooper"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "clothing_neonPunkPistoleer",
+    "hand_nekoSpace",
+    "eye_heterochromia",
+    "hat_pharoah"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "clothing_metro",
+    "hat_shikigami",
+    "hand_pharoah",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_AIDogboneWhite",
+    "clothing_pirateCaptainBlueOrange",
+    "normal_purple",
+    "hat_omyogi",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_wastelander",
+    "eye_brown",
+    "anatomicanis_grey",
+    "clothing_dragonDancer",
+    "hand_astronautWhite"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_mecha",
+    "eye_blue",
+    "hat_catstronaut",
+    "normal_green",
+    "hand_fireFighter"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_grey",
+    "hat_omyogi",
+    "hand_shikigami",
+    "clothing_omyogi"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_miniMe",
+    "eye_green",
+    "clothing_neonDJ",
+    "normal_black",
+    "hat_neonPunkPistoleerYellow"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_sheriffBrown",
+    "normal_lightblue",
+    "hand_omyogi",
+    "eye_heterochromia",
+    "clothing_jiangshi"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "clothing_streetNeonPunk",
+    "android_purple",
+    "hand_fireFighter",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_oniForHire",
+    "normal_red",
+    "hat_neonKitty",
+    "eye_heterochromia",
+    "clothing_drip"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hat_airForceOne",
+    "normal_purple",
+    "clothing_santaClaus",
+    "hand_neonDJ"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "clothing_commando",
+    "anatomicanis_red",
+    "hand_gakusei",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_subnautica",
+    "hat_brawlerGold",
+    "clothing_astronautRed",
+    "alien",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_metroPink",
+    "normal_lightblue",
+    "hand_techSupport",
+    "clothing_drip"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_AIDogboneWhite",
+    "clothing_wastelander",
+    "eye_brown",
+    "hat_radiohead",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hat_pirateCaptainBlueOrange",
+    "clothing_nekoSpace",
+    "hand_pharoah",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_shikigami",
+    "eye_red",
+    "hand_neonPunkPistoleer",
+    "hat_commando",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_sheriffBrown",
+    "hand_drip",
+    "clothing_santaClaus",
+    "eye_heterochromia",
+    "alien"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "clothing_gakusei",
+    "hand_graffitiArtist",
+    "eye_heterochromia",
+    "alien"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_streetNeonPunkLightblue",
+    "eye_grey",
+    "hand_graffitiArtist",
+    "clothing_radiohead",
+    "alien"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "eye_green",
+    "anatomicanis_lightblue",
+    "hand_mechaLightSword",
+    "clothing_santaClaus"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "normal_grey",
+    "clothing_catstronaut",
+    "eye_purple",
+    "hand_omyogi"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_wastelander",
+    "hand_neonKitty",
+    "clothing_gakusei",
+    "normal_green",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_samurai",
+    "eye_purple",
+    "normal_lightblue",
+    "hand_graffitiArtist",
+    "hat_santaClaus"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "clothing_miniMe",
+    "hand_patissier",
+    "hat_shikigami",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_daredevil",
+    "eye_purple",
+    "hat_plumber",
+    "hand_pirateCaptain",
+    "anatomicanis_green"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "eye_brown",
+    "clothing_wastelander",
+    "normal_purple",
+    "hat_catstronaut"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_brawler",
+    "normal_black",
+    "hand_metro",
+    "eye_grey",
+    "hat_fireFighter"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "hand_brawler",
+    "eye_purple",
+    "clothing_neonKitty",
+    "hat_graffitiArtist"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hand_oniForHire",
+    "hat_plumber",
+    "normal_red",
+    "clothing_jiangshi",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_bombardier",
+    "clothing_pirateCaptainGreenRed",
+    "normal_brown",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_pharoah",
+    "hat_patissier",
+    "hand_omyogi",
+    "alien",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_oniForHire",
+    "normal_black",
+    "clothing_nekoSpace",
+    "eye_blue",
+    "hat_samurai"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_neonDJ",
+    "normal_brown",
+    "clothing_metro",
+    "hand_AIDogboneBlack",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hand_sipherionTrainer",
+    "clothing_bombardier",
+    "normal_brown",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_AIDogboneWhite",
+    "eye_brown",
+    "normal_black",
+    "clothing_techSupport",
+    "hat_sipherionTrainer"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_AIDogboneWhite",
+    "android_grey",
+    "eye_purple",
+    "hat_miniMe",
+    "hand_metro"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_jiangshiRed",
+    "anatomicanis_purple",
+    "hat_neonDJ",
+    "clothing_jiangshi",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "hat_techSupport",
+    "normal_red",
+    "hand_raver",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_dragonDancer",
+    "hand_drip",
+    "hat_sipherionTrainer",
+    "eye_grey",
+    "anatomicanis_green"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_brawlerGrey",
+    "normal_lightblue",
+    "hand_daredevil",
+    "clothing_maya",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "clothing_shikigami",
+    "eye_purple",
+    "hat_maya",
+    "hand_subnautica"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "eye_purple",
+    "hat_miniMe",
+    "hand_techSupport",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "anatomicanis_purple",
+    "clothing_cloneTrooper",
+    "hat_subnautica",
+    "hand_neonDJ"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hand_drip",
+    "normal_lightblue",
+    "hat_pirateCaptainGreenRed",
+    "clothing_pirateCaptainGreenRed"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_neonPunkPistoleer",
+    "clothing_cloneTrooper",
+    "eye_blue",
+    "normal_green",
+    "hat_astronautRed"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_purple",
+    "clothing_bombardier",
+    "hat_sheriffGrey",
+    "hand_radiohead",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hand_drip",
+    "hat_radiohead",
+    "clothing_oniForHire",
+    "android_black"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_techSupport",
+    "eye_blue",
+    "android_purple",
+    "clothing_santaClaus",
+    "hand_subnautica"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_nativeAmerican",
+    "eye_purple",
+    "hat_catstronaut",
+    "clothing_miniMe",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "clothing_nativeAmerican",
+    "hand_neonPunkPistoleer",
+    "hat_astronautRed",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "clothing_AIDogboneWhite",
+    "hat_brawlerBrown",
+    "hand_graffitiArtist",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "clothing_brawler",
+    "hand_gakusei",
+    "eye_blue",
+    "hat_neonKitty"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_samurai",
+    "hand_miniMe",
+    "anatomicanis_red",
+    "hat_radiohead",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_red",
+    "clothing_gakusei",
+    "eye_purple",
+    "hat_astronautWhite",
+    "hand_fireFighter"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "android_grey",
+    "eye_purple",
+    "hat_radiohead",
+    "hand_radiohead",
+    "clothing_maya"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "eye_brown",
+    "normal_grey",
+    "hand_maya",
+    "hat_neonPunkPistoleerPink"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_gakuseiBlack",
+    "clothing_brawler",
+    "eye_red",
+    "normal_lightblue",
+    "hand_fireFighter"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "hand_patissier",
+    "clothing_pharoah",
+    "hat_sipherionTrainer",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_samurai",
+    "eye_green",
+    "hand_streetNeonPunk",
+    "android_purple",
+    "hat_subnautica"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "clothing_oniForHire",
+    "hand_sheriff",
+    "hat_sheriffGrey",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "normal_grey",
+    "hand_astronautRed",
+    "hat_graffitiArtist",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hat_santaClaus",
+    "eye_red",
+    "normal_red",
+    "hand_wastelander",
+    "clothing_drip"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_nativeAmerican",
+    "hand_neonKitty",
+    "eye_amber",
+    "hat_astronautRed",
+    "anatomicanis_black"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_lightblue",
+    "hand_neonPunkPistoleer",
+    "clothing_cloneTrooper",
+    "hat_shikigami",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_airForceOne",
+    "anatomicanis_purple",
+    "hand_patissier",
+    "clothing_neonKitty",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_brainiacRed",
+    "eye_purple",
+    "anatomicanis_purple",
+    "clothing_bombardier",
+    "hand_metro"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_patissier",
+    "normal_purple",
+    "hat_astronautWhite",
+    "hand_daredevil",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hat_bombardier",
+    "hand_graffitiArtist",
+    "android_lightblue",
+    "clothing_santaClaus"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "hand_sipherionTrainer",
+    "eye_purple",
+    "normal_red",
+    "hat_metroYellow"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_sheriff",
+    "hat_airForceOne",
+    "hand_streetNeonPunk",
+    "normal_brown",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "normal_purple",
+    "hat_omyogi",
+    "clothing_neonPunkPistoleer",
+    "hand_pharoah",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_neonPunkPistoleerLightblue",
+    "eye_green",
+    "hand_maya",
+    "normal_purple",
+    "clothing_brainiac"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_miniMe",
+    "anatomicanis_grey",
+    "hat_raver",
+    "eye_purple",
+    "clothing_neonPunkPistoleer"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "eye_green",
+    "normal_purple",
+    "clothing_oniForHire",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hand_neonKitty",
+    "normal_lightblue",
+    "hat_commando",
+    "clothing_miniMe"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "clothing_pirateCaptainBlueOrange",
+    "hand_neonPunkPistoleer",
+    "android_purple",
+    "hat_fireFighter"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_brown",
+    "eye_purple",
+    "hat_plumber",
+    "hand_techSupport",
+    "clothing_pharoah"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_lightblue",
+    "eye_red",
+    "hand_drip",
+    "hat_pirateCaptainGreenRed",
+    "clothing_nekoSpace"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "android_green",
+    "eye_red",
+    "hat_pirateCaptainGreenRed",
+    "hand_nekoSpace",
+    "clothing_omyogi"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hat_mecha",
+    "normal_purple",
+    "hand_brawler",
+    "clothing_cloneTrooper",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "hat_pirateCaptainGreenRed",
+    "eye_blue",
+    "clothing_maya",
+    "alien"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_oniForHire",
+    "hat_sipherionTrainer",
+    "clothing_nekoSpace",
+    "android_brown",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_maya",
+    "android_black",
+    "clothing_miniMe",
+    "eye_heterochromia",
+    "hat_samurai"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "normal_purple",
+    "clothing_oniForHire",
+    "hat_graffitiArtist",
+    "hand_fireFighter"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "clothing_mecha",
+    "normal_purple",
+    "hand_catstronaut",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "eye_brown",
+    "clothing_mecha",
+    "normal_purple",
+    "hand_omyogi"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "normal_grey",
+    "hand_sipherionTrainer",
+    "hat_raver",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "hat_brawlerBrown",
+    "hand_mechaLightSword",
+    "eye_purple",
+    "clothing_oniForHire"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_raver",
+    "normal_black",
+    "hand_brainiac",
+    "clothing_pharoah",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_AIDogboneWhite",
+    "normal_black",
+    "hand_drip",
+    "eye_heterochromia",
+    "clothing_subnautica"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_oniForHire",
+    "clothing_nekoSpace",
+    "hat_graffitiArtist",
+    "normal_green",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_AIDogboneWhite",
+    "eye_purple",
+    "hat_miniMe",
+    "hand_radiohead",
+    "alien"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_streetNeonPunkLightblue",
+    "normal_black",
+    "eye_purple",
+    "hand_graffitiArtist",
+    "clothing_radiohead"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_mechaSword",
+    "hat_bombardier",
+    "normal_red",
+    "clothing_nekoSpace",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "hat_raver",
+    "hand_graffitiArtist",
+    "eye_grey",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "hand_neonPunkPistoleer",
+    "android_red",
+    "eye_blue",
+    "clothing_plumber"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "normal_purple",
+    "hand_sheriff",
+    "clothing_brainiac",
+    "hat_metroYellow",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_jiangshiRed",
+    "normal_grey",
+    "eye_red",
+    "clothing_nativeAmerican",
+    "hat_neonPunkPistoleerPink"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_raver",
+    "clothing_subnautica",
+    "hand_graffitiArtist",
+    "eye_grey",
+    "alien"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "android_green",
+    "clothing_pirateCaptainBlueOrange",
+    "hand_daredevil",
+    "eye_heterochromia",
+    "hat_samurai"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_neonPunkPistoleerPink",
+    "hand_graffitiArtist",
+    "eye_blue",
+    "clothing_pirateCaptainGreenRed",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_gakuseiBlack",
+    "eye_red",
+    "normal_black",
+    "clothing_metro",
+    "hand_raver"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_AIDogboneWhite",
+    "hand_drip",
+    "normal_purple",
+    "eye_amber",
+    "clothing_omyogi"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "clothing_pirateCaptainBlueOrange",
+    "eye_heterochromia",
+    "normal_brown",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "clothing_patissier",
+    "hand_streetNeonPunk",
+    "hat_techSupport",
+    "android_lightblue"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_wastelander",
+    "normal_red",
+    "eye_blue",
+    "clothing_maya",
+    "hand_pirateCaptain"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "clothing_daredevil",
+    "hat_santaClaus",
+    "hand_AIDogboneBlack",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "eye_green",
+    "normal_black",
+    "hand_neonKitty",
+    "clothing_airForceOne"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "normal_purple",
+    "hat_nekoSpace",
+    "hand_raver",
+    "clothing_jiangshi",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_mechaSword",
+    "eye_purple",
+    "clothing_metro",
+    "hat_shikigami",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_miniMe",
+    "eye_red",
+    "hand_astronautRed",
+    "hat_subnautica",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "anatomicanis_brown",
+    "clothing_patissier",
+    "hand_omyogi",
+    "hat_fireFighter"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "clothing_raver",
+    "eye_red",
+    "hat_subnautica",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_oniForHire",
+    "hand_AIDogboneWhite",
+    "clothing_raver",
+    "eye_grey",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_cloneTrooper",
+    "eye_red",
+    "normal_black",
+    "hat_techSupport",
+    "clothing_oniForHire"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_dragonDancer",
+    "hand_plumberOrange",
+    "clothing_metro",
+    "android_lightblue"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_oniForHire",
+    "eye_red",
+    "hat_cloneTrooper",
+    "clothing_miniMe",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_purple",
+    "clothing_bombardier",
+    "hand_daredevil",
+    "normal_brown",
+    "hat_santaClaus"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_grey",
+    "hat_airForceOne",
+    "clothing_neonKitty",
+    "hand_nekoSpace"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_neonPunkPistoleer",
+    "normal_lightblue",
+    "clothing_astronautRed",
+    "hat_metroYellow",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hand_cloneTrooper",
+    "clothing_nativeAmerican",
+    "normal_purple",
+    "hat_streetNeonPunkYellow"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "eye_purple",
+    "hat_shikigami",
+    "hand_fireFighter",
+    "clothing_omyogi"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "hand_cloneTrooper",
+    "normal_grey",
+    "hat_maya",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_gakuseiBlack",
+    "clothing_raver",
+    "eye_red",
+    "hand_graffitiArtist",
+    "android_purple"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "clothing_neonDJ",
+    "normal_black",
+    "hat_miniMe",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "eye_green",
+    "clothing_metro",
+    "hand_daredevil",
+    "alien"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "clothing_pirateCaptainBlueOrange",
+    "hat_brawlerGold",
+    "hand_radiohead",
+    "eye_grey"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hat_maya",
+    "normal_lightblue",
+    "clothing_pharoah",
+    "hand_santaClaus"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "normal_purple",
+    "hand_fireFighter",
+    "eye_grey",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_gakusei",
+    "hat_radiohead",
+    "normal_lightblue",
+    "hand_graffitiArtist",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_drip",
+    "anatomicanis_grey",
+    "clothing_patissier",
+    "hand_streetNeonPunk",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_neonPunkPistoleerYellow",
+    "normal_purple",
+    "hand_techSupport",
+    "clothing_nekoSpace",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_techSupport",
+    "hat_sheriffGrey",
+    "android_purple",
+    "eye_heterochromia",
+    "clothing_jiangshi"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "normal_grey",
+    "hat_AIDogboneBlack",
+    "hand_streetNeonPunk",
+    "clothing_nekoSpace",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hand_graffitiArtist",
+    "clothing_pirateCaptainGreenRed",
+    "hat_sipherionTrainer",
+    "eye_grey",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hat_fireFighter",
+    "hand_shikigami",
+    "normal_green",
+    "clothing_omyogi"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hat_airForceOne",
+    "clothing_patissier",
+    "hand_graffitiArtist",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_airForceOne",
+    "eye_purple",
+    "hand_samurai",
+    "android_lightblue",
+    "clothing_brainiac"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hand_streetNeonPunk",
+    "normal_lightblue",
+    "clothing_cloneTrooper",
+    "hat_graffitiArtist"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "clothing_brainiac",
+    "hand_pharoah",
+    "normal_brown",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "clothing_wastelander",
+    "normal_green",
+    "hat_catstronaut",
+    "hand_raver"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "clothing_daredevil",
+    "normal_purple",
+    "eye_blue",
+    "hat_neonDJ"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_grey",
+    "clothing_sheriff",
+    "hand_astronautRed",
+    "eye_grey",
+    "hat_neonDJ"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_purple",
+    "clothing_airForceOne",
+    "hand_airForceOne",
+    "hat_sipherionTrainer",
+    "alien"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hat_plumber",
+    "clothing_techSupport",
+    "hand_samurai",
+    "normal_red",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_bombardier",
+    "eye_brown",
+    "hat_raver",
+    "clothing_drip",
+    "anatomicanis_black"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_purple",
+    "hand_brainiac",
+    "hat_brainiacRed",
+    "clothing_maya"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hat_radiohead",
+    "normal_lightblue",
+    "hand_shikigami",
+    "clothing_pirateCaptainGreenRed"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_raver",
+    "eye_brown",
+    "hat_gakuseiYellow",
+    "hand_pharoah",
+    "alien"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_AIDogboneWhite",
+    "clothing_AIDogboneWhite",
+    "hat_radiohead",
+    "normal_brown",
+    "eye_heterochromia"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_cloneTrooper",
+    "eye_red",
+    "clothing_patissier",
+    "anatomicanis_purple",
+    "hat_sheriffBrown"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_fireFighter",
+    "clothing_neonDJ",
+    "normal_purple",
+    "hand_santaClaus",
+    "eye_amber"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "eye_green",
+    "hat_pirateCaptainBlueOrange",
+    "normal_black",
+    "hand_shikigami"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_neonDJ",
+    "hand_samurai",
+    "hat_subnautica",
+    "eye_heterochromia",
+    "anatomicanis_black"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_dragonDancer",
+    "normal_purple",
+    "clothing_cloneTrooper",
+    "hand_metro",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "eye_red",
+    "hand_neonKitty",
+    "hat_subnautica",
+    "alien"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_patissier",
+    "hat_brawlerGold",
+    "normal_red",
+    "eye_grey",
+    "clothing_drip"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_mecha",
+    "normal_grey",
+    "eye_red",
+    "hat_brawlerGrey",
+    "hand_shikigami"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_radiohead",
+    "hat_sipherionTrainer",
+    "eye_grey",
+    "normal_brown",
+    "clothing_graffitiArtist"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_subnautica",
+    "eye_amber",
+    "hat_shikigami",
+    "hand_commando",
+    "normal_black"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_omyogi",
+    "clothing_fireFighter",
+    "hand_plumberBlue",
+    "eye_purple",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "android_grey",
+    "hat_airForceOne",
+    "eye_heterochromia",
+    "hand_metro",
+    "clothing_pirateCaptainBlueOrange"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "hand_bombardier",
+    "clothing_commando",
+    "hat_astronautWhite",
+    "normal_grey"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_neonKitty",
+    "clothing_miniMe",
+    "normal_grey",
+    "eye_blue",
+    "hand_cloneTrooper"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_astronautWhite",
+    "anatomicanis_lightblue",
+    "clothing_pirateCaptainGreenRed",
+    "eye_green",
+    "hat_techSupport"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "hat_sheriffBrown",
+    "hand_commando",
+    "anatomicanis_brown",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "normal_lightblue",
+    "hand_nekoSpace",
+    "eye_brown",
+    "clothing_shikigami",
+    "hat_samurai"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_dragonDancer",
+    "eye_purple",
+    "hand_pirateCaptain",
+    "normal_brown",
+    "hat_oniForHire"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_sheriffGrey",
+    "eye_red",
+    "normal_grey",
+    "hand_daredevil",
+    "clothing_nativeAmerican"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_sipherionTrainer",
+    "hand_airForceOne",
+    "eye_grey",
+    "clothing_streetNeonPunk",
+    "normal_purple"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_nativeAmerican",
+    "hand_metro",
+    "hat_fireFighter",
+    "eye_purple",
+    "normal_lightblue"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_catstronaut",
+    "clothing_plumber",
+    "eye_blue",
+    "normal_purple",
+    "hand_neonPunkPistoleer"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "normal_brown",
+    "eye_amber",
+    "hat_airForceOne",
+    "hand_astronautRed",
+    "clothing_bombardier"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_samurai",
+    "normal_red",
+    "hand_subnautica",
+    "eye_blue",
+    "clothing_subnautica"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hat_catstronaut",
+    "hand_fireFighter",
+    "normal_grey",
+    "clothing_neonDJ"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_patissier",
+    "eye_amber",
+    "hand_omyogi",
+    "hat_nekoSpace",
+    "anatomicanis_grey"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_brawler",
+    "hat_dragonDancer",
+    "hand_neonDJ",
+    "eye_red",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_samurai",
+    "eye_amber",
+    "normal_red",
+    "hand_cloneTrooper",
+    "clothing_jiangshi"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hand_mechaSword",
+    "hat_omyogi",
+    "normal_lightblue",
+    "clothing_techSupport"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "normal_black",
+    "hat_plumber",
+    "eye_grey",
+    "clothing_fireFighter",
+    "hand_neonPunkPistoleer"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_patissier",
+    "eye_red",
+    "hat_drip",
+    "hand_dragonDancer",
+    "normal_lightblue"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hat_gakuseiYellow",
+    "hand_patissier",
+    "normal_green",
+    "clothing_graffitiArtist"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_nativeAmerican",
+    "eye_red",
+    "hat_brawlerGold",
+    "hand_drip",
+    "android_grey"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hand_bombardier",
+    "anatomicanis_lightblue",
+    "hat_brainiacRed",
+    "clothing_techSupport"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "normal_red",
+    "clothing_pharoah",
+    "hand_astronautWhite",
+    "hat_graffitiArtist"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "normal_brown",
+    "clothing_drip",
+    "eye_heterochromia",
+    "hat_nekoSpace",
+    "hand_wastelander"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_pirateCaptainBlueOrange",
+    "eye_grey",
+    "hat_drip",
+    "normal_green",
+    "hand_daredevil"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_metroPink",
+    "eye_heterochromia",
+    "normal_purple",
+    "hand_daredevil",
+    "clothing_omyogi"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_maya",
+    "normal_black",
+    "hand_streetNeonPunk",
+    "eye_purple",
+    "clothing_gakusei"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "hand_metro",
+    "hat_omyogi",
+    "clothing_daredevil",
+    "normal_black"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hand_catstronaut",
+    "clothing_brainiac",
+    "eye_grey",
+    "normal_lightblue",
+    "hat_oniForHire"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_streetNeonPunk",
+    "clothing_graffitiArtist",
+    "android_purple",
+    "hat_pirateCaptainBlueOrange",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_red",
+    "clothing_samurai",
+    "hat_samurai",
+    "hand_astronautWhite",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "normal_green",
+    "hand_santaClaus",
+    "clothing_raver",
+    "hat_raver"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_maya",
+    "clothing_fireFighter",
+    "normal_brown",
+    "hand_daredevil",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_subnautica",
+    "normal_purple",
+    "hat_subnautica",
+    "eye_blue",
+    "clothing_oniForHire"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_cloneTrooper",
+    "android_brown",
+    "hat_oniForHire",
+    "eye_purple",
+    "hand_plumberOrange"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_brainiac",
+    "hat_airForceOne",
+    "eye_grey",
+    "normal_green",
+    "clothing_nativeAmerican"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "normal_green",
+    "hand_pharoah",
+    "clothing_neonKitty",
+    "hat_brainiacYellow"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_wastelander",
+    "clothing_neonDJ",
+    "normal_lightblue",
+    "hat_drip",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_samurai",
+    "normal_purple",
+    "eye_blue",
+    "hat_wastelander",
+    "hand_fireFighter"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hand_metro",
+    "hat_subnautica",
+    "normal_green",
+    "eye_purple",
+    "clothing_santaClaus"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_dragonDancer",
+    "eye_green",
+    "normal_purple",
+    "clothing_daredevil",
+    "hat_cloneTrooper"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "normal_brown",
+    "hand_sipherionTrainer",
+    "clothing_maya",
+    "hat_subnautica"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_brawlerGold",
+    "hand_streetNeonPunk",
+    "eye_grey",
+    "clothing_pirateCaptainBlueOrange",
+    "anatomicanis_purple"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "clothing_miniMe",
+    "hat_techSupport",
+    "normal_grey",
+    "hand_brawler"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "hand_maya",
+    "hat_pharoah",
+    "clothing_daredevil",
+    "normal_grey"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_miniMe",
+    "normal_lightblue",
+    "hand_airForceOne",
+    "eye_blue",
+    "clothing_nativeAmerican"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hat_miniMe",
+    "normal_green",
+    "hand_jiangshiPurple",
+    "clothing_neonKitty"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "clothing_neonDJ",
+    "hand_neonDJ",
+    "hat_metroPink",
+    "android_red"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "hand_graffitiArtist",
+    "hat_brainiacRed",
+    "eye_purple",
+    "android_grey"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_raver",
+    "clothing_daredevil",
+    "anatomicanis_black",
+    "eye_purple",
+    "hat_jiangshi"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_airForceOne",
+    "clothing_pirateCaptainGreenRed",
+    "hand_nativeAmerican",
+    "normal_red",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "hat_neonKitty",
+    "clothing_miniMe",
+    "hand_daredevil",
+    "normal_black"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "hat_neonKitty",
+    "hand_sipherionTrainer",
+    "normal_lightblue",
+    "clothing_oniForHire"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_red",
+    "eye_grey",
+    "clothing_dragonDancer",
+    "hand_miniMe",
+    "hat_mecha"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_grey",
+    "hat_miniMe",
+    "hand_shikigami",
+    "normal_green",
+    "clothing_patissier"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_grey",
+    "normal_lightblue",
+    "clothing_dragonDancer",
+    "hand_airForceOne",
+    "hat_dragonDancer"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_commando",
+    "hat_nekoSpace",
+    "hand_graffitiArtist",
+    "eye_red",
+    "normal_brown"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "android_lightblue",
+    "eye_green",
+    "hat_AIDogboneWhite",
+    "hand_samurai",
+    "clothing_patissier"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_red",
+    "clothing_radiohead",
+    "eye_grey",
+    "hand_sipherionTrainer",
+    "hat_cloneTrooper"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "hand_airForceOne",
+    "hat_drip",
+    "clothing_nativeAmerican",
+    "android_red"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "hat_airForceOne",
+    "eye_brown",
+    "alien",
+    "hand_pharoah",
+    "clothing_oniForHire"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hand_streetNeonPunk",
+    "clothing_AIDogboneWhite",
+    "anatomicanis_black",
+    "hat_bombardier"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_astronautRed",
+    "hand_maya",
+    "eye_grey",
+    "normal_brown",
+    "clothing_neonKitty"
+   ],
+   "bg": [
+    "bg_nativeAmerican",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "normal_lightblue",
+    "hat_dragonDancer",
+    "clothing_jiangshi",
+    "hand_techSupport"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_green",
+    "hand_cloneTrooper",
+    "normal_lightblue",
+    "hat_cloneTrooper",
+    "clothing_patissier"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_gakusei",
+    "hat_neonKitty",
+    "normal_brown",
+    "hand_cloneTrooper",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "hand_gakusei",
+    "normal_green",
+    "clothing_plumber",
+    "hat_raver"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "normal_brown",
+    "clothing_daredevil",
+    "hand_drip",
+    "hat_cloneTrooper"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "clothing_pharoah",
+    "hand_drip",
+    "android_grey",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_sipherionTrainer",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hat_daredevilPurple",
+    "clothing_brainiac",
+    "hand_streetNeonPunk",
+    "normal_brown",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "clothing_mecha",
+    "normal_brown",
+    "hand_miniMe",
+    "hat_techSupport"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_gakusei",
+    "eye_brown",
+    "normal_brown",
+    "hand_brawler",
+    "hat_cloneTrooper"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_fireFighter",
+    "eye_grey",
+    "normal_lightblue",
+    "hand_astronautWhite",
+    "clothing_metro"
+   ],
+   "bg": [
+    "bg_metro",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_cloneTrooper",
+    "clothing_astronautWhite",
+    "anatomicanis_purple",
+    "eye_purple",
+    "hat_bombardier"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hat_maya",
+    "eye_green",
+    "hand_astronautRed",
+    "clothing_pharoah",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_commando",
+    "eye_green",
+    "normal_lightblue",
+    "hand_drip",
+    "clothing_santaClaus"
+   ],
+   "bg": [
+    "bg_none",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "hand_wastelander",
+    "clothing_mecha",
+    "normal_lightblue",
+    "hat_wastelander"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_shikigami",
+    "normal_lightblue",
+    "hand_shikigami",
+    "clothing_graffitiArtist",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_radiohead",
+    "hand_shikigami",
+    "hat_AIDogboneWhite",
+    "eye_blue",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_brainiac",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "hat_commando",
+    "eye_brown",
+    "clothing_omyogi",
+    "normal_purple"
+   ],
+   "bg": [
+    "bg_nekoSpace",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hat_radiohead",
+    "clothing_graffitiArtist",
+    "hand_techSupport",
+    "normal_grey"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "hat_santaClaus",
+    "clothing_catstronaut",
+    "hand_daredevil",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_fireFighter",
+    "eye_red",
+    "normal_brown",
+    "hat_brainiacPurple",
+    "hand_neonPunkPistoleer"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "hand_subnautica",
+    "hat_mecha",
+    "clothing_jiangshi",
+    "normal_black"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_wastelander",
+    "hat_fireFighter",
+    "clothing_maya",
+    "normal_lightblue",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_wastelander",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_bombardier",
+    "eye_green",
+    "hand_pirateCaptain",
+    "normal_red",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hat_subnautica",
+    "hand_miniMe",
+    "anatomicanis_black",
+    "clothing_plumber"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hand_dragonDancer",
+    "eye_brown",
+    "hat_neonKitty",
+    "normal_lightblue",
+    "clothing_patissier"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "normal_brown",
+    "clothing_graffitiArtist",
+    "hand_daredevil",
+    "eye_purple",
+    "hat_nativeAmerican"
+   ],
+   "bg": [
+    "bg_sheriff",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "hat_daredevilPurple",
+    "hand_mechaLightSword",
+    "clothing_AIDogboneWhite",
+    "eye_blue",
+    "normal_grey"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "hand_dragonDancer",
+    "eye_green",
+    "android_green",
+    "hat_catstronaut",
+    "clothing_catstronaut"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "anatomicanis_brown",
+    "clothing_omyogi",
+    "hat_jiangshi",
+    "hand_bombardier"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_02"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_bombardier",
+    "hand_maya",
+    "eye_green",
+    "normal_green",
+    "hat_brawlerGrey"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_airForceOne",
+    "hat_graffitiArtist",
+    "normal_green",
+    "clothing_sheriff",
+    "eye_blue"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hat_pharoah",
+    "normal_lightblue",
+    "clothing_metro",
+    "hand_sheriff"
+   ],
+   "bg": [
+    "bg_patissier",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_neonDJ",
+    "eye_red",
+    "hand_shikigami",
+    "anatomicanis_green",
+    "hat_oniForHire"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "alien",
+    "hat_patissier",
+    "clothing_plumber",
+    "hand_neonPunkPistoleer"
+   ],
+   "bg": [
+    "bg_pharoah",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "hat_wastelander",
+    "clothing_omyogi",
+    "anatomicanis_green",
+    "hand_drip"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hat_streetNeonPunkLightblue",
+    "eye_grey",
+    "hand_airForceOne",
+    "normal_red",
+    "clothing_neonKitty"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "clothing_samurai",
+    "hand_catstronaut",
+    "hat_pharoah",
+    "normal_purple"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "hat_airForceOne",
+    "hand_omyogi",
+    "normal_green",
+    "clothing_streetNeonPunk"
+   ],
+   "bg": [
+    "bg_neonPunkPistoleer",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_neonDJ",
+    "eye_green",
+    "anatomicanis_grey",
+    "hat_daredevilRed",
+    "clothing_airForceOne"
+   ],
+   "bg": [
+    "bg_gakusei",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "hat_shikigami",
+    "eye_amber",
+    "clothing_AIDogboneBlack",
+    "hand_techSupport",
+    "normal_black"
+   ],
+   "bg": [
+    "bg_graffitiArtist",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_maya",
+    "hat_catstronaut",
+    "hand_samurai",
+    "normal_red",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_samurai",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "normal_grey",
+    "hat_omyogi",
+    "hand_pharoah",
+    "clothing_airForceOne"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "alien",
+    "hat_streetNeonPunkLightblue",
+    "hand_oniForHire",
+    "clothing_nativeAmerican"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_neonDJ",
+    "hat_samurai",
+    "android_brown",
+    "eye_purple",
+    "hand_sheriff"
+   ],
+   "bg": [
+    "bg_fireFighter",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hat_pirateCaptainGreenRed",
+    "normal_purple",
+    "eye_red",
+    "hand_plumberBlue",
+    "clothing_wastelander"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "anatomicanis_brown",
+    "hat_streetNeonPunkLightblue",
+    "hand_pharoah",
+    "clothing_santaClaus"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "hand_nekoSpace",
+    "normal_green",
+    "clothing_catstronaut",
+    "eye_purple",
+    "hat_bombardier"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_01"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "hand_streetNeonPunk",
+    "hat_neonKitty",
+    "clothing_shikigami",
+    "normal_red"
+   ],
+   "bg": [
+    "bg_daredevil",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "hat_nekoSpace",
+    "clothing_AIDogboneBlack",
+    "hand_pirateCaptain",
+    "normal_red",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_sipherionTrainer",
+    "hand_neonDJ",
+    "eye_red",
+    "hat_subnautica",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_cloneTrooper",
+    "eye_green",
+    "hand_shikigami",
+    "normal_grey",
+    "hat_patissier"
+   ],
+   "bg": [
+    "bg_airForceOne",
+    "solid_06"
+   ]
+  },
+  {
+   "dna": [
+    "hand_commando",
+    "clothing_brainiac",
+    "hat_pharoah",
+    "eye_grey",
+    "normal_green"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_09"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_brown",
+    "eye_red",
+    "hat_drip",
+    "clothing_graffitiArtist",
+    "hand_brawler"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_07"
+   ]
+  },
+  {
+   "dna": [
+    "hand_brainiac",
+    "eye_red",
+    "normal_lightblue",
+    "hat_catstronaut",
+    "clothing_plumber"
+   ],
+   "bg": [
+    "bg_catstronaut",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_brown",
+    "hat_plumber",
+    "clothing_AIDogboneWhite",
+    "anatomicanis_grey",
+    "hand_pharoah"
+   ],
+   "bg": [
+    "bg_brawler",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_commando",
+    "hand_patissier",
+    "normal_grey",
+    "eye_purple",
+    "clothing_santaClaus"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "clothing_gakusei",
+    "eye_red",
+    "hat_radiohead",
+    "anatomicanis_purple",
+    "hand_neonPunkPistoleer"
+   ],
+   "bg": [
+    "bg_oniForHire",
+    "solid_05"
+   ]
+  },
+  {
+   "dna": [
+    "eye_amber",
+    "clothing_sipherionTrainer",
+    "hat_sheriffGrey",
+    "normal_purple",
+    "hand_gakusei"
+   ],
+   "bg": [
+    "bg_santaClaus",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "alien",
+    "hand_neonDJ",
+    "hat_radiohead",
+    "clothing_daredevil"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "eye_heterochromia",
+    "clothing_brawler",
+    "hand_santaClaus",
+    "anatomicanis_purple",
+    "hat_oniForHire"
+   ],
+   "bg": [
+    "bg_drip",
+    "solid_10"
+   ]
+  },
+  {
+   "dna": [
+    "anatomicanis_lightblue",
+    "hand_cloneTrooper",
+    "clothing_metro",
+    "hat_brawlerGrey",
+    "eye_purple"
+   ],
+   "bg": [
+    "bg_plumber",
+    "solid_08"
+   ]
+  },
+  {
+   "dna": [
+    "eye_red",
+    "hand_daredevil",
+    "anatomicanis_purple",
+    "clothing_drip",
+    "hat_raver"
+   ],
+   "bg": [
+    "bg_miniMe",
+    "solid_04"
+   ]
+  },
+  {
+   "dna": [
+    "hand_brainiac",
+    "eye_red",
+    "clothing_brawler",
+    "hat_catstronaut",
+    "anatomicanis_green"
+   ],
+   "bg": [
+    "bg_subnautica",
+    "solid_03"
+   ]
+  },
+  {
+   "dna": [
+    "hat_nekoSpace",
+    "alien",
+    "hand_omyogi",
+    "eye_grey",
+    "clothing_santaClaus"
+   ],
+   "bg": [
+    "bg_neonDJ",
+    "solid_10"
+   ]
+  }
+ ]
+}
