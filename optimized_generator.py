@@ -3,7 +3,6 @@ import os
 from PIL import Image
 import assets_data
 import concurrent.futures
-import hashlib
 import json
 
 # pretty print saves the day!
@@ -12,17 +11,18 @@ pp = pprint.PrettyPrinter()
 
 
 # lay folder theo dung hierachy de print (khai bao init)
-as_dir = r'E:\chiichan\my drive\shibe NFT\hires_assets\fixed_assets'
-t_dir = r'E:\junks'
-bg_dir = r'E:\chiichan\my drive\shibe NFT\hires_assets\bg'
-not_alien = ['normal','anatomicanis', 'android']
+as_dir = r'D:\Chii chan drive\shibe NFT\final\fixed_assets'
+t_dir = r'D:\junks'
+bg_dir = r'D:\Chii chan drive\shibe NFT\final\bg'
 
 # tim cach deal with dong data nay hay hon :(
 as_data = assets_data.as_data
 as_variations = assets_data.as_variations
 bg_data = assets_data.bg_data
-masks_list = assets_data.masks_list
+# masks_list = assets_data.masks_list
 race_ratios = assets_data.race_ratios
+race_types = assets_data.as_data['all_races']
+non_cosmic = assets_data.non_cosmic
 
 # lay thong tin path tu cwd
 efx_dir = os.path.join(bg_dir,'bg')
@@ -39,26 +39,15 @@ def shiba_dna(lst = 'random'):
         for a in as_data.keys():
             as_part = as_data[a]
             asset = random.choice(as_part)
-            if asset in masks_list:
-                if asset in as_variations.keys():
-                    random_variation = random.choice(as_variations[asset])
-                    picked = asset + random_variation
-                else:
-                    picked = asset
-                data['mask'] = picked
-            elif asset in as_variations.keys():
-                random_variation = random.choice(as_variations[asset])
-                picked = asset + random_variation
-            elif asset in not_alien:
-                random_variation = random.choice(as_variations['body_colors'])
-                picked = asset + random_variation
+            picked = asset
+            if asset in non_cosmic:
+                variations = random.choice(as_variations['body_colors'])
+                picked = asset + variations
                 data['race'] = asset
-            else:
-                picked = asset
-                if 'eye' in asset:
-                    data['eye'] = asset
-                elif 'alien' in asset:
-                    data['race'] = 'alien'
+            elif asset == 'cosmic':
+                data['race'] = asset
+            # elif asset in masks_list:
+                # data['mask'] = asset
             full_dna.add(picked)
 
         data['dna'] = full_dna
@@ -66,15 +55,11 @@ def shiba_dna(lst = 'random'):
     else:
         data = {'dna' : set(lst)}
         for l in lst:
-            if 'eye' in l:
-                data['eye'] = l
-            elif 'alien' in l:
-                data['race'] = 'alien'
-            elif any(r in l for r in not_alien):
-                # coi viet cho code nay cho bot thu cong va ngu hoc duoc ko
-                data['race'] = l.split('_')[0]
-            elif any(m in l for m in masks_list):
-                data['mask'] = l
+            # if any(m in l for m in masks_list):
+                # data['mask'] = l
+            race = l.split('_')[0]
+            if race in race_types:
+                data['race'] = race
         return data
 
 
@@ -89,28 +74,32 @@ def is_duplicated(sb,lst):
 
 # tao bg random
 def random_bg():
-    efx = random.choice(bg_data['bg'])
+    efx = 'bg_drip'
     solid = random.choice(bg_data['solid'])
     return [efx,solid]
 
 
 # lay list file tu folder
 def get_paths(lst,d_path):
-    paths = [i for i in d_path if any(a in i for a in lst)]
-    return paths
 
+    if isinstance(lst,(list,set)):
+        paths = []
 
-# tao hash
-def hash_generation(f_path):
-    sha256_hash = hashlib.sha256()
-    with open(f_path, "rb") as f:
-        # Read and update hash string value in blocks of 4K
-        for byte_block in iter(lambda: f.read(4096), b""):
-            sha256_hash.update(byte_block)
-    return sha256_hash.hexdigest()
+        for i in d_path:
+            for a in lst:
+                if a + '.png' == os.path.basename(i):
+                    paths.append(i)
+                    break
+        return paths
+
+    elif isinstance(lst, str):
+        for i in d_path:
+            if lst + ".png" == os.path.basename(i):
+                return i
+
 
 # in shiba (dna,bg, name)
-def shiba_printer(dna,bg,name):
+def shiba_printer(dna,name,bg='transparent'):
    
     if isinstance(name,int):
         name = str(name).zfill(6)
@@ -123,7 +112,7 @@ def shiba_printer(dna,bg,name):
     one_emo = True
 
     # lay path eye dung theo race va mau mat
-    cr_eyes = [i for i in eye_paths if f"{dna['race']}_{dna['eye']}" in i]
+    cr_eyes = [i for i in eye_paths if f"{dna['race']}_eye" in i]
 
     # lay path tu shiba dna va bg
     sb_bg_paths = get_paths(bg,bg_paths)
@@ -138,64 +127,64 @@ def shiba_printer(dna,bg,name):
         solid = Image.open(sb_bg_paths[1]).convert('RGBA')
         bg = Image.alpha_composite(solid,efx)
 
+
+    #lay path default eye (tim cach rut gon code nay)
+    for e in cr_eyes:
+        if 'default' in e:
+            default_eye = e
+                
     # in them emotion mask
-    if 'mask' in dna.keys():
-        sb_paths_w_mask = sb_paths
-        sb_paths = [i for i in sb_paths if dna['mask'] not in i]
-        bg_mask = bg
+    sb_paths_w_mask = sb_paths
+    sb_paths = [i for i in sb_paths if 'hat_' not in os.path.basename(i)]
 
-        #lay path default eye (tim cach rut gon code nay)
-        for e in cr_eyes:
-            if 'default' in e:
-                default_eye = e
+    bg_mask = bg
 
 
-        for _ in sb_paths_w_mask:
-            img = Image.open(_)
-            bg_mask = Image.alpha_composite(bg_mask, img)
-            if all(check in os.path.basename(_) for check in ['clothing','M']):
-                e_img = Image.open(default_eye)
-                bg_mask = Image.alpha_composite(bg_mask, e_img)
-        file_name = f'shiba_{name}_mask'
+    for _ in sb_paths_w_mask:
+        img = Image.open(_)
+        bg_mask = Image.alpha_composite(bg_mask, img)
+        if 'body_F' in _:
+            e_img = Image.open(default_eye)
+            bg_mask = Image.alpha_composite(bg_mask, e_img)
+    file_name = f'shiba_{name}_mask'
 
 
-        # save file duoi dang highres hay lowres
-        if lowres == True:
-            file_path = os.path.join(t_dir,file_name + '.jpg')
-            bg_mask.resize((500,564)).convert('RGB').save(file_path, optimize = True, quality = 60)
-        else:
-            file_path = os.path.join(t_dir,file_name + '.png')
-            bg_mask.save(os.path.join(t_dir,file_path))
-
-        shiba_data['mask_img'] = file_name
-        shiba_data['mask_hash'] = hash_generation(file_path)
+    # save file duoi dang highres hay lowres
+    if lowres == True:
+        file_path = os.path.join(t_dir,file_name + '.png')
+        bg_mask.resize((700,790)).save(file_path, optimize = True)
     else:
-        shiba_data['mask_img'] = None
-        shiba_data['mask_hash'] = None
+        file_path = os.path.join(t_dir,file_name + '.png')
+        bg_mask.save(os.path.join(t_dir,file_path))
+
+    shiba_data['mask_img'] = file_name
+
     # in emotions co ban
     while len(cr_eyes) > 0:
-        e = random.choice(cr_eyes)
+        if default_eye in cr_eyes:
+            e = default_eye
+        else:
+            e = random.choice(cr_eyes)
         cr_eyes.remove(e)
         sb_bg = bg
         for _ in sb_paths:
             img = Image.open(_)
             sb_bg = Image.alpha_composite(sb_bg, img)
-            if all(check in os.path.basename(_) for check in ['clothing','M']):
+            if 'body_F' in _:
                 e_img = Image.open(e)
                 sb_bg = Image.alpha_composite(sb_bg, e_img)
-        emo_name = os.path.splitext(os.path.basename(e))[0].split('_')[-2]
+        emo_name = os.path.splitext(os.path.basename(e))[0].split('_')[-1]
         file_name = f'shiba_{name}_{emo_name}'
 
         # save duoi dang highres hay alow res
         if lowres == True:
-            file_path = os.path.join(t_dir,file_name + '.jpg')
-            sb_bg.resize((500,564)).convert('RGB').save(file_path, optimize = True, quality = 60)
+            file_path = os.path.join(t_dir,file_name + '.png')
+            sb_bg.resize((700,790)).save(file_path, optimize = True)
         else:
             file_path = os.path.join(t_dir,file_name + '.png')
             sb_bg.save(os.path.join(t_dir,file_path))
 
         shiba_data[f'{emo_name}_img'] = file_name
-        shiba_data[f'{emo_name}_hash'] = hash_generation(file_path)
 
         if one_emo == True:
             break
@@ -207,12 +196,13 @@ def shiba_printer(dna,bg,name):
 def mainapp():
 
     shiba_num = int(input('Nhap so pet can tao: '))
+    shiba_batch = int(input('Bat dau tu: '))
 
     races_counter = {
-        'anatomicanis': 0,
-        'android': 0,
-        'normal': 0,
-        'alien': 0
+        'infected': 0,
+        'cyborg': 0,
+        'canis': 0,
+        'cosmic': 0
     }
 
 
@@ -231,14 +221,11 @@ def mainapp():
                 generated_dnas.append(set(dna['dna']))
 
     generated_shibas = []
-    generated_bgs = []
-    ids = [n for n in range(1, shiba_num+1)]
-
+    ids = [n for n in range(shiba_batch, shiba_num+shiba_batch)]
+    generated_bg = [random_bg() for bg in range(shiba_num)]
 
     # tien hanh generate unique random shiba + background
     while len(generated_shibas) < shiba_num:
-        generated_bg = random_bg()
-        generated_bgs.append(generated_bg)
         shiba = shiba_dna()
         dna = shiba['dna']
         race = shiba['race']
@@ -250,7 +237,6 @@ def mainapp():
 
             dna_info = {
                 'dna' : list(dna),
-                'bg' : generated_bg
             }
             saved_dnas['dnas'].append(dna_info)
 
@@ -263,7 +249,7 @@ def mainapp():
 
     # in shiba tu dna
     with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
-        results = list(executor.map(shiba_printer, generated_shibas,generated_bgs,ids))
+        results = list(executor.map(shiba_printer, generated_shibas,ids,generated_bg))
     
 
     # generate datas
@@ -272,39 +258,28 @@ def mainapp():
     for i,id in enumerate(ids):
         indi_data = {
             'id': id,
-            'title': f'Sipherian #{id}',
-            'description:': '',
-            'name': f'Sipherian #{id}',
             'attributes': list(generated_shibas[i]['dna']),
             'image': results[i].get('default_img', None),
-            'imageHash': results[i].get('default_hash', None),
             'emotions': {
                 "DEFAULT": {
                     'image': results[i].get('default_img', None),
-                    'imageHash': results[i].get('default_hash', None)
                 },
                 "SAD": {
                     'image': results[i].get('sad_img', None),
-                    'imageHash': results[i].get('sad_hash', None)
                 },
                 "NERVOUS": {
                     'image': results[i].get('nervous_img', None),
-                    'imageHash': results[i].get('nervous_hash', None)
                 },
                 "ANGRY": {
                     'image': results[i].get('angry_img', None),
-                    'imageHash': results[i].get('angry_hash', None)
                 },
                 "EVIL": {
                     'image': results[i].get('evil_img', None),
-                    'imageHash': results[i].get('evil_hash', None)
                 },
                 "MASK": {
                     'image': results[i].get('mask_img', None),
-                    'imageHash': results[i].get('mask_hash', None)
                 }
-            },
-            'background': generated_bgs[i]
+            }
         }
 
         final_datas['tokens'].append(indi_data)
@@ -316,39 +291,8 @@ def mainapp():
 
 
 
-# mainapp()
+mainapp()
 
+# test_shiba = ['hand_metro2021', 'infected_brown', 'hat_metro2021','clothing_metro2021']
 
-# IN ORIGINALS
-# as_set = assets_data.as_sets
-
-
-# hats = ['hat_' + i for i in as_set]
-# clothings = ['clothing_' + i for i in as_set]
-# hands = ['hand_' + i for i in as_set]
-
-# original_pets = []
-# generated_bgs = []
-# generated_names = []
-# for i in range(len(as_set)):
-#     generated_name = as_set[i]
-#     pet_dna = [hats[i],clothings[i],hands[i], 'normal_brown', 'eye_brown']
-#     pet = shiba_dna(pet_dna)
-#     original_pets.append(pet)
-#     generated_bgs.append(random_bg())
-#     generated_names.append(generated_name)
-#     print(i+1)
-
-# with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
-#         executor.map(shiba_printer, original_pets,generated_bgs,generated_names)
-
-
-# thong so in rieng tung con
-son_thung = ['hat_sipherionTrainer','hand_graffitiArtist','clothing_drip','eye_brown', 'normal_brown']
-
-shiba_printer(shiba_dna(son_thung),random_bg(),'caSiSonThung')
-
-# print(hash_generation(f'E:\junks\shiba_1_angry.jpg'))
-
-# for i in range(10):
-#     shiba_printer(shiba_dna(),'transparent', f'shiba_{str(i + 1).zfill(3)}')
+# shiba_printer(shiba_dna(test_shiba), 'shiba_infected',['bg_drip','solid_blue'])

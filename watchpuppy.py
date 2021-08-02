@@ -10,8 +10,8 @@ img_size = (2000,2257)
 def pngWatchDog():
     workingDir = r"d:\monitor" # dan toi folder lam viec
     # targetDir = r"D:\Chii chan drive\shibe NFT\hires_assets\bg" # dan toi folder assets
-    targetDir = r"D:\Chii chan drive\shibe NFT\hires_assets\fixed_assets" # dan toi folder assets
-    bodyTypes = ["normal", "android", "anatomicanis", 'alien']
+    targetDir = r"D:\Chii chan drive\shibe NFT\wo_variations\fixed_assets" # dan toi folder assets
+    bodyTypes = ["canis", "infected", "cosmic", 'cyborg']
     assetsDir = os.listdir(targetDir)
 
     def doMystuff(dapath):
