@@ -16,13 +16,12 @@ t_dir = r'D:\junks'
 bg_dir = r'D:\Chii chan drive\shibe NFT\final\bg'
 
 # tim cach deal with dong data nay hay hon :(
-as_data = assets_data.as_data
 as_variations = assets_data.as_variations
 bg_data = assets_data.bg_data
-# masks_list = assets_data.masks_list
-race_ratios = assets_data.race_ratios
 race_types = assets_data.as_data['all_races']
 non_cosmic = assets_data.non_cosmic
+as_num = assets_data.as_num
+total_pets = assets_data.total_pets
 
 # lay thong tin path tu cwd
 efx_dir = os.path.join(bg_dir,'bg')
@@ -31,45 +30,53 @@ as_paths = [os.path.join(root,f) for root,dirs,files in os.walk(as_dir) for f in
 bg_paths = [os.path.join(root,f) for root,dirs,files in os.walk(bg_dir) for f in files]
 eye_paths = [os.path.join(root,f) for root,dirs,files in os.walk(as_dir) for f in files if 'eye' in f]
 
+# so luong tung race
+race_num = assets_data.race_num
+print(race_num)
+
+# tao list hands, clothings, hats
+hats_list = []
+clothings_list = []
+hands_list = []
+
+for i in as_num.keys():
+    set_num = as_num[i]
+    if set_num != 0:
+        for n in range(set_num):
+            hands_list.append('hand_' + i)
+            hats_list.append('hat_' + i)
+            clothings_list.append('clothing_' + i)
+
+as_dict = {
+    'hands': hands_list,
+    'hats': hats_list,
+    'clothings': clothings_list,
+}
+
+# tao list races
+races_list = []
+for race, n in race_num.items():
+    if n != 0:
+        for i in range(n):
+            races_list.append(race)
+            
 # generate random shiba
 def shiba_dna(lst = 'random'):
     if lst == 'random':
         data = {}
-        full_dna = set()
-        for a in as_data.keys():
-            as_part = as_data[a]
-            asset = random.choice(as_part)
-            picked = asset
-            if asset in non_cosmic:
-                variations = random.choice(as_variations['body_colors'])
-                picked = asset + variations
-                data['race'] = asset
-            elif asset == 'cosmic':
-                data['race'] = asset
-            # elif asset in masks_list:
-                # data['mask'] = asset
-            full_dna.add(picked)
+        full_dna = []
+        picked_race = races_list.pop(random.randint(0, len(races_list) - 1))
+        data['race'] = picked_race
+        if picked_race in non_cosmic:
+            picked_race = picked_race + random.choice(as_variations['body_colors'])
+
+        full_dna.append(picked_race)
+        for a in as_dict.values():
+            picked_part = a.pop(random.randint(0,len(a) -1))
+            full_dna.append(picked_part)
 
         data['dna'] = full_dna
         return data
-    else:
-        data = {'dna' : set(lst)}
-        for l in lst:
-            # if any(m in l for m in masks_list):
-                # data['mask'] = l
-            race = l.split('_')[0]
-            if race in race_types:
-                data['race'] = race
-        return data
-
-
-# kiem tra xem shiba vua tao co bi trung voi list da generate hay ko
-def is_duplicated(sb,lst):
-    if sb in lst:
-        print('Duplicated!')
-        return True
-    else:
-        return False
 
 
 # tao bg random
@@ -109,7 +116,7 @@ def shiba_printer(dna,name,bg='transparent'):
     
     # ugly codee===========================================================
     lowres = True
-    one_emo = True
+    one_emo = False
 
     # lay path eye dung theo race va mau mat
     cr_eyes = [i for i in eye_paths if f"{dna['race']}_eye" in i]
@@ -195,9 +202,6 @@ def shiba_printer(dna,name,bg='transparent'):
 
 def mainapp():
 
-    shiba_num = int(input('Nhap so pet can tao: '))
-    shiba_batch = int(input('Bat dau tu: '))
-
     races_counter = {
         'infected': 0,
         'cyborg': 0,
@@ -206,45 +210,18 @@ def mainapp():
     }
 
 
-    # import data dna json vao cho nay
-    generated_dnas = []
-
-
-    # tao data dna
-    saved_dnas = {'dnas' : []}
-
-    with open('saved_dnas.json') as f:
-        loaded_dnas = json.load(f)
-        if loaded_dnas:
-            for dna in loaded_dnas['dnas']:
-                saved_dnas['dnas'].append(dna)
-                generated_dnas.append(set(dna['dna']))
-
     generated_shibas = []
-    ids = [n for n in range(shiba_batch, shiba_num+shiba_batch)]
-    generated_bg = [random_bg() for bg in range(shiba_num)]
+    ids = [n + 1 for n in range(total_pets)]
+    generated_bg = [random_bg() for bg in range(total_pets)]
 
     # tien hanh generate unique random shiba + background
-    while len(generated_shibas) < shiba_num:
+    while len(races_list) > 0:
         shiba = shiba_dna()
         dna = shiba['dna']
         race = shiba['race']
-        ratio = race_ratios[race]
-        if not is_duplicated(dna,generated_dnas) and random.uniform(0.0,100.0) < ratio:
-            generated_shibas.append(shiba)
-            generated_dnas.append(dna) #tiep tuc them dna da generate vao dna pool
-            races_counter[race] += 1
 
-            dna_info = {
-                'dna' : list(dna),
-            }
-            saved_dnas['dnas'].append(dna_info)
-
-            print(len(generated_shibas))
-    with open('saved_dnas.json', 'w') as f:
-        json.dump(saved_dnas,f,indent = 1)
-
-    print(generated_dnas, len(generated_dnas))
+        generated_shibas.append(shiba)
+        races_counter[race] += 1
 
 
     # in shiba tu dna
@@ -253,46 +230,47 @@ def mainapp():
     
 
     # generate datas
-    final_datas = {'tokens': [], 'profile': {'name': 'Token2021'}}
+    final_datas = []
 
     for i,id in enumerate(ids):
         indi_data = {
             'id': id,
             'attributes': list(generated_shibas[i]['dna']),
-            'image': results[i].get('default_img', None),
-            'emotions': {
-                "DEFAULT": {
-                    'image': results[i].get('default_img', None),
-                },
-                "SAD": {
-                    'image': results[i].get('sad_img', None),
-                },
-                "NERVOUS": {
-                    'image': results[i].get('nervous_img', None),
-                },
-                "ANGRY": {
-                    'image': results[i].get('angry_img', None),
-                },
-                "EVIL": {
-                    'image': results[i].get('evil_img', None),
-                },
-                "MASK": {
-                    'image': results[i].get('mask_img', None),
-                }
-            }
+            # 'image': results[i].get('default_img', None),
+            # 'emotions': {
+            #     "DEFAULT": {
+            #         'image': results[i].get('default_img', None),
+            #     },
+            #     "SAD": {
+            #         'image': results[i].get('sad_img', None),
+            #     },
+            #     "NERVOUS": {
+            #         'image': results[i].get('nervous_img', None),
+            #     },
+            #     "ANGRY": {
+            #         'image': results[i].get('angry_img', None),
+            #     },
+            #     "EVIL": {
+            #         'image': results[i].get('evil_img', None),
+            #     },
+            #     "MASK": {
+            #         'image': results[i].get('mask_img', None),
+            #     }
+            # }
         }
 
-        final_datas['tokens'].append(indi_data)
+        final_datas.append(indi_data)
 
     with open(os.path.join(t_dir, 'data.json'), 'w') as f:
         json.dump(final_datas, f, indent=2)
 
     print(races_counter)
 
+set_total = 0
+for i in as_num.values():
+    set_total += i
 
-
+# if set_total == total_pets:
 mainapp()
-
-# test_shiba = ['hand_metro2021', 'infected_brown', 'hat_metro2021','clothing_metro2021']
-
-# shiba_printer(shiba_dna(test_shiba), 'shiba_infected',['bg_drip','solid_blue'])
+# else:
+    # print('kiem tra lai gia tri cac set va race')

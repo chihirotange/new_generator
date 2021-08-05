@@ -1,73 +1,61 @@
-# data generation
-as_types = ['clothing', 'hand', 'hat']
-
-# ti le rot
-raw_ratios = {
+# so luong tung race
+total_pets = 9
+race_num = {
     'infected': 0,
-    'cyborg': 100,
+    'cyborg': 0,
     'cosmic': 0,
 }
-
-# ti le canis con lai just kindergarten math
-raw_ratios['canis'] = 100 - raw_ratios['infected'] - raw_ratios['cyborg'] - raw_ratios['cosmic']
-
-as_sets = [
+race_num['canis'] = total_pets - race_num['infected'] - race_num['cyborg'] - race_num['cosmic']
 
 
-    'noirCapone',
-    'airForceOne',
-    'madJaxWarrior',
-    'daredevil',
-    'drippingCool',
-    'graffie',
-    'indigenous',
-    'nekoSpace',
-    'captainRed',
-    'radioJack',
-    'papaSanta',
-    'jiangshi',
-    'wastelander',
-    'neonDJ',
-    'oniChan',
-    'dragonDancer',
-    'punkPink',
-    'miniMe',
-    'bigTime',
-    'catstronaut',
-    'nuMechWarrior',
-    'bombardier',
-    'spaceTrooper',
-    'gakusei',
-    'cyberFixer',
-    'guardianOfOcean',
-    'metroWarrior',
-    'fixer',
-    'patisseire',
-    'surgicalPrecision',
-    'metro2021',
-    'pharaoh',
-    'turnDownTheHeat',
-    'cowboy',
-    'dogInACat',
-    'wanderingSamurai',
-    'cosmicExplorer',
-    'shikigami',
-    'mayanNomad',
-    'sunRaver',
-    'yinYangMaster'
-]
-
-# tinh toan ratio
-race_ratios = {
-    'canis': 100 if raw_ratios['canis'] != 0 else 0,
-    'infected' : raw_ratios['infected'] if raw_ratios['canis'] == 0 else int(raw_ratios['infected']/raw_ratios['canis']*100),
-    'cyborg' : raw_ratios['cyborg'] if raw_ratios['canis'] == 0 else int(raw_ratios['cyborg']/raw_ratios['canis']*100),
-    'cosmic' : raw_ratios['cosmic'] if raw_ratios['canis'] == 0 else int(raw_ratios['cosmic']/raw_ratios['canis']*100)
+# so luong tung bo do
+as_num = {
+    'noirCapone': 100,
+    'airForceOne': 100,
+    'madJaxWarrior': 100,
+    'daredevil': 100,
+    'drippingCool': 100,
+    'graffie': 100,
+    'indigenous': 100,
+    'nekoSpace': 100,
+    'captainRed': 100,
+    'radioJack': 100,
+    'papaSanta': 100,
+    'jiangshi': 100,
+    'wastelander': 100,
+    'neonDJ': 100,
+    'oniChan': 100,
+    'dragonDancer': 100,
+    'punkPink': 100,
+    'miniMe': 100,
+    'bigTime': 100,
+    'catstronaut': 100,
+    'nuMechWarrior': 100,
+    'bombardier': 100,
+    'spaceTrooper': 100,
+    'gakusei': 100,
+    'cyberFixer': 100,
+    'guardianOfOcean': 100,
+    'metroWarrior': 100,
+    'fixer': 100,
+    'patisseire': 100,
+    'surgicalPrecision': 100,
+    'metro2021': 100,
+    'pharaoh': 100,
+    'turnDownTheHeat': 100,
+    'cowboy': 100,
+    'dogInACat': 100,
+    'wanderingSamurai': 100,
+    'cosmicExplorer': 100,
+    'shikigami': 100,
+    'mayanNomad': 100,
+    'sunRaver': 100,
+    'yinYangMaster': 100
 }
+
 
 # cac thong tin bg
 bg_data = {
-
     'bg' : [
         'bg_airForceOne', 
         'bg_surgicalPrecision', 
@@ -95,7 +83,6 @@ bg_data = {
         'bg_sipherionTrainer', 
         'bg_subnautica', 
         'bg_wastelander'],
-
     'solid' : [
         'solid_blue', 
         'solid_green', 
@@ -105,14 +92,14 @@ bg_data = {
         ]
 }
 
+
 # cac emotions
 emo = ['happy', 'default', 'sad', 'nervous', 'evil']
+
 
 # non-cosmic
 non_cosmic = ['infected','canis','cyborg']
 
-# cac mask thao dc
-masks_list = ('hat_dogInACat', 'hat_nuMechWarrior', 'hat_spaceTrooper', 'hat_radioJack', 'hat_metro2021')
 
 # variations cua cac asset thiet lap o day (khi them asset moi can bo sung)
 as_variations = {
@@ -122,8 +109,5 @@ as_variations = {
 
 # data de tao cac unique combinations
 as_data = {
-    'all_hats' : ['hat_' + i for i in as_sets],
-    'all_hands' : ['hand_' + i for i in as_sets],
-    'all_clothings' : ['clothing_' + i for i in as_sets],
     'all_races': ['cyborg','infected','canis','cosmic']
 }

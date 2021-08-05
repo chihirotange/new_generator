@@ -1,1 +1,28 @@
-{}
+{
+ "dnas": [
+  {
+   "dna": [
+    "clothing_nekoSpace",
+    "cyborg_blue",
+    "hat_bombardier",
+    "hand_punkPink"
+   ]
+  },
+  {
+   "dna": [
+    "hat_bigTime",
+    "cyborg_brown",
+    "clothing_nuMechWarrior",
+    "hand_fixer"
+   ]
+  },
+  {
+   "dna": [
+    "hat_patisseire",
+    "cyborg_blue",
+    "clothing_cosmicExplorer",
+    "hand_papaSanta"
+   ]
+  }
+ ]
+}
